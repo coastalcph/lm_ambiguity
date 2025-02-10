@@ -1,269 +1,0 @@
-Could not override 'model.trust-remote-code'.
-To append to your config use +model.trust-remote-code=True
-Key 'trust-remote-code' not in 'ModelConfig'
-    full_key: model.trust-remote-code
-    reference_type=ModelConfig
-    object_type=ModelConfig
-
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
-[2025-01-27 23:48:25]  
---------------------------------------------------
-output_path: output/true/gemma_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: google/gemma-2-27b-it
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.9
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: gemma_true
-  text_column: sentence
-  batch_size: 4
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-Error executing job with overrides: ['output_path=output/true/gemma_lexical.tsv', 'model.model=google/gemma-2-27b-it', 'data.tsv_path=data/lexical_ambig.tsv', 'data.template_name=gemma_true', 'data.batch_size=4']
-Error in call to target 'vllm.entrypoints.llm.LLM':
-OSError('You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-2-27b-it.\n401 Client Error. (Request ID: Root=1-67980d3a-0bbed11300147c64162d0a06;5695a436-bc03-430a-b012-8953c60bb1b0)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-2-27b-it/resolve/main/config.json.\nAccess to model google/gemma-2-27b-it is restricted. You must have access to it and be authenticated to access it. Please log in.')
-full_key: model
-
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
-[2025-01-27 23:48:34]  
---------------------------------------------------
-output_path: output/true/qwen_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: Qwen/Qwen2.5-14B-Instruct-1M
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.9
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: qwen2_true
-  text_column: sentence
-  batch_size: 8
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-INFO 01-27 23:48:34 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='Qwen/Qwen2.5-14B-Instruct-1M', speculative_config=None, tokenizer='Qwen/Qwen2.5-14B-Instruct-1M', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=Qwen/Qwen2.5-14B-Instruct-1M)
-INFO 01-27 23:48:40 weight_utils.py:207] Using model weights format ['*.safetensors']
-INFO 01-27 23:50:45 model_runner.py:146] Loading model weights took 27.7980 GB
-INFO 01-27 23:50:46 gpu_executor.py:83] # GPU blocks: 2086, # CPU blocks: 1365
-wandb: Currently logged in as: antoniakrm. Use `wandb login --relogin` to force relogin
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-wandb: Tracking run with wandb version 0.19.4
-wandb: Run data is saved locally in /home/tzh649/projects/ambiguity_new/wandb/run-20250127_235103-6ups188b
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run Qwen2.5-14B-Instruct-1M
-wandb: ⭐️ View project at https://wandb.ai/antoniakrm/lexical_ambig_bigger_model
-wandb: 🚀 View run at https://wandb.ai/antoniakrm/lexical_ambig_bigger_model/runs/6ups188b
-Processing batches: 0it [00:00, ?it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  2.07it/s, Generation Speed: 16.58 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 16.55it/s, Generation Speed: 132.45 toks/s]
-Processing batches: 1it [00:00,  2.02it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.63it/s, Generation Speed: 21.05 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 21.01it/s, Generation Speed: 168.15 toks/s]
-Processing batches: 2it [00:00,  2.31it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.62it/s, Generation Speed: 20.98 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 20.94it/s, Generation Speed: 167.59 toks/s]
-Processing batches: 3it [00:01,  2.42it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.63it/s, Generation Speed: 21.04 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 20.99it/s, Generation Speed: 168.02 toks/s]
-Processing batches: 4it [00:01,  2.47it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.67it/s, Generation Speed: 21.33 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 21.29it/s, Generation Speed: 170.41 toks/s]
-Processing batches: 5it [00:02,  2.52it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.82it/s, Generation Speed: 22.55 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 22.52it/s, Generation Speed: 180.23 toks/s]
-Processing batches: 6it [00:02,  2.60it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:04,  1.69it/s, Generation Speed: 13.54 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 13.53it/s, Generation Speed: 108.22 toks/s]
-Processing batches: 7it [00:03,  2.20it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.99it/s, Generation Speed: 23.89 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.86it/s, Generation Speed: 190.93 toks/s]
-Processing batches: 8it [00:03,  2.39it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.97it/s, Generation Speed: 23.76 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.72it/s, Generation Speed: 189.84 toks/s]
-Processing batches: 9it [00:03,  2.53it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.97it/s, Generation Speed: 23.74 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.71it/s, Generation Speed: 189.69 toks/s]
-Processing batches: 10it [00:04,  2.64it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.99it/s, Generation Speed: 23.91 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.88it/s, Generation Speed: 191.10 toks/s]
-Processing batches: 11it [00:04,  2.73it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.02it/s, Generation Speed: 24.15 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.11it/s, Generation Speed: 192.98 toks/s]
-Processing batches: 12it [00:04,  2.80it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.02it/s, Generation Speed: 24.13 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.09it/s, Generation Speed: 192.80 toks/s]
-Processing batches: 13it [00:05,  2.84it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.00it/s, Generation Speed: 23.96 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.93it/s, Generation Speed: 191.49 toks/s]
-Processing batches: 14it [00:05,  2.87it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.01it/s, Generation Speed: 24.07 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.04it/s, Generation Speed: 192.40 toks/s]
-Processing batches: 15it [00:05,  2.90it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.01it/s, Generation Speed: 24.10 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.07it/s, Generation Speed: 192.59 toks/s]
-Processing batches: 16it [00:06,  2.92it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.00it/s, Generation Speed: 24.03 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.98it/s, Generation Speed: 191.94 toks/s]
-Processing batches: 17it [00:06,  2.93it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.95it/s, Generation Speed: 23.62 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.59it/s, Generation Speed: 188.74 toks/s]
-Processing batches: 18it [00:06,  2.92it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  1.77it/s, Generation Speed: 14.13 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 14.11it/s, Generation Speed: 112.94 toks/s]
-Processing batches: 19it [00:07,  2.43it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.00it/s, Generation Speed: 24.02 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.99it/s, Generation Speed: 191.94 toks/s]
-Processing batches: 20it [00:07,  2.56it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.00it/s, Generation Speed: 23.97 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.94it/s, Generation Speed: 191.56 toks/s]
-Processing batches: 21it [00:07,  2.67it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.02it/s, Generation Speed: 24.14 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.10it/s, Generation Speed: 192.85 toks/s]
-Processing batches: 22it [00:08,  2.75it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.02it/s, Generation Speed: 24.12 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.09it/s, Generation Speed: 192.79 toks/s]
-Processing batches: 23it [00:08,  2.81it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.01it/s, Generation Speed: 24.06 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.03it/s, Generation Speed: 192.27 toks/s]
-Processing batches: 24it [00:09,  2.86it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.00it/s, Generation Speed: 24.02 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.99it/s, Generation Speed: 191.97 toks/s]
-Processing batches: 25it [00:09,  2.88it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.99it/s, Generation Speed: 23.91 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.88it/s, Generation Speed: 191.06 toks/s]
-Processing batches: 26it [00:09,  2.90it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.97it/s, Generation Speed: 23.76 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.73it/s, Generation Speed: 189.91 toks/s]
-Processing batches: 27it [00:10,  2.91it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.98it/s, Generation Speed: 23.88 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.84it/s, Generation Speed: 190.79 toks/s]
-Processing batches: 28it [00:10,  2.92it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.97it/s, Generation Speed: 23.73 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.69it/s, Generation Speed: 189.60 toks/s]
-Processing batches: 29it [00:10,  2.92it/s]
-Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.97it/s, Generation Speed: 23.72 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.69it/s, Generation Speed: 189.58 toks/s]
-Processing batches: 30it [00:11,  2.92it/s]Processing batches: 30it [00:11,  2.71it/s]
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:    accuracy ▁
-wandb: false_count ▁
-wandb:  true_count ▁
-wandb: 
-wandb: Run summary:
-wandb:    accuracy 0.31667
-wandb: false_count 48
-wandb:  true_count 192
-wandb: 
-wandb: 🚀 View run Qwen2.5-14B-Instruct-1M at: https://wandb.ai/antoniakrm/lexical_ambig_bigger_model/runs/6ups188b
-wandb: ⭐️ View project at: https://wandb.ai/antoniakrm/lexical_ambig_bigger_model
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20250127_235103-6ups188b/logs
-Accuracy: 31.67%
-True Count: 192
-False Count: 48
-0.31666666666666665 192 48
-[2025-01-27 23:51:29]  
---------------------------------------------------
-output_path: output/true/deepseek_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: deepseek-ai/DeepSeek-V2-Lite-Chat
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.9
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: deepseek_true
-  text_column: sentence
-  batch_size: 8
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-Error executing job with overrides: ['output_path=output/true/deepseek_lexical.tsv', 'model.model=deepseek-ai/DeepSeek-V2-Lite-Chat', 'data.tsv_path=data/lexical_ambig.tsv', 'data.template_name=deepseek_true', 'data.batch_size=8']
-Error in call to target 'vllm.entrypoints.llm.LLM':
-RuntimeError('Failed to load the model config. If the model is a custom model not yet available in the HuggingFace transformers library, consider setting `trust_remote_code=True` in LLM or using the `--trust-remote-code` flag in the CLI.')
-full_key: model
-
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
-[2025-01-27 23:51:36]  
---------------------------------------------------
-output_path: output/true/mistral_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: mistralai/Mistral-Nemo-Instruct-2407
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.9
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: mixtral_true
-  text_column: sentence
-  batch_size: 8
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-Error executing job with overrides: ['output_path=output/true/mistral_lexical.tsv', 'model.model=mistralai/Mistral-Nemo-Instruct-2407', 'data.tsv_path=data/lexical_ambig.tsv', 'data.template_name=mixtral_true', 'data.batch_size=8']
-Error in call to target 'vllm.entrypoints.llm.LLM':
-OSError('You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407.\n401 Client Error. (Request ID: Root=1-67980df9-2371eae97235fd3635b26155;8255ff0a-50b6-414a-81ad-d0d5ec84f7c7)\n\nCannot access gated repo for url https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407/resolve/main/config.json.\nAccess to model mistralai/Mistral-Nemo-Instruct-2407 is restricted. You must have access to it and be authenticated to access it. Please log in.')
-full_key: model
-
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

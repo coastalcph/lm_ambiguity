@@ -1,984 +1,0 @@
-[2025-01-21 01:09:59]  
---------------------------------------------------
-output_path: results/yes/big_gemma_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: google/gemma-7b-it
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.6
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: lebig_gemma_yes
-  text_column: sentence
-  batch_size: 4
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-INFO 01-21 01:10:00 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='google/gemma-7b-it', speculative_config=None, tokenizer='google/gemma-7b-it', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=google/gemma-7b-it)
-WARNING 01-21 01:10:03 gemma.py:54] Gemma's activation function was incorrectly set to exact GeLU in the config JSON file when it was initially released. Changing the activation function to approximate GeLU (`gelu_pytorch_tanh`). If you want to use the legacy `gelu`, edit the config JSON to set `hidden_activation=gelu` instead of `hidden_act`. See https://github.com/huggingface/transformers/pull/29402 for more details.
-INFO 01-21 01:10:04 weight_utils.py:207] Using model weights format ['*.safetensors']
-INFO 01-21 01:10:20 model_runner.py:146] Loading model weights took 15.9066 GB
-INFO 01-21 01:10:21 gpu_executor.py:83] # GPU blocks: 788, # CPU blocks: 585
-wandb: Currently logged in as: antoniakrm. Use `wandb login --relogin` to force relogin
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-wandb: Tracking run with wandb version 0.19.4
-wandb: Run data is saved locally in /home/tzh649/projects/ambiguity_new/wandb/run-20250121_011028-q98alhlk
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run lebig_gemma_yes
-wandb: ⭐️ View project at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: 🚀 View run at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/q98alhlk
-Processing batches: 0it [00:00, ?it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  1.93it/s, Generation Speed: 17.36 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  7.70it/s, Generation Speed: 69.36 toks/s]
-Processing batches: 1it [00:00,  1.89it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.05it/s, Generation Speed: 27.41 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.16it/s, Generation Speed: 109.48 toks/s]
-Processing batches: 2it [00:00,  2.41it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.13it/s, Generation Speed: 28.21 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.51it/s, Generation Speed: 112.68 toks/s]
-Processing batches: 3it [00:01,  2.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.11it/s, Generation Speed: 28.00 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.42it/s, Generation Speed: 111.80 toks/s]
-Processing batches: 4it [00:01,  2.82it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.05it/s, Generation Speed: 27.43 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.17it/s, Generation Speed: 109.57 toks/s]
-Processing batches: 5it [00:01,  2.88it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.11it/s, Generation Speed: 28.00 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.43it/s, Generation Speed: 111.88 toks/s]
-Processing batches: 6it [00:02,  2.94it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.50it/s, Generation Speed: 31.52 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.99it/s, Generation Speed: 125.93 toks/s]
-Processing batches: 7it [00:02,  3.09it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.67it/s, Generation Speed: 33.06 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.67it/s, Generation Speed: 132.11 toks/s]
-Processing batches: 8it [00:02,  3.25it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.36 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.81it/s, Generation Speed: 133.30 toks/s]
-Processing batches: 9it [00:03,  3.37it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.39 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.82it/s, Generation Speed: 133.44 toks/s]
-Processing batches: 10it [00:03,  3.45it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.49 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.87it/s, Generation Speed: 133.84 toks/s]
-Processing batches: 11it [00:03,  3.52it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.88 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.04it/s, Generation Speed: 135.39 toks/s]
-Processing batches: 12it [00:03,  3.58it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.19it/s, Generation Speed: 19.69 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.74it/s, Generation Speed: 78.68 toks/s]
-Processing batches: 13it [00:04,  2.99it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.42 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.83it/s, Generation Speed: 133.53 toks/s]
-Processing batches: 14it [00:04,  3.17it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.85 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.02it/s, Generation Speed: 135.24 toks/s]
-Processing batches: 15it [00:04,  3.31it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.65it/s, Generation Speed: 32.86 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.58it/s, Generation Speed: 131.28 toks/s]
-Processing batches: 16it [00:05,  3.40it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.63it/s, Generation Speed: 32.71 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.52it/s, Generation Speed: 130.73 toks/s]
-Processing batches: 17it [00:05,  3.45it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.69it/s, Generation Speed: 33.20 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.74it/s, Generation Speed: 132.67 toks/s]
-Processing batches: 18it [00:05,  3.51it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.67it/s, Generation Speed: 33.02 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.66it/s, Generation Speed: 131.95 toks/s]
-Processing batches: 19it [00:05,  3.54it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.70it/s, Generation Speed: 33.33 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.79it/s, Generation Speed: 133.18 toks/s]
-Processing batches: 20it [00:06,  3.58it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.09 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.69it/s, Generation Speed: 132.22 toks/s]
-Processing batches: 21it [00:06,  3.60it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.67it/s, Generation Speed: 33.03 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.66it/s, Generation Speed: 131.96 toks/s]
-Processing batches: 22it [00:06,  3.60it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.73it/s, Generation Speed: 33.55 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.89it/s, Generation Speed: 134.04 toks/s]
-Processing batches: 23it [00:07,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.01 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.09it/s, Generation Speed: 135.89 toks/s]
-Processing batches: 24it [00:07,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.04 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.11it/s, Generation Speed: 135.99 toks/s]
-Processing batches: 25it [00:07,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.19 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.18it/s, Generation Speed: 136.64 toks/s]
-Processing batches: 26it [00:07,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.34it/s, Generation Speed: 21.07 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  9.35it/s, Generation Speed: 84.18 toks/s]
-Processing batches: 27it [00:08,  3.14it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.62it/s, Generation Speed: 32.61 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.47it/s, Generation Speed: 130.30 toks/s]
-Processing batches: 28it [00:08,  3.26it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.76it/s, Generation Speed: 24.86 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.04it/s, Generation Speed: 99.35 toks/s]
-Processing batches: 29it [00:08,  3.08it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.93 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.62it/s, Generation Speed: 131.57 toks/s]
-Processing batches: 30it [00:09,  3.23it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.71 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.96it/s, Generation Speed: 134.69 toks/s]
-Processing batches: 31it [00:09,  3.36it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.01 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.10it/s, Generation Speed: 135.90 toks/s]
-Processing batches: 32it [00:09,  3.46it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.86 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.03it/s, Generation Speed: 135.30 toks/s]
-Processing batches: 33it [00:09,  3.54it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.70it/s, Generation Speed: 33.35 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.79it/s, Generation Speed: 133.17 toks/s]
-Processing batches: 34it [00:10,  3.57it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.60it/s, Generation Speed: 32.40 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.38it/s, Generation Speed: 129.46 toks/s]
-Processing batches: 35it [00:10,  3.57it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.60it/s, Generation Speed: 32.38 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.37it/s, Generation Speed: 129.40 toks/s]
-Processing batches: 36it [00:10,  3.56it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.60it/s, Generation Speed: 32.36 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.37it/s, Generation Speed: 129.33 toks/s]
-Processing batches: 37it [00:11,  3.56it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.41 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.83it/s, Generation Speed: 133.52 toks/s]
-Processing batches: 38it [00:11,  3.59it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 33.99 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.09it/s, Generation Speed: 135.82 toks/s]
-Processing batches: 39it [00:11,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.75 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.98it/s, Generation Speed: 134.83 toks/s]
-Processing batches: 40it [00:11,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.70it/s, Generation Speed: 33.32 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.79it/s, Generation Speed: 133.13 toks/s]
-Processing batches: 41it [00:12,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.65 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.94it/s, Generation Speed: 134.48 toks/s]
-Processing batches: 42it [00:12,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.75 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.98it/s, Generation Speed: 134.88 toks/s]
-Processing batches: 43it [00:12,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.14it/s, Generation Speed: 19.30 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.57it/s, Generation Speed: 77.14 toks/s]
-Processing batches: 44it [00:13,  3.02it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.87 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.03it/s, Generation Speed: 135.34 toks/s]
-Processing batches: 45it [00:13,  3.20it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.69it/s, Generation Speed: 33.20 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.74it/s, Generation Speed: 132.67 toks/s]
-Processing batches: 46it [00:13,  3.32it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.77 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.99it/s, Generation Speed: 134.92 toks/s]
-Processing batches: 47it [00:14,  3.43it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.84 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.02it/s, Generation Speed: 135.22 toks/s]
-Processing batches: 48it [00:14,  3.51it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.82 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.01it/s, Generation Speed: 135.14 toks/s]
-Processing batches: 49it [00:14,  3.57it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.83 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.02it/s, Generation Speed: 135.18 toks/s]
-Processing batches: 50it [00:14,  3.61it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.02 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.10it/s, Generation Speed: 135.93 toks/s]
-Processing batches: 51it [00:15,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.02 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.10it/s, Generation Speed: 135.94 toks/s]
-Processing batches: 52it [00:15,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.74 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.97it/s, Generation Speed: 134.79 toks/s]
-Processing batches: 53it [00:15,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.10 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.69it/s, Generation Speed: 132.26 toks/s]
-Processing batches: 54it [00:15,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.94 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.62it/s, Generation Speed: 131.61 toks/s]
-Processing batches: 55it [00:16,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.64it/s, Generation Speed: 32.76 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.54it/s, Generation Speed: 130.92 toks/s]
-Processing batches: 56it [00:16,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.65it/s, Generation Speed: 32.88 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.60it/s, Generation Speed: 131.40 toks/s]
-Processing batches: 57it [00:16,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.63it/s, Generation Speed: 23.64 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 10.49it/s, Generation Speed: 94.43 toks/s]
-Processing batches: 58it [00:17,  3.24it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.62it/s, Generation Speed: 32.59 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.46it/s, Generation Speed: 130.22 toks/s]
-Processing batches: 59it [00:17,  3.34it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.61it/s, Generation Speed: 32.49 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.42it/s, Generation Speed: 129.83 toks/s]
-Processing batches: 60it [00:17,  3.40it/s]Processing batches: 60it [00:17,  3.39it/s]
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:    accuracy ▁
-wandb: false_count ▁
-wandb:  true_count ▁
-wandb: 
-wandb: Run summary:
-wandb:    accuracy 0.24583
-wandb: false_count 19
-wandb:  true_count 221
-wandb: 
-wandb: 🚀 View run lebig_gemma_yes at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/q98alhlk
-wandb: ⭐️ View project at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20250121_011028-q98alhlk/logs
-Accuracy: 24.58%
-True Count: 221
-False Count: 19
-0.24583333333333332 221 19
-[2025-01-21 01:11:05]  
---------------------------------------------------
-output_path: results/no/big_gemma_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: google/gemma-7b-it
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.6
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: lebig_gemma_no
-  text_column: sentence
-  batch_size: 4
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-INFO 01-21 01:11:06 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='google/gemma-7b-it', speculative_config=None, tokenizer='google/gemma-7b-it', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=google/gemma-7b-it)
-WARNING 01-21 01:11:08 gemma.py:54] Gemma's activation function was incorrectly set to exact GeLU in the config JSON file when it was initially released. Changing the activation function to approximate GeLU (`gelu_pytorch_tanh`). If you want to use the legacy `gelu`, edit the config JSON to set `hidden_activation=gelu` instead of `hidden_act`. See https://github.com/huggingface/transformers/pull/29402 for more details.
-INFO 01-21 01:11:08 weight_utils.py:207] Using model weights format ['*.safetensors']
-INFO 01-21 01:11:13 model_runner.py:146] Loading model weights took 15.9066 GB
-INFO 01-21 01:11:14 gpu_executor.py:83] # GPU blocks: 788, # CPU blocks: 585
-wandb: Currently logged in as: antoniakrm. Use `wandb login --relogin` to force relogin
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-wandb: Tracking run with wandb version 0.19.4
-wandb: Run data is saved locally in /home/tzh649/projects/ambiguity_new/wandb/run-20250121_011120-jv9gvr6q
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run lebig_gemma_no
-wandb: ⭐️ View project at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: 🚀 View run at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/jv9gvr6q
-Processing batches: 0it [00:00, ?it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.61it/s, Generation Speed: 23.52 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 10.43it/s, Generation Speed: 93.92 toks/s]
-Processing batches: 1it [00:00,  2.55it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.44it/s, Generation Speed: 30.95 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.72it/s, Generation Speed: 123.52 toks/s]
-Processing batches: 2it [00:00,  2.97it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.51it/s, Generation Speed: 31.62 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.01it/s, Generation Speed: 126.19 toks/s]
-Processing batches: 3it [00:00,  3.17it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.44it/s, Generation Speed: 30.99 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.74it/s, Generation Speed: 123.71 toks/s]
-Processing batches: 4it [00:01,  3.25it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.39it/s, Generation Speed: 30.49 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.52it/s, Generation Speed: 121.71 toks/s]
-Processing batches: 5it [00:01,  3.27it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.41it/s, Generation Speed: 30.73 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.63it/s, Generation Speed: 122.74 toks/s]
-Processing batches: 6it [00:01,  3.30it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.95it/s, Generation Speed: 26.59 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.78it/s, Generation Speed: 106.08 toks/s]
-Processing batches: 7it [00:02,  3.15it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.76it/s, Generation Speed: 24.80 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.00it/s, Generation Speed: 99.05 toks/s]
-Processing batches: 8it [00:02,  3.00it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.80it/s, Generation Speed: 25.17 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.16it/s, Generation Speed: 100.52 toks/s]
-Processing batches: 9it [00:02,  2.91it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.87it/s, Generation Speed: 25.84 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.46it/s, Generation Speed: 103.17 toks/s]
-Processing batches: 10it [00:03,  2.88it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.76it/s, Generation Speed: 24.80 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.00it/s, Generation Speed: 99.05 toks/s]
-Processing batches: 11it [00:03,  2.83it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.21it/s, Generation Speed: 19.92 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.84it/s, Generation Speed: 79.55 toks/s]
-Processing batches: 12it [00:04,  2.59it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.61it/s, Generation Speed: 32.46 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.40it/s, Generation Speed: 129.66 toks/s]
-Processing batches: 13it [00:04,  2.82it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.09 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.13it/s, Generation Speed: 136.20 toks/s]
-Processing batches: 14it [00:04,  3.05it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.83it/s, Generation Speed: 34.51 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.31it/s, Generation Speed: 137.86 toks/s]
-Processing batches: 15it [00:04,  3.24it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.73it/s, Generation Speed: 33.58 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.90it/s, Generation Speed: 134.18 toks/s]
-Processing batches: 16it [00:05,  3.36it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.15 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.71it/s, Generation Speed: 132.47 toks/s]
-Processing batches: 17it [00:05,  3.44it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.70it/s, Generation Speed: 33.32 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.79it/s, Generation Speed: 133.12 toks/s]
-Processing batches: 18it [00:05,  3.50it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.69it/s, Generation Speed: 33.24 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.75it/s, Generation Speed: 132.80 toks/s]
-Processing batches: 19it [00:06,  3.54it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.25 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.20it/s, Generation Speed: 136.82 toks/s]
-Processing batches: 20it [00:06,  3.61it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.77 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.98it/s, Generation Speed: 134.88 toks/s]
-Processing batches: 21it [00:06,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.04 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.10it/s, Generation Speed: 135.99 toks/s]
-Processing batches: 22it [00:06,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.20 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.18it/s, Generation Speed: 136.66 toks/s]
-Processing batches: 23it [00:07,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.85it/s, Generation Speed: 34.61 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.36it/s, Generation Speed: 138.26 toks/s]
-Processing batches: 24it [00:07,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.83it/s, Generation Speed: 34.47 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.30it/s, Generation Speed: 137.72 toks/s]
-Processing batches: 25it [00:07,  3.74it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.82it/s, Generation Speed: 34.36 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.25it/s, Generation Speed: 137.28 toks/s]
-Processing batches: 26it [00:07,  3.75it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 33.99 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.08it/s, Generation Speed: 135.78 toks/s]
-Processing batches: 27it [00:08,  3.74it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.15it/s, Generation Speed: 19.32 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.57it/s, Generation Speed: 77.19 toks/s]
-Processing batches: 28it [00:08,  3.05it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.13 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.15it/s, Generation Speed: 136.38 toks/s]
-Processing batches: 29it [00:08,  3.23it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.82it/s, Generation Speed: 34.35 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.24it/s, Generation Speed: 137.24 toks/s]
-Processing batches: 30it [00:09,  3.37it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.83it/s, Generation Speed: 34.45 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.29it/s, Generation Speed: 137.63 toks/s]
-Processing batches: 31it [00:09,  3.48it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.82it/s, Generation Speed: 34.42 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.27it/s, Generation Speed: 137.51 toks/s]
-Processing batches: 32it [00:09,  3.57it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.72 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.97it/s, Generation Speed: 134.74 toks/s]
-Processing batches: 33it [00:09,  3.61it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.92 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.05it/s, Generation Speed: 135.53 toks/s]
-Processing batches: 34it [00:10,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.13 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.70it/s, Generation Speed: 132.36 toks/s]
-Processing batches: 35it [00:10,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.69it/s, Generation Speed: 33.18 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.73it/s, Generation Speed: 132.59 toks/s]
-Processing batches: 36it [00:10,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.93 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.61it/s, Generation Speed: 131.56 toks/s]
-Processing batches: 37it [00:11,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.77 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.99it/s, Generation Speed: 134.94 toks/s]
-Processing batches: 38it [00:11,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.08 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.13it/s, Generation Speed: 136.17 toks/s]
-Processing batches: 39it [00:11,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.31 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.23it/s, Generation Speed: 137.07 toks/s]
-Processing batches: 40it [00:11,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.06 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.12it/s, Generation Speed: 136.09 toks/s]
-Processing batches: 41it [00:12,  3.71it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.23 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.19it/s, Generation Speed: 136.79 toks/s]
-Processing batches: 42it [00:12,  3.73it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.82it/s, Generation Speed: 34.41 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.27it/s, Generation Speed: 137.49 toks/s]
-Processing batches: 43it [00:12,  3.74it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.19 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.17it/s, Generation Speed: 136.59 toks/s]
-Processing batches: 44it [00:12,  3.75it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.42it/s, Generation Speed: 21.80 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  9.68it/s, Generation Speed: 87.10 toks/s]
-Processing batches: 45it [00:13,  3.20it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.03 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.10it/s, Generation Speed: 135.95 toks/s]
-Processing batches: 46it [00:13,  3.35it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.20 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.18it/s, Generation Speed: 136.63 toks/s]
-Processing batches: 47it [00:13,  3.46it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.24 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.19it/s, Generation Speed: 136.79 toks/s]
-Processing batches: 48it [00:14,  3.54it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.30 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.22it/s, Generation Speed: 137.01 toks/s]
-Processing batches: 49it [00:14,  3.61it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.92 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.05it/s, Generation Speed: 135.52 toks/s]
-Processing batches: 50it [00:14,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.79 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.00it/s, Generation Speed: 135.00 toks/s]
-Processing batches: 51it [00:14,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.73it/s, Generation Speed: 33.60 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.91it/s, Generation Speed: 134.23 toks/s]
-Processing batches: 52it [00:15,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.94 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.06it/s, Generation Speed: 135.59 toks/s]
-Processing batches: 53it [00:15,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.70 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.95it/s, Generation Speed: 134.64 toks/s]
-Processing batches: 54it [00:15,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.78 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.99it/s, Generation Speed: 134.96 toks/s]
-Processing batches: 55it [00:16,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.79 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.99it/s, Generation Speed: 135.00 toks/s]
-Processing batches: 56it [00:16,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.52 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.88it/s, Generation Speed: 133.92 toks/s]
-Processing batches: 57it [00:16,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.62it/s, Generation Speed: 32.62 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.47it/s, Generation Speed: 130.31 toks/s]
-Processing batches: 58it [00:16,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.12 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.70it/s, Generation Speed: 132.33 toks/s]
-Processing batches: 59it [00:17,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.09 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.68it/s, Generation Speed: 132.20 toks/s]
-Processing batches: 60it [00:17,  3.64it/s]Processing batches: 60it [00:17,  3.44it/s]
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:    accuracy ▁
-wandb: false_count ▁
-wandb:  true_count ▁
-wandb: 
-wandb: Run summary:
-wandb:    accuracy 0.26667
-wandb: false_count 28
-wandb:  true_count 212
-wandb: 
-wandb: 🚀 View run lebig_gemma_no at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/jv9gvr6q
-wandb: ⭐️ View project at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20250121_011120-jv9gvr6q/logs
-Accuracy: 26.67%
-True Count: 212
-False Count: 28
-0.26666666666666666 212 28
-[2025-01-21 01:11:55]  
---------------------------------------------------
-output_path: results/true/big_gemma_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: google/gemma-7b-it
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.6
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: lebig_gemma_true
-  text_column: sentence
-  batch_size: 4
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-INFO 01-21 01:11:55 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='google/gemma-7b-it', speculative_config=None, tokenizer='google/gemma-7b-it', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=google/gemma-7b-it)
-WARNING 01-21 01:11:57 gemma.py:54] Gemma's activation function was incorrectly set to exact GeLU in the config JSON file when it was initially released. Changing the activation function to approximate GeLU (`gelu_pytorch_tanh`). If you want to use the legacy `gelu`, edit the config JSON to set `hidden_activation=gelu` instead of `hidden_act`. See https://github.com/huggingface/transformers/pull/29402 for more details.
-INFO 01-21 01:11:58 weight_utils.py:207] Using model weights format ['*.safetensors']
-INFO 01-21 01:12:02 model_runner.py:146] Loading model weights took 15.9066 GB
-INFO 01-21 01:12:02 gpu_executor.py:83] # GPU blocks: 788, # CPU blocks: 585
-wandb: Currently logged in as: antoniakrm. Use `wandb login --relogin` to force relogin
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-wandb: Tracking run with wandb version 0.19.4
-wandb: Run data is saved locally in /home/tzh649/projects/ambiguity_new/wandb/run-20250121_011207-uo5pe7cx
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run lebig_gemma_true
-wandb: ⭐️ View project at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: 🚀 View run at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/uo5pe7cx
-Processing batches: 0it [00:00, ?it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.27it/s, Generation Speed: 20.40 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  9.05it/s, Generation Speed: 81.47 toks/s]
-Processing batches: 1it [00:00,  2.22it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.98it/s, Generation Speed: 26.81 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.89it/s, Generation Speed: 107.08 toks/s]
-Processing batches: 2it [00:00,  2.59it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.20it/s, Generation Speed: 28.79 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.77it/s, Generation Speed: 114.97 toks/s]
-Processing batches: 3it [00:01,  2.82it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.14it/s, Generation Speed: 28.22 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.52it/s, Generation Speed: 112.73 toks/s]
-Processing batches: 4it [00:01,  2.92it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.34it/s, Generation Speed: 30.06 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.34it/s, Generation Speed: 120.12 toks/s]
-Processing batches: 5it [00:01,  3.04it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.62it/s, Generation Speed: 32.56 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.45it/s, Generation Speed: 130.11 toks/s]
-Processing batches: 6it [00:02,  3.20it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.63 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.93it/s, Generation Speed: 134.39 toks/s]
-Processing batches: 7it [00:02,  3.35it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.62 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.92it/s, Generation Speed: 134.32 toks/s]
-Processing batches: 8it [00:02,  3.45it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 33.98 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.08it/s, Generation Speed: 135.76 toks/s]
-Processing batches: 9it [00:02,  3.53it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.63 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.92it/s, Generation Speed: 134.35 toks/s]
-Processing batches: 10it [00:03,  3.58it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.73it/s, Generation Speed: 33.57 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.90it/s, Generation Speed: 134.13 toks/s]
-Processing batches: 11it [00:03,  3.61it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.95 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.07it/s, Generation Speed: 135.67 toks/s]
-Processing batches: 12it [00:03,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.24it/s, Generation Speed: 20.19 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.96it/s, Generation Speed: 80.69 toks/s]
-Processing batches: 13it [00:04,  3.05it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.88 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.04it/s, Generation Speed: 135.39 toks/s]
-Processing batches: 14it [00:04,  3.23it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.21 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.18it/s, Generation Speed: 136.68 toks/s]
-Processing batches: 15it [00:04,  3.37it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.50 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.87it/s, Generation Speed: 133.85 toks/s]
-Processing batches: 16it [00:04,  3.46it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.52 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.88it/s, Generation Speed: 133.93 toks/s]
-Processing batches: 17it [00:05,  3.52it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.46 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.85it/s, Generation Speed: 133.70 toks/s]
-Processing batches: 18it [00:05,  3.57it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.62 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.92it/s, Generation Speed: 134.35 toks/s]
-Processing batches: 19it [00:05,  3.60it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.92 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.05it/s, Generation Speed: 135.53 toks/s]
-Processing batches: 20it [00:05,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.20 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.18it/s, Generation Speed: 136.67 toks/s]
-Processing batches: 21it [00:06,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.77 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.99it/s, Generation Speed: 134.93 toks/s]
-Processing batches: 22it [00:06,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 33.98 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.08it/s, Generation Speed: 135.77 toks/s]
-Processing batches: 23it [00:06,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.29 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.22it/s, Generation Speed: 137.02 toks/s]
-Processing batches: 24it [00:07,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.84 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.02it/s, Generation Speed: 135.23 toks/s]
-Processing batches: 25it [00:07,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.24 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.20it/s, Generation Speed: 136.82 toks/s]
-Processing batches: 26it [00:07,  3.73it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.34it/s, Generation Speed: 21.05 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  9.34it/s, Generation Speed: 84.11 toks/s]
-Processing batches: 27it [00:08,  3.15it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.04 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.11it/s, Generation Speed: 136.02 toks/s]
-Processing batches: 28it [00:08,  3.31it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.29 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.22it/s, Generation Speed: 137.01 toks/s]
-Processing batches: 29it [00:08,  3.43it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.26 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.21it/s, Generation Speed: 136.90 toks/s]
-Processing batches: 30it [00:08,  3.52it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.11 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.14it/s, Generation Speed: 136.29 toks/s]
-Processing batches: 31it [00:09,  3.59it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.94 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.06it/s, Generation Speed: 135.61 toks/s]
-Processing batches: 32it [00:09,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.17 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.17it/s, Generation Speed: 136.53 toks/s]
-Processing batches: 33it [00:09,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.21 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.18it/s, Generation Speed: 136.69 toks/s]
-Processing batches: 34it [00:09,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.37 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.81it/s, Generation Speed: 133.33 toks/s]
-Processing batches: 35it [00:10,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.43 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.84it/s, Generation Speed: 133.57 toks/s]
-Processing batches: 36it [00:10,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.69it/s, Generation Speed: 33.23 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.75it/s, Generation Speed: 132.77 toks/s]
-Processing batches: 37it [00:10,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.17 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.17it/s, Generation Speed: 136.54 toks/s]
-Processing batches: 38it [00:10,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.28 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.22it/s, Generation Speed: 136.98 toks/s]
-Processing batches: 39it [00:11,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.97 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.08it/s, Generation Speed: 135.72 toks/s]
-Processing batches: 40it [00:11,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.65 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.93it/s, Generation Speed: 134.45 toks/s]
-Processing batches: 41it [00:11,  3.71it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.83it/s, Generation Speed: 34.50 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.31it/s, Generation Speed: 137.87 toks/s]
-Processing batches: 42it [00:12,  3.73it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.12 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.14it/s, Generation Speed: 136.33 toks/s]
-Processing batches: 43it [00:12,  3.74it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.30it/s, Generation Speed: 20.66 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  9.17it/s, Generation Speed: 82.55 toks/s]
-Processing batches: 44it [00:12,  3.13it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.82it/s, Generation Speed: 34.41 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.27it/s, Generation Speed: 137.49 toks/s]
-Processing batches: 45it [00:13,  3.30it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.84it/s, Generation Speed: 34.59 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.35it/s, Generation Speed: 138.20 toks/s]
-Processing batches: 46it [00:13,  3.44it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.10 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.14it/s, Generation Speed: 136.27 toks/s]
-Processing batches: 47it [00:13,  3.52it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.84it/s, Generation Speed: 34.52 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.32it/s, Generation Speed: 137.93 toks/s]
-Processing batches: 48it [00:13,  3.60it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.82it/s, Generation Speed: 34.35 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.24it/s, Generation Speed: 137.24 toks/s]
-Processing batches: 49it [00:14,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.03 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.09it/s, Generation Speed: 135.90 toks/s]
-Processing batches: 50it [00:14,  3.67it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.84it/s, Generation Speed: 34.60 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.36it/s, Generation Speed: 138.24 toks/s]
-Processing batches: 51it [00:14,  3.71it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.85it/s, Generation Speed: 34.62 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.36it/s, Generation Speed: 138.32 toks/s]
-Processing batches: 52it [00:14,  3.74it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.12 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.15it/s, Generation Speed: 136.35 toks/s]
-Processing batches: 53it [00:15,  3.74it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.75 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.98it/s, Generation Speed: 134.87 toks/s]
-Processing batches: 54it [00:15,  3.73it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.79 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.00it/s, Generation Speed: 135.02 toks/s]
-Processing batches: 55it [00:15,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.52 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.86it/s, Generation Speed: 133.83 toks/s]
-Processing batches: 56it [00:15,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.72it/s, Generation Speed: 33.51 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.87it/s, Generation Speed: 133.84 toks/s]
-Processing batches: 57it [00:16,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.20it/s, Generation Speed: 19.83 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.80it/s, Generation Speed: 79.26 toks/s]
-Processing batches: 58it [00:16,  3.06it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.64it/s, Generation Speed: 32.72 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.52it/s, Generation Speed: 130.75 toks/s]
-Processing batches: 59it [00:16,  3.20it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.38 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.82it/s, Generation Speed: 133.37 toks/s]
-Processing batches: 60it [00:17,  3.33it/s]Processing batches: 60it [00:17,  3.48it/s]
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:    accuracy ▁
-wandb: false_count ▁
-wandb:  true_count ▁
-wandb: 
-wandb: Run summary:
-wandb:    accuracy 0.25
-wandb: false_count 14
-wandb:  true_count 226
-wandb: 
-wandb: 🚀 View run lebig_gemma_true at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/uo5pe7cx
-wandb: ⭐️ View project at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20250121_011207-uo5pe7cx/logs
-Accuracy: 25.00%
-True Count: 226
-False Count: 14
-0.25 226 14
-[2025-01-21 01:12:41]  
---------------------------------------------------
-output_path: results/false/big_gemma_lexical.tsv
-model:
-  _target_: vllm.LLM
-  model: google/gemma-7b-it
-  dtype: bfloat16
-  tensor_parallel_size: 1
-  max_model_len: 2048
-  gpu_memory_utilization: 0.6
-  quantization: null
-  max_logprobs: 20
-  enforce_eager: true
-generation:
-  _target_: vllm.SamplingParams
-  max_tokens: 200
-  temperature: 0.4
-  top_k: 20
-  top_p: 1.0
-  logprobs: 20
-  prompt_logprobs: 20
-data:
-  _target_: llm_inference.dataset.TsvTextDataset
-  tsv_path: data/lexical_ambig.tsv
-  template_name: lebig_gemma_false
-  text_column: sentence
-  batch_size: 4
-schema_name: ambiguity_check
-enable_logprobs: false
---------------------------------------------------
-/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-INFO 01-21 01:12:41 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='google/gemma-7b-it', speculative_config=None, tokenizer='google/gemma-7b-it', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=google/gemma-7b-it)
-WARNING 01-21 01:12:45 gemma.py:54] Gemma's activation function was incorrectly set to exact GeLU in the config JSON file when it was initially released. Changing the activation function to approximate GeLU (`gelu_pytorch_tanh`). If you want to use the legacy `gelu`, edit the config JSON to set `hidden_activation=gelu` instead of `hidden_act`. See https://github.com/huggingface/transformers/pull/29402 for more details.
-INFO 01-21 01:12:46 weight_utils.py:207] Using model weights format ['*.safetensors']
-INFO 01-21 01:12:50 model_runner.py:146] Loading model weights took 15.9066 GB
-INFO 01-21 01:12:50 gpu_executor.py:83] # GPU blocks: 788, # CPU blocks: 585
-wandb: Currently logged in as: antoniakrm. Use `wandb login --relogin` to force relogin
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-wandb: Tracking run with wandb version 0.19.4
-wandb: Run data is saved locally in /home/tzh649/projects/ambiguity_new/wandb/run-20250121_011257-54288k9m
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run lebig_gemma_false
-wandb: ⭐️ View project at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: 🚀 View run at https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/54288k9m
-Processing batches: 0it [00:00, ?it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.25it/s, Generation Speed: 20.22 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.97it/s, Generation Speed: 80.78 toks/s]
-Processing batches: 1it [00:00,  2.20it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.11it/s, Generation Speed: 27.99 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.42it/s, Generation Speed: 111.80 toks/s]
-Processing batches: 2it [00:00,  2.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.11it/s, Generation Speed: 28.00 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.42it/s, Generation Speed: 111.82 toks/s]
-Processing batches: 3it [00:01,  2.81it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.13it/s, Generation Speed: 28.18 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.50it/s, Generation Speed: 112.54 toks/s]
-Processing batches: 4it [00:01,  2.91it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.09it/s, Generation Speed: 27.83 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 12.35it/s, Generation Speed: 111.19 toks/s]
-Processing batches: 5it [00:01,  2.96it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.32it/s, Generation Speed: 29.89 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 13.26it/s, Generation Speed: 119.41 toks/s]
-Processing batches: 6it [00:02,  3.06it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.55it/s, Generation Speed: 31.98 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.19it/s, Generation Speed: 127.75 toks/s]
-Processing batches: 7it [00:02,  3.19it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.11 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.69it/s, Generation Speed: 132.28 toks/s]
-Processing batches: 8it [00:02,  3.32it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.73 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.97it/s, Generation Speed: 134.77 toks/s]
-Processing batches: 9it [00:02,  3.43it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.68 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.95it/s, Generation Speed: 134.58 toks/s]
-Processing batches: 10it [00:03,  3.51it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.73it/s, Generation Speed: 33.55 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.89it/s, Generation Speed: 134.07 toks/s]
-Processing batches: 11it [00:03,  3.56it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.61it/s, Generation Speed: 23.47 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 10.41it/s, Generation Speed: 93.74 toks/s]
-Processing batches: 12it [00:03,  3.19it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.78 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.00it/s, Generation Speed: 134.99 toks/s]
-Processing batches: 13it [00:04,  3.33it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.82 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.01it/s, Generation Speed: 135.15 toks/s]
-Processing batches: 14it [00:04,  3.44it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.90 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.05it/s, Generation Speed: 135.45 toks/s]
-Processing batches: 15it [00:04,  3.52it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.79it/s, Generation Speed: 25.13 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 11.16it/s, Generation Speed: 100.44 toks/s]
-Processing batches: 16it [00:04,  3.25it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.96 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.63it/s, Generation Speed: 131.70 toks/s]
-Processing batches: 17it [00:05,  3.35it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.41 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.83it/s, Generation Speed: 133.52 toks/s]
-Processing batches: 18it [00:05,  3.44it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.91 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.61it/s, Generation Speed: 131.50 toks/s]
-Processing batches: 19it [00:05,  3.49it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.73it/s, Generation Speed: 33.57 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.90it/s, Generation Speed: 134.16 toks/s]
-Processing batches: 20it [00:06,  3.55it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.72 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.97it/s, Generation Speed: 134.74 toks/s]
-Processing batches: 21it [00:06,  3.60it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.95 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.07it/s, Generation Speed: 135.65 toks/s]
-Processing batches: 22it [00:06,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.69 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.96it/s, Generation Speed: 134.64 toks/s]
-Processing batches: 23it [00:06,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 33.99 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.09it/s, Generation Speed: 135.81 toks/s]
-Processing batches: 24it [00:07,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.17 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.17it/s, Generation Speed: 136.54 toks/s]
-Processing batches: 25it [00:07,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.25 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.20it/s, Generation Speed: 136.85 toks/s]
-Processing batches: 26it [00:07,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.28 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.22it/s, Generation Speed: 136.98 toks/s]
-Processing batches: 27it [00:07,  3.73it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.42it/s, Generation Speed: 21.74 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  9.65it/s, Generation Speed: 86.87 toks/s]
-Processing batches: 28it [00:08,  3.19it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.68it/s, Generation Speed: 33.16 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.72it/s, Generation Speed: 132.52 toks/s]
-Processing batches: 29it [00:08,  3.32it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.91 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.05it/s, Generation Speed: 135.50 toks/s]
-Processing batches: 30it [00:08,  3.43it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.65 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.93it/s, Generation Speed: 134.44 toks/s]
-Processing batches: 31it [00:09,  3.50it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.83 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.02it/s, Generation Speed: 135.18 toks/s]
-Processing batches: 32it [00:09,  3.57it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.18 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.17it/s, Generation Speed: 136.58 toks/s]
-Processing batches: 33it [00:09,  3.62it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.91 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.05it/s, Generation Speed: 135.49 toks/s]
-Processing batches: 34it [00:10,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.90 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.60it/s, Generation Speed: 131.45 toks/s]
-Processing batches: 35it [00:10,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.62it/s, Generation Speed: 32.58 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.46it/s, Generation Speed: 130.19 toks/s]
-Processing batches: 36it [00:10,  3.62it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.60it/s, Generation Speed: 32.44 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.40it/s, Generation Speed: 129.64 toks/s]
-Processing batches: 37it [00:10,  3.60it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.70it/s, Generation Speed: 33.31 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.78it/s, Generation Speed: 133.08 toks/s]
-Processing batches: 38it [00:11,  3.62it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.15 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.16it/s, Generation Speed: 136.48 toks/s]
-Processing batches: 39it [00:11,  3.66it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.78it/s, Generation Speed: 34.01 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.09it/s, Generation Speed: 135.89 toks/s]
-Processing batches: 40it [00:11,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.81 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.01it/s, Generation Speed: 135.10 toks/s]
-Processing batches: 41it [00:11,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.82 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.01it/s, Generation Speed: 135.15 toks/s]
-Processing batches: 42it [00:12,  3.70it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.18 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.17it/s, Generation Speed: 136.59 toks/s]
-Processing batches: 43it [00:12,  3.72it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.65 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.94it/s, Generation Speed: 134.47 toks/s]
-Processing batches: 44it [00:12,  3.71it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:01,  2.22it/s, Generation Speed: 19.99 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00,  8.87it/s, Generation Speed: 79.87 toks/s]
-Processing batches: 45it [00:13,  3.07it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.11 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.14it/s, Generation Speed: 136.30 toks/s]
-Processing batches: 46it [00:13,  3.25it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.77it/s, Generation Speed: 33.92 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.06it/s, Generation Speed: 135.53 toks/s]
-Processing batches: 47it [00:13,  3.38it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.79it/s, Generation Speed: 34.11 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.14it/s, Generation Speed: 136.28 toks/s]
-Processing batches: 48it [00:13,  3.48it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.25 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.20it/s, Generation Speed: 136.84 toks/s]
-Processing batches: 49it [00:14,  3.56it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.76it/s, Generation Speed: 33.87 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.03it/s, Generation Speed: 135.34 toks/s]
-Processing batches: 50it [00:14,  3.61it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.80it/s, Generation Speed: 34.16 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.16it/s, Generation Speed: 136.50 toks/s]
-Processing batches: 51it [00:14,  3.65it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.81it/s, Generation Speed: 34.30 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 15.22it/s, Generation Speed: 137.06 toks/s]
-Processing batches: 52it [00:15,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.71 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.96it/s, Generation Speed: 134.70 toks/s]
-Processing batches: 53it [00:15,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.75it/s, Generation Speed: 33.72 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.97it/s, Generation Speed: 134.73 toks/s]
-Processing batches: 54it [00:15,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s, Generation Speed: 33.66 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.94it/s, Generation Speed: 134.50 toks/s]
-Processing batches: 55it [00:15,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.70it/s, Generation Speed: 33.35 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.80it/s, Generation Speed: 133.24 toks/s]
-Processing batches: 56it [00:16,  3.69it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.71it/s, Generation Speed: 33.39 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.82it/s, Generation Speed: 133.43 toks/s]
-Processing batches: 57it [00:16,  3.68it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.60it/s, Generation Speed: 32.44 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.40it/s, Generation Speed: 129.62 toks/s]
-Processing batches: 58it [00:16,  3.64it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.64it/s, Generation Speed: 32.75 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.54it/s, Generation Speed: 130.87 toks/s]
-Processing batches: 59it [00:16,  3.63it/s]
-Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
-Processed prompts:  25%|██▌       | 1/4 [00:00<00:00,  3.66it/s, Generation Speed: 32.95 toks/s][AProcessed prompts: 100%|██████████| 4/4 [00:00<00:00, 14.63it/s, Generation Speed: 131.67 toks/s]
-Processing batches: 60it [00:17,  3.63it/s]Processing batches: 60it [00:17,  3.48it/s]
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:    accuracy ▁
-wandb: false_count ▁
-wandb:  true_count ▁
-wandb: 
-wandb: Run summary:
-wandb:    accuracy 0.25
-wandb: false_count 12
-wandb:  true_count 228
-wandb: 
-wandb: 🚀 View run lebig_gemma_false at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it/runs/54288k9m
-wandb: ⭐️ View project at: https://wandb.ai/antoniakrm/lexical_ambig_gemma-7b-it
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20250121_011257-54288k9m/logs
-Accuracy: 25.00%
-True Count: 228
-False Count: 12
-0.25 228 12
