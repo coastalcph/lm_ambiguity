@@ -1,0 +1,29 @@
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_setup.py:_flush():68] Current SDK version is 0.19.4
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_setup.py:_flush():68] Configure stats pid to 3625353
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_setup.py:_flush():68] Loading settings from /home/tzh649/.config/wandb/settings
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_setup.py:_flush():68] Loading settings from /home/tzh649/projects/ambiguity_new/wandb/settings
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /home/tzh649/projects/ambiguity_new/wandb/run-20250128_030014-zsnx6f5z/logs/debug.log
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /home/tzh649/projects/ambiguity_new/wandb/run-20250128_030014-zsnx6f5z/logs/debug-internal.log
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_init.py:init():743] calling init triggers
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {'output_path': 'output/true/big_llama_syntax.tsv', 'model': {'_target_': 'vllm.LLM', 'model': 'meta-llama/Meta-Llama-3-8B-Instruct', 'dtype': 'bfloat16', 'tensor_parallel_size': 1, 'max_model_len': 2048, 'gpu_memory_utilization': 0.9, 'quantization': None, 'max_logprobs': 20, 'enforce_eager': True}, 'generation': {'_target_': 'vllm.SamplingParams', 'max_tokens': 200, 'temperature': 0.4, 'top_k': 20, 'top_p': 1.0, 'logprobs': 20, 'prompt_logprobs': 20}, 'data': {'_target_': 'llm_inference.dataset.TsvTextDataset', 'tsv_path': 'data/synt_ambig.tsv', 'template_name': 'big/big_llama3_true', 'text_column': 'sentence', 'batch_size': 8}, 'schema_name': 'ambiguity_check', 'enable_logprobs': False}
+2025-01-28 03:00:14,929 INFO    MainThread:3625353 [wandb_init.py:init():776] starting backend
+2025-01-28 03:00:15,169 INFO    MainThread:3625353 [wandb_init.py:init():780] sending inform_init request
+2025-01-28 03:00:15,182 INFO    MainThread:3625353 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-28 03:00:15,182 INFO    MainThread:3625353 [wandb_init.py:init():795] backend started and connected
+2025-01-28 03:00:15,184 INFO    MainThread:3625353 [wandb_init.py:init():888] updated telemetry
+2025-01-28 03:00:15,185 INFO    MainThread:3625353 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-01-28 03:00:15,647 INFO    MainThread:3625353 [wandb_init.py:init():967] starting run threads in backend
+2025-01-28 03:00:16,508 INFO    MainThread:3625353 [wandb_run.py:_console_start():2409] atexit reg
+2025-01-28 03:00:16,508 INFO    MainThread:3625353 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-01-28 03:00:16,508 INFO    MainThread:3625353 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-01-28 03:00:16,509 INFO    MainThread:3625353 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-01-28 03:00:16,518 INFO    MainThread:3625353 [wandb_init.py:init():1009] run started, returning control to user process
+2025-01-28 03:01:22,583 INFO    MainThread:3625353 [wandb_run.py:_finish():2134] finishing run antoniakrm/synt_ambig_type/zsnx6f5z
+2025-01-28 03:01:22,584 INFO    MainThread:3625353 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2025-01-28 03:01:22,584 INFO    MainThread:3625353 [wandb_run.py:_restore():2356] restore
+2025-01-28 03:01:22,584 INFO    MainThread:3625353 [wandb_run.py:_restore():2362] restore done
+2025-01-28 03:01:25,288 INFO    MainThread:3625353 [wandb_run.py:_footer_history_summary_info():3976] rendering history
+2025-01-28 03:01:25,288 INFO    MainThread:3625353 [wandb_run.py:_footer_history_summary_info():4008] rendering summary
+2025-01-28 03:01:25,289 INFO    MainThread:3625353 [wandb_run.py:_footer_sync_info():3937] logging synced files

@@ -1,0 +1,44 @@
+<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+
+Based on real-world knowledge, can this sentence be interpreted in more than one way? Respond with "yes" or "no." If "yes," provide the two possible interpretations of the sentence, separated by a comma.
+
+{{ text }}
+
+Examples:
+
+Input:
+Helen got lunch ready for her quarter wearing a summer press.
+
+Output:
+```json
+{
+    "is_ambiguous": false,
+    "disambiguations": []
+}
+```
+
+Input:
+Helen got lunch ready for her daughter wearing a summer dress.
+
+Output:
+```json
+{
+    "is_ambiguous": true,
+    "disambiguations": "[Helen is wearing a summer dress, The daughter  is wearing the summer dress]"
+}
+```
+
+Input:
+Summer daughter got Helen dress summer lunch ready for wearing a.
+
+Output:
+```json
+{
+    "is_ambiguous": false,
+    "disambiguations": []
+}
+
+Format your response according to the following JSON schema:
+{{ schema }}
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>

@@ -1,0 +1,40 @@
+Processing batches: 0it [00:00, ?it/s]
+Error executing job with overrides: ['output_path=results/no/llama_output.tsv', 'model.model=meta-llama/Meta-Llama-3-8B-Instruct', 'data.tsv_path=data/synt_ambig.tsv', 'data.template_name=few_llama3_true', 'data.batch_size=8']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 80, in main
+    for i, result in enumerate(engine()):
+  File "/home/tzh649/projects/ambiguity_new/llm_inference/engine.py", line 85, in __call__
+    result = self.process_batch(batch)
+  File "/home/tzh649/projects/ambiguity_new/llm_inference/engine.py", line 64, in process_batch
+    raw_outputs = self.llm.generate(
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/utils.py", line 672, in inner
+    return fn(*args, **kwargs)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/entrypoints/llm.py", line 300, in generate
+    outputs = self._run_engine(use_tqdm=use_tqdm)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/entrypoints/llm.py", line 552, in _run_engine
+    step_outputs = self.llm_engine.step()
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/engine/llm_engine.py", line 772, in step
+    output = self.model_executor.execute_model(
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/executor/gpu_executor.py", line 91, in execute_model
+    output = self.driver_worker.execute_model(execute_model_req)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/worker/worker.py", line 272, in execute_model
+    output = self.model_runner.execute_model(seq_group_metadata_list,
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/worker/model_runner.py", line 738, in execute_model
+    output = self.model.sample(
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/model_executor/models/llama.py", line 378, in sample
+    next_tokens = self.sampler(logits, sampling_metadata)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/model_executor/layers/sampler.py", line 83, in forward
+    logits = _apply_top_k_top_p(logits, sampling_tensors.top_ps,
+  File "/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/vllm/model_executor/layers/sampler.py", line 228, in _apply_top_k_top_p
+    logits_sort, logits_idx = logits.sort(dim=-1, descending=False)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.93 GiB. GPU
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

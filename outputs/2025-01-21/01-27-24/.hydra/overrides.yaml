@@ -1,0 +1,5 @@
+- output_path=results/no/mistral_output.tsv
+- model.model=mistralai/Mistral-7B-Instruct-v0.3
+- data.tsv_path=data/synt_ambig.tsv
+- data.template_name=mixtral_no
+- data.batch_size=8

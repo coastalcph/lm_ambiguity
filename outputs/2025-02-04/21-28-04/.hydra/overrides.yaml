@@ -1,0 +1,5 @@
+- output_path=output/true/qwen_premise.tsv
+- model.model=Qwen/Qwen2.5-7B-Instruct
+- data.tsv_path=data/ambient_premise.tsv
+- data.template_name=default/qwen2_true
+- data.batch_size=8

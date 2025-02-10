@@ -1,0 +1,5 @@
+- output_path=results/wrong/llama_lexical_dis.tsv
+- model.model=meta-llama/Meta-Llama-3-8B-Instruct
+- data.tsv_path=data/lexical_ambig.tsv
+- data.template_name=llama3_wrong
+- data.batch_size=8

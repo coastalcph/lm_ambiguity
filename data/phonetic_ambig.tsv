@@ -1,0 +1,289 @@
+sentence1	sentence2	change_type	ambig_status
+It’s not easy to wreck a nice beach.	It’s not easy to recognize speech.	original	1
+			
+It’s not easy to wreck a good beach.	It’s not easy to recognize speech.	synonym_1	0
+It’s not easy to wreck a nice beach.	It’s not easy to identify speech.	synonym_2	0
+It’s not easy to destroy a nice beach.	It’s not easy to recognize speech.	synonym_3	0
+It’s not easy to wreck a nice beach.	It’s not easy to recognize talk.	synonym_4	0
+			
+It’s not easy to wreck a nice peach.	It’s not easy to recognize speech.	rhyme_1	1
+It’s not easy to wreck a nice beach.	It’s not easy to recognize bleach.	rhyme_2	0
+It’s not easy to rec a nice beach.	It’s not easy to recognize speech.	rhyme_3	1
+It’s not easy to wreck a nice beach.	It’s not sleezy to recognize speech.	rhyme_4	0
+			
+It’s not easy to wreck a nice window.	It’s not easy to recognize speech.	random_1	0
+It’s not easy to wreck a nice beach.	It’s not easy to recognize people.	random_2	0
+It’s not easy to wreck a nice castle.	It’s not easy to recognize speech.	random_3	0
+It’s not easy to wreck a nice beach.	It’s not easy to produce speech.	random_4	0
+			
+I saw a sea monster.	I saw a seam on stir.	original	1
+			
+I saw a sea creature.	I saw a seam on stir.	synonym_1	0
+I saw a sea monster.	I observed a seam on stir.	synonym_2	0
+I saw a marine monster.	I saw a seam on stir.	synonym_3	0
+I saw a sea monster.	I saw a stitching on stir.	synonym_4	0
+			
+I saw a brie monster.	I saw a seam on stir.	rhyme_1	0
+I saw a sea monster.	I saw a team on stir.	rhyme_2	0
+I draw a sea monster.	I saw a seam on stir.	rhyme_3	0
+I saw a sea monster.	I saw a seam on fur.	rhyme_4	0
+			
+I saw a sea castle.	I saw a seam on stir.	random_1	0
+I saw a sea monster.	I produced a seam on stir.	random_2	0
+I saw a window monster.	I saw a seam on stir.	random_3	0
+I saw a sea monster.	I saw a seam on fire.	random_4	0
+			
+She sells seashells by the seashore.	She sells sea shells buy the sea sure.	original	1
+			
+She markets seashells by the seashore.	She sells sea shells buy the sea sure.	synonym_1	0
+She sells seashells by the seashore.	She sells ocean shells buy the sea sure.	synonym_2	0
+She sells seashells by the coast.	She sells sea shells buy the sea sure.	synonym_3	0
+She sells seashells by the seashore.	She sells sea carapaces buy the sea sure.	synonym_4	0
+			
+She tells seashells by the seashore.	She sells sea shells buy the sea sure.	rhyme_1	0
+She sells seashells by the seashore.	She sells tea shells buy the sea sure.	rhyme_2	0
+She bells seashells by the seashore.	She sells sea shells buy the sea sure.	rhyme_3	0
+She sells seashells by the seashore.	She sells free shells buy the sea sure.	rhyme_4	0
+			
+She sells windows by the seashore.	She sells sea shells buy the sea sure.	random_1	0
+She sells seashells by the seashore.	She sells sea bells buy the sea sure.	random_2	0
+She sells seashells by the castle.	She sells sea shells buy the sea sure.	random_3	0
+She sells seashells by the seashore.	He sells sea shells buy the fire sure.	random_4	0
+			
+Whale meat again.	We'll meet again.	original	1
+			
+Whale flesh again.	We'll meet again.	synonym_1	0
+Whale meat again.	We'll come together again.	synonym_2	0
+Whale food again.	We'll meet again.	synonym_3	0
+Whale meat again.	We'll encounter again.	synonym_4	0
+			
+Whale feet again.	We'll meet again.	rhyme_1	0
+Whale meat again.	We'll greet again.	rhyme_2	0
+Stale meat again.	We'll meet again.	rhyme_3	0
+Whale meat again.	Wheel meet again.	rhyme_4	1
+			
+Whale windows again.	We'll meet again.	random_1	0
+Whale meat again.	We'll talk again.	random_2	0
+Castle meat again.	We'll meet again.	random_3	0
+Whale meat again.	Wheel meet soon.	random_4	1
+			
+I saw a bear in the forest.	Eye sore a bare inn the for rest.	original	1
+			
+I saw a bear in the woods.	Eye sore a bare inn the for rest.	synonym_1	0
+I saw a bear in the forest.	Eye sore a bare hotel the for rest.	synonym_2	0
+I observed a bear in the forest.	Eye sore a bare inn the for rest.	synonym_3	
+I observed a bear in the forest.	Eye sore a naked inn the for rest.	synonym_4	
+			
+I saw a pear in the forest.	Eye sore a bare inn the for rest.	rhyme_1	0
+I saw a bear in the forest.	Eye sore a care inn the for rest.	rhyme_2	0
+I saw a bear in the florist.	Eye sore a bare inn the for rest.	rhyme_3	0
+I saw a bear in the forest.	Eye sore a bare win the for rest.	rhyme_4	0
+			
+I saw a bear in the windows.	Eye sore a bare inn the for rest.	random_1	0
+I saw a bear in the forest.	Eye sore a bare inn the for people.	random_2	0
+I saw a castle in the forest.	Eye sore a bare inn the for rest.	random_3	0
+I saw a bear in the forest.	Eye wheel a bare inn the for rest.	random_4	0
+			
+He took a nice cold shower after his date.	He took an ice cold shower after his date.	original	1
+			
+He took a nice cold shower after his rendezvous.	He took an ice cold shower after his date.	synonym_1	0
+He took a nice cold shower after his date.	He took an ice chilly shower after his date.	synonym_2	0
+He took a enjoyable cold shower after his date.	He took an ice cold shower after his date.	synonym_3	0
+He took a nice cold shower after his date.	He took an ice cold shower following his date.	synonym_4	0
+			
+He took a nice cold flower after his date.	He took an ice cold shower after his date.	rhyme_1	0
+He took a nice cold shower after his date.	He shook an ice cold shower after his date.	rhyme_2	0
+He took a nice cold shower after his date.	He took an ice cold shower after his fate.	rhyme_3	0
+He took a precise cold shower after his date.	He took an ice cold shower after his date.	rhyme_4	0
+			
+He took a nice cold shot after his date.	He took an ice cold shower after his date.	random_1	0
+He took a nice cold shower after his date.	He took an ice cold shower after his dinner.	random_2	0
+He liked a nice cold shower after his date.	He took an ice cold shower after his date.	random_3	0
+He took a nice cold shower after his date.	He took an ice shaped shower after his date.	random_4	0
+			
+The stuffy nose is annoying.	The stuff he knows is annoying.	original	1
+			
+The stuffy nose is irritating.	The stuff he knows is annoying.	synonym_1	0
+The stuffy nose is annoying.	The things he knows is annoying.	synonym_2	0
+The blocked nose is annoying.	The stuff he knows is annoying.	synonym_3	0
+The stuffy nose is annoying.	The stuff he understands is annoying.	synonym_4	0
+			
+The fluffy nose is annoying.	The stuff he knows is annoying.	rhyme_1	0
+The stuffy nose is annoying.	The stuff he grows is annoying.	rhyme_2	0
+The stuffy dose is annoying.	The stuff he knows is annoying.	rhyme_3	0
+The stuffy nose is annoying.	The stuff he knows is employing.	rhyme_4	0
+			
+The stuffy castle is annoying.	The stuff he knows is annoying.	random_1	0
+The stuffy nose is annoying.	The stuff he likes is annoying.	random_2	0
+The stuffy nose is great.	The stuff he knows is annoying.	random_3	0
+The stuffy nose is annoying.	The poems he knows is annoying.	random_4	0
+			
+He couldn't wait to leave the mall.	He couldn't wait to leave them all.	original	1
+			
+He couldn't wait to leave the shopping center.	He couldn't wait to leave them all.	synonym_1	0
+He couldn't wait to leave the mall.	He couldn't wait to abandon them all.	synonym_2	0
+He couldn't wait to exit the mall.	He couldn't wait to leave them all.	synonym_3	0
+He couldn't wait to leave the mall.	He couldn't wait to quit them all.	synonym_4	0
+			
+He couldn't debate to leave the mall.	He couldn't wait to leave them all.	rhyme_1	0
+He couldn't wait to leave the mall.	He couldn't wait to grieve them all.	rhyme_2	0
+He couldn't hate to leave the mall.	He couldn't wait to leave them all.	rhyme_3	0
+He couldn't wait to leave the mall.	He couldn't wait to leave them fall.	rhyme_4	0
+			
+He couldn't wait to leave the flowers.	He couldn't wait to leave them all.	random_1	0
+He couldn't wait to leave the mall.	He couldn't wait to greet them all.	random_2	0
+He couldn't stop to leave the mall.	He couldn't wait to leave them all.	random_3	0
+He couldn't wait to leave the mall.	He couldn't wait to leave them here.	random_4	0
+			
+I made her duck.	I’m eight or duck.	original	1
+			
+I made her crouch.	I’m eight or duck.	synonym_1	0
+I made her duck.	I'm eight or duckling.	synonym_2	0
+I prepared her duck.	I’m eight or duck.	synonym_3	0
+I made her duck.	I’m eight or swan.	synonym_4	0
+			
+I made her tuck.	I’m eight or duck.	rhyme_1	0
+I made her duck.	I’m state or duck.	rhyme_2	0
+I paid her duck.	I’m eight or duck.	rhyme_3	0
+I made her duck.	Time eight or duck.	rhyme_4	0
+			
+I made her laugh.	I’m eight or duck.	random_1	0
+I made her duck.	I’m wolf or duck.	random_2	0
+I freed her duck.	I’m eight or duck.	random_3	0
+I made her duck.	I’m eight and duck.	random_4	0
+			
+The good can decay many ways.	The good candy came anyways.	original 	1
+			
+The good can rot many ways.	The good candy came anyways.	synonym_1	0
+The good can decay many ways.	The good sweets came anyways.	synonym_2	0
+The good can decay multiple ways.	The good candy came anyways.	synonym_3	0
+The good can decay many ways.	The good candy came nonetheless.	synonym_4	0
+			
+The good can display many ways.	The good candy came anyways.	rhyme_1	0
+The good can decay many ways.	The good grandy came anyways.	rhyme_2	0
+The wood can decay many ways.	The good candy came anyways.	rhyme_3	0
+The good can decay many ways.	The good candy claim anyways.	rhyme_4	0
+			
+The house can decay many ways.	The good candy came anyways.	random_1	0
+The good can decay many ways.	The good candy tasted anyways.	random_2	0
+The planet can decay many ways.	The good candy came anyways.	random_3	
+The good can decay many ways.	The good rain came anyways.	random_4	
+			
+She can't bear to lose the race.	She can't bear to lose their ace.	original 	1
+			
+She can't stand to lose the race.	She can't bear to lose their ace.	synonym_1	0
+She can't bear to lose the race.	She can't bear to lose their expert.	synonym_2	0
+She can't endure to lose the race.	She can't bear to lose their ace.	synonym_3	0
+She can't bear to lose the race.	She can't bear to lose their winner.	synonym_4	0
+			
+She can't dare to lose the race.	She can't bear to lose their ace.	rhyme_1	0
+She can't bear to lose the race.	She can't bear to choose their ace.	rhyme_2	0
+She can't bear to lose the case.	She can't bear to lose their ace.	rhyme_3	0
+She can't bear to lose the race.	He can't bear to lose their age.	rhyme_4	0
+			
+She can't bear to lose the castle.	She can't bear to lose their ace.	random_1	0
+She can't bear to lose the race.	She can't bear to pick their ace.	random_2	0
+She can't bear to lose the rainbow.	She can't bear to lose their ace.	random_3	0
+She can't bear to lose the race.	She can't bear to lose their keys.	random_4	0
+			
+He's a man of many talents.	He's a man of mini talents.	original 	1
+			
+He's a man of many aptitudes.	He's a man of mini talents.	synonym_1	0
+He's a man of many talents.	He's a man of tiny talents.	synonym_2	0
+He's a male of many talents.	He's a man of mini talents.	synonym_3	0
+He's a man of many talents.	He's a man of few talents.	synonym_4	0
+			
+He's a man of penny talents.	He's a man of mini talents.	rhyme_1	0
+He's a man of many talents.	He's a man of skinny talents.	rhyme_2	0
+He's a man of many gallants.	He's a man of mini talents.	rhyme_3	0
+He's a man of many talents.	She's a man of mini talents.	rhyme_4	0
+			
+He's a man of many laughs.	He's a man of mini talents.	random_1	0
+He's a man of many talents.	He's a master of mini talents.	random_2	0
+He's a man of hidden talents.	He's a man of mini talents.	random_3	0
+He's a man of many talents.	He's a man of mini efforts.	random_4	0
+			
+I hurt myself with the four candles.	I hurt myself with the fork handles.	original 	1
+			
+I injured myself with the four candles.	I hurt myself with the fork handles.	synonym_1	0
+I hurt myself with the four candles.	I hurt myself with the fork grips.	synonym_2	
+I hurt myself with the four lanterns.	I hurt myself with the fork handles.	synonym_3	
+I hurt myself with the four candles.	I injured myself with the spoon handles.	synonym_4	
+			
+I avert myself with the four candles.	I hurt myself with the fork handles.	rhyme_1	0
+I hurt myself with the four candles.	I hurt myself with the dork handles.	rhyme_2	0
+I hurt myself with the score candles.	I hurt myself with the fork handles.	rhyme_3	0
+I hurt myself with the four candles.	I hurt myself with the fork scandals.	rhyme_4	0
+			
+I hurt myself with the four mugs.	I hurt myself with the fork handles.	random_1	0
+I hurt myself with the four candles.	I hurt her with the fork handles.	random_2	0
+I hurt myself with the tiny candles.	I hurt myself with the fork handles.	random_3	0
+I hurt myself with the four candles.	I challenged myself with the fork handles.	random_4	0
+			
+I ordered pepperoni pizza.	I ordered pepper only pizza.	original 	1
+			
+I ordered salami pizza.	I ordered a pepper only pizza.	synonym_1	0
+I ordered pepperoni pizza.	I ordered a pepper only flatbread.	synonym_2	0
+I requested pepperoni pizza.	I ordered a pepper only pizza.	synonym_3	0
+I ordered pepperoni pizza.	I ordered a salt only pizza.	synonym_4	0
+			
+I ordered testimony pizza.	I ordered a pepper only pizza.	rhyme_1	0
+I ordered pepperoni pizza.	I ordered a pepper lonely pizza.	rhyme_2	0
+I bordered pepperoni pizza.	I ordered a pepper only pizza.	rhyme_3	0
+I ordered pepperoni pizza.	I ordered pepper only pinsa.	rhyme_4	0
+			
+I ordered sweet pizza.	I ordered a pepper only pizza.	random_1	0
+I ordered pepperoni pizza.	I love a pepper only pizza.	random_2	0
+I ordered pepperoni sandwich.	I ordered a pepper only pizza.	random_3	0
+I ordered pepperoni pizza.	I ordered a mushroom only pizza.	random_4	0
+			
+They wanted to explore the ancient ruins.	They wanted to explore the agent's ruins.	original 	1
+			
+They wanted to investigate the ancient ruins.	They wanted to explore the agent's ruins.	synonym_1	0
+They wanted to explore the ancient ruins.	They desired to explore the agent's ruins.	synonym_2	0
+They wanted to explore the old ruins.	They wanted to explore the agent's ruins.	synonym_3	0
+They wanted to explore the ancient ruins.	They wanted to explore the agent's relics.	synonym_4	0
+			
+They wanted to adore the ancient ruins.	They wanted to explore the agent's ruins.	rhyme_1	0
+They wanted to explore the ancient ruins.	They wanted to explore the agent's confluens.	rhyme_2	0
+They taunted to explore the ancient ruins.	They wanted to explore the agent's ruins.	rhyme_3	0
+They wanted to explore the ancient ruins.	They wanted to store the agent's ruins.	rhyme_4	0
+			
+They claimed to explore the ancient ruins.	They wanted to explore the agent's ruins.	random_1	0
+They wanted to explore the ancient ruins.	They wanted to find the agent's ruins.	random_2	0
+They wanted to explore the ancient windows.	They wanted to explore the agent's ruins.	random_3	0
+They wanted to explore the ancient ruins.	They wanted to explore the beautiful ruins.	random_4	0
+			
+I love you	Aisle of view	original 	1
+			
+I adore you	Aisle of view	synonym_1	0
+I love you	Passage of view	synonym_2	0
+I like you	Aisle of view	synonym_3	0
+I love you	Aisle of glimpse	synonym_4	0
+			
+I glove you	Aisle of view	rhyme_1	0
+I love you	Aisle of few	rhyme_2	1
+I love cue	Aisle of view	rhyme_3	0
+I love you	Style of view	rhyme_4	0
+			
+I saw you	Aisle of view	random_1	0
+I love you	Aisle of food	random_2	0
+I love peanuts	Aisle of view	random_3	0
+I love you	Field of view	random_4	0
+			
+Caesar salad	Seize her salad	original 	1
+			
+Caesar greens	Seize her salad	synonym_1	0
+Caesar salad	Grab her salad	synonym_2	0
+Caesar slaw	Seize her salad	synonym_3	
+Caesar salad	Take her salad	synonym_4	
+			
+Freezer salad	Seize her salad	rhyme_1	0
+Caesar salad	Squeeze her salad	rhyme_2	0
+Caesar valid	Seize her salad	rhyme_3	0
+Caesar salad	Seize stir salad	rhyme_4	0
+			
+Delicious salad	Seize her salad	random_1	0
+Caesar salad	Eat her salad	random_2	0
+Nutritious salad	Seize her salad	random_3	
+Caesar salad	Seize her attention	random_4	0

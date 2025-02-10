@@ -1,0 +1,16 @@
+{"time":"2025-01-21T01:26:40.898636174+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250121_012640-b7hdfil3/logs/debug-core.log"}
+{"time":"2025-01-21T01:26:41.013830177+01:00","level":"INFO","msg":"created new stream","id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:41.013849023+01:00","level":"INFO","msg":"stream: started","id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:41.013865543+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:41.013889387+01:00","level":"INFO","msg":"sender: started","stream_id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:41.013870322+01:00","level":"INFO","msg":"handler: started","stream_id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:41.250129959+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-21T01:26:50.316782805+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-21T01:26:50.317310802+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-21T01:26:50.933044721+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-21T01:26:51.162687388+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-21T01:26:52.167451948+01:00","level":"INFO","msg":"stream: closing","id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:52.167462668+01:00","level":"INFO","msg":"handler: closed","stream_id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:52.167468018+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:52.167480341+01:00","level":"INFO","msg":"sender: closed","stream_id":"b7hdfil3"}
+{"time":"2025-01-21T01:26:52.169933903+01:00","level":"INFO","msg":"stream: closed","id":"b7hdfil3"}

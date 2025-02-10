@@ -1,0 +1,16 @@
+{"time":"2025-01-20T15:41:50.289710686+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250120_154150-rdusadxv/logs/debug-core.log"}
+{"time":"2025-01-20T15:41:50.403397766+01:00","level":"INFO","msg":"created new stream","id":"rdusadxv"}
+{"time":"2025-01-20T15:41:50.403414677+01:00","level":"INFO","msg":"stream: started","id":"rdusadxv"}
+{"time":"2025-01-20T15:41:50.403433452+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rdusadxv"}
+{"time":"2025-01-20T15:41:50.403445153+01:00","level":"INFO","msg":"sender: started","stream_id":"rdusadxv"}
+{"time":"2025-01-20T15:41:50.403447387+01:00","level":"INFO","msg":"handler: started","stream_id":"rdusadxv"}
+{"time":"2025-01-20T15:41:50.678261546+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T15:45:02.55942487+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-20T15:45:02.560002167+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-20T15:45:03.389649561+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-20T15:45:03.544659727+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-2, summary, console lines 44-51","runtime_seconds":0.154858466}],"total_operations":1}}
+{"time":"2025-01-20T15:45:04.620286156+01:00","level":"INFO","msg":"stream: closing","id":"rdusadxv"}
+{"time":"2025-01-20T15:45:04.620295764+01:00","level":"INFO","msg":"handler: closed","stream_id":"rdusadxv"}
+{"time":"2025-01-20T15:45:04.620306253+01:00","level":"INFO","msg":"sender: closed","stream_id":"rdusadxv"}
+{"time":"2025-01-20T15:45:04.620302586+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rdusadxv"}
+{"time":"2025-01-20T15:45:04.623704183+01:00","level":"INFO","msg":"stream: closed","id":"rdusadxv"}

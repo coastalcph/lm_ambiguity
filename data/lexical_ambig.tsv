@@ -1,0 +1,241 @@
+sentence	change_type	ambig_status
+Your boss is a funny man.	original	1
+A funny man is your boss.	inverse	1
+Boss funny is man your.	impossible	0
+Your boss is a funny can.	rhyme_1	0
+Your boss is a funky man.	rhyme_2	1
+Your floss is a funny man.	rhyme_3	0
+Your floss is a sunny can.	rhyme_4	0
+Your principal is a funny man.	synonym_1	1
+Your boss is a humorous man.	synonym_2	0
+Your boss is a funny person.	synonym_3	1
+Your chief is a humorous person.	synonym_4	0
+Your boss is a happy man.	random_1	0
+Your rainbow is a funny man.	random_2	0
+Your boss is a five man.	random_3	0
+Your boss is a bunny van.	random_4	0
+The speaker is at the front of the room.	original	1
+At the front of the room is the speaker.	inverse	1
+Of the room is the speaker at the front.	impossible	0
+The speaker is in front of the broom.	rhyme_1	1
+The reader is at the front of the room.	rhyme_2	0
+The speaker is at the front of the coomb.	rhyme_3	1
+The reader is at the front of the bloom.	rhyme_4	1
+The speaker is at the front of the chamber.	synonym_1	1
+The loudspeaker is at the front of the room.	synonym_2	0
+The lector is at the front of the room.	synonym_3	0
+The lecturer is at the front of the chamber.	synonym_4	0
+The key is at the front of the room.	random_1	0
+The soda is at the front of the room.	random_2	0
+The telescope is at the front of the room.	random_3	0
+The speaker is at the front of the scene.	random_4	1
+He's not very well off.	original	1
+Not very well off he is.	inverse	1
+Very not he well off is.	impossible	0
+He's not very cell off.	rhyme_1	0
+He is not verry tell off.	rhyme_2	0
+He is not verry bell off.	rhyme_3	0
+He is not verry fell off.	rhyme_4	0
+The man is not very well off.	synonym_1	1
+He is not verry wealthy.	synonym_2	0
+He is not verry rich.	synonym_3	0
+She's not very well off.	synonym_4	1
+He's not very telescope off.	random_1	0
+He's not very elephant off.	random_2	0
+He's not very pyjamas off.	random_3	0
+He's not very cat food.	random_4	0
+John and Anna are married.	original	1
+Anna and John are married.	inverse	1
+Married John are Anna.	impossible	0
+Bonn and Hannah are married.	rhyme_1	1
+Ron and Anna are married.	rhyme_2	1
+John and Anna are carried.	rhyme_3	0
+John and Anna are varied.	rhyme_4	0
+The man and the woman are married.	synonym_1	1
+Stephan and Daniel are married.	synonym_2	1
+John and Anna are engaged.	synonym_3	1
+Ron and Myrthe are engaged.	synonym_4	1
+John and Anna are happy.	random_1	0
+John and Anna are babies.	random_2	0
+Telescope and Anna are married.	random_3	0
+John and telescope are married.	random_4	0
+It is my belief that the earth is round.	original	1
+That the earth is round is my belief.	inverse	1
+Is earth my belief that round the.	impossible	0
+It is my belief that the birth is sound.	rhyme_1	1
+It is my leaf that the earth is sound.	rhyme_2	0
+It is my grief that the earth is round.	rhyme_3	0
+It is my thief that the earth is bound.	rhyme_4	0
+I have the opinion that the earth is round.	synonym_1	1
+I think that the earth is round.	synonym_2	0
+I am certain that the earth is round.	synonym_3	0
+It is my belief that the planet is round.	synonym_4	1
+It is my happiness that the earth is round.	random_1	0
+It is my rainbow that the earth is round.	random_2	0
+It is my telescope that the earth is round.	random_3	0
+It is my pyjamas that the earth is round.	random_4	0
+She is looking for a match.	original	1
+A match she is looking for.	inverse	1
+Is match looking a she for.	impossible	0
+She is looking for a catch.	rhyme_1	0
+She is looking for a patch.	rhyme_2	0
+He is rocking for a batch.	rhyme_3	0
+She is looking for a dispatch.	rhyme_4	1
+She is seeking for a match.	synonym_1	1
+She is looking for a game.	synonym_2	0
+She is looking for a partner.	synonym_3	0
+She is looking for a tinder date.	synonym_4	0
+She is looking for a telescope.	random_1	0
+She is looking for an elephant.	random_2	0
+She is looking for a rainbow.	random_3	0
+She is looking for a pillow.	random_4	0
+Give me a ring.	original	1
+A ring give me.	inverse	1
+Me ring a give.	impossible	0
+Give me a thing.	rhyme_1	0
+Bring me a ring.	rhyme_2	0
+Give me a sing.	rhyme_3	0
+Give me a swing.	rhyme_4	0
+Give me a call.	synonym_1	0
+Give me a jewellery.	synonym_2	0
+Give me a phone call.	synonym_3	0
+Give me a bracelet.	synonym_4	0
+Give me a rainbow.	random_1	0
+Give me a telescope.	random_2	0
+Give me an elephant.	random_3	0
+Give me an ax.	random_4	0
+Show me the light feathers.	original	1
+The light feathers show me.	inverse	1
+Me the show feathers light.	impossible	0
+Show me the delight heathers.	rhyme_1	0
+Show me the bright heathers.	rhyme_2	0
+Show me the bright leathers.	rhyme_3	0
+Snow in the light leathers.	rhyme_4	0
+Show me the bright feathers.	synonym_1	0
+Show me the not heavy feathers.	synonym_2	0
+Show me the lightweight feathers.	synonym_3	0
+Show me the delicate feathers.	synonym_4	0
+Show me the telescope feathers.	random_1	0
+Show me the big feathers.	random_2	0
+Show me the wisdom feathers.	random_3	0
+Show me the random feathers.	random_4	0
+We saw her duck.	original	1
+Her duck was seen by us.	inverse	1
+Duch saw we her.	impossible	0
+We saw her luck.	rhyme_1	0
+We saw her truck.	rhyme_2	0
+We saw her puck.	rhyme_3	0
+We saw her guck.	rhyme_4	0
+We saw her dodge.	synonym_1	0
+We saw her swan.	synonym_2	0
+We saw her mallard.	synonym_3	0
+We saw her bow down.	synonym_4	0
+We saw her telescope.	random_1	0
+We saw her elephant.	random_2	0
+We saw her rat.	random_3	0
+We saw her ship.	random_4	0
+I'm going to take a break from studying.	original	1
+A break from studying is going to be taken by me.	inverse	1
+From a is studying going break me by taken be taken to.	impossible	0
+I'm going to take a bake from studying.	rhyme_1	0
+I'm going to take a cake from pudding.	rhyme_2	0
+I'm going to take a shake from looking.	rhyme_3	0
+I'm going to take a break from doodling.	rhyme_4	1
+I'm going to take a rest from studying.	synonym_1	0
+I'm going to take a pause from studying.	synonym_2	0
+I'm going to take a discontinuation from studying.	synonym_3	0
+I'm going to take a break from working.	synonym_4	1
+I'm going to take a telescope from studying.	random_1	0
+I'm going to take an elephant from studying.	random_2	0
+I'm going to take a captain from studying.	random_3	0
+I'm going to take a rat food from studying.	random_4	0
+Alice and Jon disagreed.	original	1
+Jon and Alice disagreed.	inverse	1
+Disagreed and Jon Alice.	impossible	0
+Malice and Don concede.	rhyme_1	0
+Palace and Ron succeed.	rhyme_2	0
+Alice and Jon decreed.	rhyme_3	0
+Alyce and Ron disagreed.	rhyme_4	1
+Alice and Jon argued.	synonym_1	0
+Alice and Jon debated.	synonym_2	0
+Alice and Jon failed to agree.	synonym_3	0
+The woman and the man disagreed.	synonym_4	1
+Alice and Jon saw the telescope.	random_1	0
+Alice and Jon ordered the men.	random_2	0
+The man and the woman saw the elephant.	random_3	0
+The man and the woman ate.	random_4	0
+Give me the bat!	original	1
+The bat give me!	inverse	1
+Me the bat to give!	impossible	0
+Give me the cat!	rhyme_1	0
+Give me the hat!	rhyme_2	0
+Give me the rat!	rhyme_3	0
+Give me the sat!	rhyme_4	0
+Give me the rattle-mouse!	synonym_1	0
+Give me the baseball bat!	synonym_2	0
+Give me the racket!	synonym_3	0
+Give me the club!	synonym_4	1
+Give me the telescope!	random_1	0
+Give me the elephant!	random_2	0
+Give me the woman!	random_3	0
+Give me the pyjamas!	random_4	0
+What you said is insane.	original	1
+It is insane what you said.	inverse	1
+Said insane you is what.	impossible	0
+What you said is arcane.	rhyme_1	0
+What you said is mundane.	rhyme_2	1
+What you said is inane.	rhyme_3	0
+What you said is terrain.	rhyme_4	0
+What you said is crazy.	synonym_1	1
+What you said is unbelievable.	synonym_2	1
+What you said is outrageous.	synonym_3	1
+What you said is irrational.	synonym_4	0
+What you said is green.	random_1	0
+What you said is wooden.	random_2	0
+What you said is round.	random_3	0
+What you said is silent.	random_4	0
+Yesterday I went to the bank.	original	1
+To the bank I went yesterday.	inverse	1
+To the went yesterday bank I.	impossible	0
+Yesterday I went to the tank.	rhyme_1	1
+Yesterday I went to the prank.	rhyme_2	0
+Yesterday I went to the blank.	rhyme_3	0
+Yesterday I went to the clank.	rhyme_4	0
+Yesterday I went to the financial institution.	synonym_1	0
+Yesterday I went to the treasury.	synonym_2	0
+Yesterday I went to the riverside.	synonym_3	0
+Yesterday I went to the lakeshore.	synonym_4	0
+Yesterday I went to the supermarket.	random_1	0
+Yesterday I went to the museum.	random_2	0
+Yesterday I went to the rainbow.	random_3	0
+Yesterday I went to the telescope.	random_4	0
+I can't find the glasses.	original	1
+The glasses I can't find.	inverse	1
+The I can't glasses find.	impossible	0
+I can't find the passes.	rhyme_1	0
+I can't find the basses.	rhyme_2	0
+I can't find the wrasses.	rhyme_3	0
+I can't find the chasses.	rhyme_4	0
+I can't find the eyeglasses.	synonym_1	0
+I can't find the drinking glasses.	synonym_2	0
+I can't find the goggles.	synonym_3	0
+I can't find the glassware.	synonym_4	0
+I can't find the telescope.	random_1	0
+I can't find the rainbow.	random_2	0
+I can't find the dough.	random_3	0
+I can't find the sofa.	random_4	0
+He didn't see the picture of the disaster.	original	1
+The picture of the disaster he didn't see.	inverse	1
+Disaster He the see of didn't picture the.	impossible	0
+He didn't see the stricture of the disaster.	rhyme_1	0
+He didn't see the depicture of the disaster.	rhyme_2	0
+He didn't see the mixture of the disaster.	rhyme_3	0
+He didn't see the fixture of the disaster.	rhyme_4	0
+He didn't see the image of the disaster.	synonym_1	1
+He didn't see the vision of the disaster.	synonym_2	0
+He didn't see the idea of the disaster.	synonym_3	0
+He didn't see the painting of the disaster.	synonym_4	0
+He didn't see the rain of the disaster.	random_1	0
+He didn't see the movie of the disaster.	random_2	0
+He didn't see the warnings of the disaster.	random_3	0
+He didn't see the telescope of the disaster.	random_4	0

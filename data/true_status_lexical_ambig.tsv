@@ -1,0 +1,65 @@
+sentence	change_type	ambig_status
+Your boss is a funny man.	original	1
+A funny man is your boss.	inverse	1
+Your boss is a funky man.	rhyme_2	1
+Your principal is a funny man.	synonym_1	1
+Your boss is a funny person.	synonym_3	1
+The speaker is at the front of the room.	original	1
+At the front of the room is the speaker.	inverse	1
+The speaker is in front of the broom.	rhyme_1	1
+The speaker is at the front of the coomb.	rhyme_3	1
+The reader is at the front of the bloom.	rhyme_4	1
+The speaker is at the front of the chamber.	synonym_1	1
+The speaker is at the front of the scene.	random_4	1
+He's not very well off.	original	1
+Not very well off he is.	inverse	1
+The man is not very well off.	synonym_1	1
+She's not very well off.	synonym_4	1
+John and Anna are married.	original	1
+Anna and John are married.	inverse	1
+Bonn and Hannah are married.	rhyme_1	1
+Ron and Anna are married.	rhyme_2	1
+The man and the woman are married.	synonym_1	1
+Stephan and Daniel are married.	synonym_2	1
+John and Anna are engaged.	synonym_3	1
+Ron and Myrthe are engaged.	synonym_4	1
+It is my belief that the earth is round.	original	1
+That the earth is round is my belief.	inverse	1
+It is my belief that the birth is sound.	rhyme_1	1
+I have the opinion that the earth is round.	synonym_1	1
+It is my belief that the planet is round.	synonym_4	1
+She is looking for a match.	original	1
+A match she is looking for.	inverse	1
+She is looking for a dispatch.	rhyme_4	1
+She is seeking for a match.	synonym_1	1
+Give me a ring.	original	1
+A ring give me.	inverse	1
+Show me the light feathers.	original	1
+The light feathers show me.	inverse	1
+We saw her duck.	original	1
+Her duck was seen by us.	inverse	1
+I'm going to take a break from studying.	original	1
+A break from studying is going to be taken by me.	inverse	1
+I'm going to take a break from doodling.	rhyme_4	1
+I'm going to take a break from working.	synonym_4	1
+Alice and Jon disagreed.	original	1
+Jon and Alice disagreed.	inverse	1
+Alyce and Ron disagreed.	rhyme_4	1
+The woman and the man disagreed.	synonym_4	1
+Give me the bat!	original	1
+The bat give me!	inverse	1
+Give me the club!	synonym_4	1
+What you said is insane.	original	1
+It is insane what you said.	inverse	1
+What you said is mundane.	rhyme_2	1
+What you said is crazy.	synonym_1	1
+What you said is unbelievable.	synonym_2	1
+What you said is outrageous.	synonym_3	1
+Yesterday I went to the bank.	original	1
+To the bank I went yesterday.	inverse	1
+Yesterday I went to the tank.	rhyme_1	1
+I can't find the glasses.	original	1
+The glasses I can't find.	inverse	1
+He didn't see the picture of the disaster.	original	1
+The picture of the disaster he didn't see.	inverse	1
+He didn't see the image of the disaster.	synonym_1	1

@@ -1,0 +1,16 @@
+{"time":"2025-01-21T14:35:05.516240627+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250121_143505-v84knlnc/logs/debug-core.log"}
+{"time":"2025-01-21T14:35:05.64628501+01:00","level":"INFO","msg":"created new stream","id":"v84knlnc"}
+{"time":"2025-01-21T14:35:05.646315747+01:00","level":"INFO","msg":"stream: started","id":"v84knlnc"}
+{"time":"2025-01-21T14:35:05.646371862+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"v84knlnc"}
+{"time":"2025-01-21T14:35:05.646417457+01:00","level":"INFO","msg":"sender: started","stream_id":"v84knlnc"}
+{"time":"2025-01-21T14:35:05.646393312+01:00","level":"INFO","msg":"handler: started","stream_id":"v84knlnc"}
+{"time":"2025-01-21T14:35:05.959564003+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-21T14:35:17.117084986+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-21T14:35:17.117750538+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-21T14:35:17.812676168+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-21T14:35:18.030362164+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-21T14:35:19.036460537+01:00","level":"INFO","msg":"stream: closing","id":"v84knlnc"}
+{"time":"2025-01-21T14:35:19.036484311+01:00","level":"INFO","msg":"handler: closed","stream_id":"v84knlnc"}
+{"time":"2025-01-21T14:35:19.036509809+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v84knlnc"}
+{"time":"2025-01-21T14:35:19.036538162+01:00","level":"INFO","msg":"sender: closed","stream_id":"v84knlnc"}
+{"time":"2025-01-21T14:35:19.03819899+01:00","level":"INFO","msg":"stream: closed","id":"v84knlnc"}

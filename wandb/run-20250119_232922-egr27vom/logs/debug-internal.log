@@ -1,0 +1,16 @@
+{"time":"2025-01-19T23:29:23.188883992+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250119_232922-egr27vom/logs/debug-core.log"}
+{"time":"2025-01-19T23:29:23.304070816+01:00","level":"INFO","msg":"created new stream","id":"egr27vom"}
+{"time":"2025-01-19T23:29:23.304098397+01:00","level":"INFO","msg":"stream: started","id":"egr27vom"}
+{"time":"2025-01-19T23:29:23.304112584+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"egr27vom"}
+{"time":"2025-01-19T23:29:23.304118585+01:00","level":"INFO","msg":"sender: started","stream_id":"egr27vom"}
+{"time":"2025-01-19T23:29:23.304122372+01:00","level":"INFO","msg":"handler: started","stream_id":"egr27vom"}
+{"time":"2025-01-19T23:29:23.534832275+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-19T23:52:09.87665577+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-19T23:52:09.877399632+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-19T23:52:10.81620209+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-19T23:52:10.876994415+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 279-284","runtime_seconds":0.06033762}],"total_operations":1}}
+{"time":"2025-01-19T23:52:12.037697654+01:00","level":"INFO","msg":"stream: closing","id":"egr27vom"}
+{"time":"2025-01-19T23:52:12.037731176+01:00","level":"INFO","msg":"handler: closed","stream_id":"egr27vom"}
+{"time":"2025-01-19T23:52:12.037743449+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"egr27vom"}
+{"time":"2025-01-19T23:52:12.037757154+01:00","level":"INFO","msg":"sender: closed","stream_id":"egr27vom"}
+{"time":"2025-01-19T23:52:12.039946832+01:00","level":"INFO","msg":"stream: closed","id":"egr27vom"}

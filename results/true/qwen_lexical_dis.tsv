@@ -1,0 +1,241 @@
+text	is_ambiguous	disambiguations	ambig_status
+Your boss is a funny man.	1	['Your boss tells jokes and finds humor in various situations.', 'Your boss is a man who happens to be a funny person.']	1
+A funny man is your boss.	1	['A man who is known for being humorous is your superior at work.', 'A man who is considered to be funny is in charge of you at your workplace.']	1
+Boss funny is man your.	0	[]	0
+Your boss is a funny can.	1	['Your boss has a sense of humor and can make people laugh.', 'Your boss is a container, specifically a can, that is filled with humor or funny people.']	0
+Your boss is a funky man.	1	['Your boss has a unique, unconventional style or personality.', 'Your boss has a funky, possibly unusual or groovy smell or appearance.']	1
+Your floss is a funny man.	1	['Your floss is a humorous person.', 'The way you floss is unusual or different from what is considered normal.']	0
+Your floss is a sunny can.	1	['Your floss is a sunny object or substance contained within a can.', 'Your floss is a person named Sunny who is contained within a can.']	0
+Your principal is a funny man.	1	['The principal (school administrator) is a person who is humorous or amusing.', 'The principal (most important) is a person who is serious or not secondary.']	1
+Your boss is a humorous man.	1	['Your boss uses humor in a professional context.', 'Your boss is a man who is humorous in personality.']	0
+Your boss is a funny person.	1	['Your boss makes people laugh and find humor in situations.', 'Your boss is humorous in a sarcastic or ironic way that not everyone finds amusing.']	1
+Your chief is a humorous person.	1	['Your chief tells jokes and finds humor in everyday situations.', 'Your chief is a person who is humorous in nature or demeanor.']	0
+Your boss is a happy man.	1	['Your boss is a man who is happy with his job or personal life.', 'Your boss is a man who is happy because he has just received some good news or accomplished something significant.']	0
+Your rainbow is a funny man.	1	"[""'Your' refers to a specific person and 'rainbow' is a metaphor for their personality, suggesting that their personality is a funny man."", ""'rainbow' refers to a literal rainbow, and 'funny man' is a description of a person who is standing or located within the rainbow.""]"	0
+Your boss is a five man.	1	['Your boss is a group of five men.', 'Your boss is a man who is five feet tall.']	0
+Your boss is a bunny van.	1	['Your boss drives a van that is decorated to look like a bunny, ', 'Your boss is a person who is part bunny and part van, ']	0
+The speaker is at the front of the room.	1	['The speaker is standing at the front of a physical room.', 'The speaker is in the lead position of a group or organization.']	1
+At the front of the room is the speaker.	1	['The speaker is standing at the front of the room.', 'The front of the room is a visual indicator of where the speaker is located, but the speaker is not necessarily standing there.']	1
+Of the room is the speaker at the front.	1	"['The speaker is at the front of the room.', ""There is a room, but the speaker's position is not specified in relation to the room.""]"	0
+The speaker is in front of the broom.	1	['The speaker is standing in front of a physical broom.', 'The speaker is in front of a place or object that is metaphorically referred to as a broom.']	1
+The reader is at the front of the room.	1	['The reader is standing in the front part of the room.', 'The reader is in the front row of the room.']	0
+The speaker is at the front of the coomb.	1	['The speaker is at the front of a coomb (a type of Australian farming implement).', 'The speaker is at the front of a coomb (a type of valley or hollow).']	1
+The reader is at the front of the bloom.	1	"[""The reader is located in the leading position of a growing plant's bloom."", 'The reader is positioned in the beginning or start of a process or event related to the bloom.']"	1
+The speaker is at the front of the chamber.	1	['The speaker is standing at the front of a physical chamber, such as a room or hall.', 'The speaker is positioned at the front of a metaphorical chamber, such as in a debate or discussion.']	1
+The loudspeaker is at the front of the room.	1	['The loudspeaker is positioned at the front of a physical room.', 'The loudspeaker is part of a system that is front-loaded or prioritized in a virtual or organizational sense.']	0
+The lector is at the front of the room.	1	['The lector is standing in the foremost part of the room.', 'The lector is leading a reading or lecture from the front of the room.']	0
+The lecturer is at the front of the chamber.	1	['The lecturer is physically positioned at the front of the chamber.', 'The lecturer is metaphorically or figuratively at the front of the chamber, possibly leading or presenting ideas.']	0
+The key is at the front of the room.	1	['The key is located in a place at the front of the room.', 'The key is metaphorically leading or guiding towards the front of the room.']	0
+The soda is at the front of the room.	1	['The soda is placed in the front area of the room.', 'The soda is kept in front of a particular object or person in the room.']	0
+The telescope is at the front of the room.	1	['The telescope is mounted on a stand at the front of the room.', 'A person or object holding the telescope is positioned at the front of the room.']	0
+The speaker is at the front of the scene.	1	['The speaker is physically positioned at the front of a physical scene, such as a stage or a classroom.', 'The speaker is metaphorically or figuratively at the front, meaning they are leading or initiating something in the scene.']	1
+He's not very well off.	1	['He is not financially prosperous.', 'He is not in good health.']	1
+Not very well off he is.	1	['Not financially well off he is.', 'Not well off in general he is.']	1
+Very not he well off is.	1	['He is not very well off.', 'Very he is not well off.']	0
+He's not very cell off.	1	['He is not very competent in his job or role.', 'He does not have a cell phone or mobile device.']	0
+He is not verry tell off.	1	['He is not very late.', 'He is not very skilled.']	0
+He is not verry bell off.	1	['He is not very well off.', 'He is not very bell off.']	0
+He is not verry fell off.	1	['He is not very fell off the bike.', 'He is not very well off financially.']	0
+The man is not very well off.	1	['The man has a low income or lacks financial resources.', 'The man is not in good health or well-being.']	1
+He is not verry wealthy.	1	"['He is not very wealthy, meaning he has little money or assets.', ""He is not verry (misspelled as very) wealthy, meaning there might be a spelling error and he could be wealthy but the word 'very' was misspelled.""]"	0
+He is not verry rich.	1	"['He is not very rich (meaning he is poor).', ""He is not verry rich (with a spelling mistake, meaning he might be rich but there is a spelling error in the word 'very').""]"	0
+She's not very well off.	1	['She does not have a lot of money.', 'She is not in good health.']	1
+He's not very telescope off.	0	[]	0
+He's not very elephant off.	0	[]	0
+He's not very pyjamas off.	0	[]	0
+He's not very cat food.	0	[]	0
+John and Anna are married.	0	[]	1
+Anna and John are married.	0	[]	1
+Married John are Anna.	1	['Anna is married to John.', 'John is married and Anna is his spouse.']	0
+Bonn and Hannah are married.	0	[]	1
+Ron and Anna are married.	0	[]	1
+John and Anna are carried.	1	['John and Anna are being physically carried by someone else.', 'John and Anna are in a state of being carried, possibly metaphorically or in a different context.']	0
+John and Anna are varied.	1	['John and Anna have diverse interests and experiences.', 'John and Anna are different in nature or type.']	0
+The man and the woman are married.	0	[]	1
+Stephan and Daniel are married.	0	[]	1
+John and Anna are engaged.	0	[]	1
+Ron and Myrthe are engaged.	0	[]	1
+John and Anna are happy.	0	[]	0
+John and Anna are babies.	1	['John and Anna are newborn infants.', 'John and Anna are baby names being used metaphorically or in a non-literal context to refer to something unrelated to actual babies.']	0
+Telescope and Anna are married.	1	['Telescope is a male who is married to Anna.', 'Telescope is a female who is married to Anna.']	0
+John and telescope are married.	0	[]	0
+It is my belief that the earth is round.	0	[]	1
+That the earth is round is my belief.	1	"['The speaker believes that the Earth has a spherical shape.', ""The speaker's belief about the Earth being round is their personal opinion, which may or may not be accurate.""]"	1
+Is earth my belief that round the.	1	['Is Earth my belief that it is round?', 'Is Earth my belief that it is around the corner?']	0
+It is my belief that the birth is sound.	1	['The birth of an event or process is well-founded or valid, possibly in a legal or medical context.', 'The sound made during or at the time of birth is audible or appropriate.']	1
+It is my leaf that the earth is sound.	1	['It is my leaf that is making the earth sound.', 'The earth is sound (healthy, stable) because of my leaf.']	0
+It is my grief that the earth is round.	1	['The speaker is expressing their sadness or sorrow that the earth is round.', 'The speaker is stating that their grief is the fact that the earth is round.']	0
+It is my thief that the earth is bound.	1	['It is the earth that is bound by my thief (action of stealing).', 'It is my thief that has bound the earth (possibly metaphorical or poetic).']	0
+I have the opinion that the earth is round.	0	[]	1
+I think that the earth is round.	0	[]	0
+I am certain that the earth is round.	0	[]	0
+It is my belief that the planet is round.	0	[]	1
+It is my happiness that the earth is round.	1	"[""The speaker's personal joy or satisfaction is derived from the fact that the Earth is round."", ""The speaker believes that the Earth's roundness is a source of happiness or well-being for humanity as a whole.""]"	0
+It is my rainbow that the earth is round.	1	['It is my interpretation that the earth is round, using the metaphor of a rainbow.', 'The rainbow that I have created or observed indicates that the earth is round.']	0
+It is my telescope that the earth is round.	1	"['The speaker believes the earth is round and has a telescope to observe this fact.', ""The speaker's telescope is what made the earth appear round to them, implying the earth could be flat but the telescope shows it as round.""]"	0
+It is my pyjamas that the earth is round.	1	['It is my pajamas that I believe the Earth is round.', 'The Earth is round, and my pajamas are a metaphor for something that is universally accepted or obvious, similar to the shape of the Earth.']	0
+She is looking for a match.	1	['She is looking for a romantic partner, ', 'She is trying to ignite a flame or fire with a match.']	1
+A match she is looking for.	1	['She is looking for a match (as in a romantic partner),', 'She is looking for a match (as in a fire starter).']	1
+Is match looking a she for.	1	['Is the match looking for a female person?', 'Is the match (as in a game) looking at a she (as in a pronoun)?']	0
+She is looking for a catch.	1	['She is looking for a person who is not committed to a relationship, often in the context of dating.', 'She is searching for something that would be advantageous or profitable, often in a financial or business context.']	0
+She is looking for a patch.	1	['She is searching for a piece of fabric to fix a tear or hole.', 'She is searching for a software patch or update.']	0
+He is rocking for a batch.	1	['He is producing music for a batch of listeners or fans.', 'He is physically swaying or dancing for a batch of people.']	0
+She is looking for a dispatch.	1	['She is looking for someone to dispatch a message or package.', 'She is looking for a job as a dispatch officer or worker.']	1
+She is seeking for a match.	1	['She is looking for a romantic partner.', 'She is looking for something that fits or corresponds to something else.']	1
+She is looking for a game.	1	['She is searching for a physical game, such as a board game or video game, to play.', 'She is searching for a game, such as a job or opportunity, to pursue or occupy herself with.']	0
+She is looking for a partner.	1	['She is searching for a romantic or sexual partner, ', 'She is seeking a business or professional partner.']	0
+She is looking for a tinder date.	1	['She is looking for a date through the dating app Tinder.', 'She is searching for a fire starter for a camping trip.']	0
+She is looking for a telescope.	1	['She is searching for a device to observe distant objects in astronomy.', 'She is searching for a job opportunity in the field of astronomy.']	0
+She is looking for an elephant.	1	['She is looking for a physical elephant in the real world.', 'She is searching for an elephant in a figurative or metaphorical sense, such as an opportunity or a situation.']	0
+She is looking for a rainbow.	1	['She is searching for a natural rainbow in the sky after rain.', 'She is looking for an object or symbol that resembles a rainbow, such as a toy or a painted image.']	0
+She is looking for a pillow.	1	"['She is searching for a physical pillow to use as bedding or for comfort.', ""She is searching for a job opportunity or position that is referred to as a 'pillow' in a specific context, possibly implying an easy or cushy job.""]"	0
+Give me a ring.	1	['contact me via telephone', 'contact me via text message']	1
+A ring give me.	1	['A ring is given to me.', 'A ring is capable of giving something.']	1
+Me ring a give.	0	[]	0
+Give me a thing.	1	['Give me a tangible object.', 'Give me a concept or idea.']	0
+Bring me a ring.	1	['Bring a jewelry ring to the speaker', 'Bring the speaker to a ring-shaped location']	0
+Give me a sing.	1	['Give me a single item or object', 'Sing a song or a musical performance']	0
+Give me a swing.	1	['Give me a physical swing on a swing set.', 'Give me an opportunity or a chance.']	0
+Give me a call.	1	['Make a phone call to the speaker', 'Send a text message or use a messaging app to communicate with the speaker']	0
+Give me a jewellery.	1	"['Give me jewelry as in a piece of jewelry like a necklace or ring.', ""Give me money or financial support as in a play on words where 'jewellery' sounds like 'jewel' 'rye' which means money or support.""]"	0
+Give me a phone call.	1	['Make a phone call to the speaker.', 'Send a phone call to the speaker.']	0
+Give me a bracelet.	1	['Give a bracelet to the speaker.', 'Ask the speaker to provide a bracelet.']	0
+Give me a rainbow.	1	['Give me a physical rainbow, which typically appears after rain.', 'Give me a representation of a rainbow, such as a picture or a drawing.']	0
+Give me a telescope.	1	['Give me a physical telescope to observe distant objects.', 'Give me permission or access to a telescope.']	0
+Give me an elephant.	1	['Give me a physical elephant.', 'Give me the concept or idea of an elephant.']	0
+Give me an ax.	1	['Give me a physical ax (tool) to hold or use.', 'Give me permission or access to use an ax.']	0
+Show me the light feathers.	1	"['Show me feathers that are light in color.', ""Show me the part of a bird's plumage that is not well-developed and fine.""]"	1
+The light feathers show me.	1	"['A light is made of feathers and it is showing me its feathers.', ""Someone's light feathers (perhaps a person with light-colored hair or a bird with light feathers) are showing me, indicating something to me.""]"	1
+Me the show feathers light.	0	[]	0
+Show me the delight heathers.	1	['Show me the delight that Heathers (the movie or the TV show) brings to someone', 'Show me Heathers, a person or a place associated with delight']	0
+Show me the bright heathers.	1	['Show me heathers that are bright in color.', 'Show me heathers that are located in a bright area.']	0
+Show me the bright leathers.	1	['Show me leather items that are brightly colored.', 'Show me leather items that are well-preserved and in good condition.']	0
+Snow in the light leathers.	1	['Snow falling on light colored leather material.', 'A light colored leather material reflecting or illuminated by snow light.']	0
+Show me the bright feathers.	1	['Show me feathers that are bright in color.', 'Show me the location or person who has bright feathers.']	0
+Show me the not heavy feathers.	1	['Show me the feathers that are not heavy in weight.', 'Show me the feathers that are not heavy in appearance or texture.']	0
+Show me the lightweight feathers.	1	['Show me the feathers that are lightweight in material.', 'Show me the feathers that are positioned in a lightweight manner.']	0
+Show me the delicate feathers.	1	['Show me feathers that are delicate in texture or appearance.', 'Show me the feathers of a delicate bird or creature.']	0
+Show me the telescope feathers.	1	['Show me the feathers of a telescope (as in a telescope used for observing telescopes made of feathers).', 'Show me a telescope that has feathers on it.']	0
+Show me the big feathers.	1	['Show me feathers that are large in size.', 'Show me feathers that are associated with a bird of prey or a large bird.']	0
+Show me the wisdom feathers.	1	['Show me feathers that represent wisdom.', 'Show me a method or way to demonstrate wisdom.']	0
+Show me the random feathers.	1	['Show me some feathers that are randomly scattered or chosen.', 'Show me a random selection of feathers.']	0
+We saw her duck.	1	['We saw her lower her head quickly to avoid a blow or threat.', 'We observed her duck as a waterfowl.']	1
+Her duck was seen by us.	1	['We saw her duck.', 'Her duck was observed by us, but we did not see it ourselves.']	1
+Duch saw we her.	1	['Duch saw that she is her (meaning a person is in the same place)', 'Duch saw her (meaning Duch saw a female person)']	0
+We saw her luck.	1	['We observed that she was fortunate or lucky in a particular situation.', 'We witnessed her act of giving money or something valuable to someone else, which could be interpreted as a lucky gesture or action.']	0
+We saw her truck.	1	['We saw the woman driving a truck.', 'We observed the truck that belongs to her.']	0
+We saw her puck.	1	['We saw her playing ice hockey.', 'We saw her puck-shaped object.']	0
+We saw her guck.	1	"['We saw her vomiting or discharging something from her body.', ""We saw her in a sauce or sticky substance that is referred to as 'guck'.""]"	0
+We saw her dodge.	1	['We observed her skillfully avoid a threat or obstacle.', 'We watched her move quickly to evade capture or a pursuer.']	0
+We saw her swan.	1	['We saw her swimming like a swan.', 'We saw her as a swan, possibly dead and floating on water.']	0
+We saw her mallard.	1	['We saw a female mallard duck.', 'We visited a mall, which is a shopping center, and saw a mallard duck there.']	0
+We saw her bow down.	1	['We saw her physically bending down.', 'We saw her nodding or acknowledging in a formal way.']	0
+We saw her telescope.	1	['We saw her using a telescope.', 'We saw her telescope (the object).']	0
+We saw her elephant.	1	['We saw a large animal that is an elephant.', 'We saw a woman named elephant.']	0
+We saw her rat.	1	['We saw a rat that belonged to her.', 'We observed her and noticed she was a rat.']	0
+We saw her ship.	1	['We saw the vessel that belongs to her.', 'We observed the ship that was piloted by her.']	0
+I'm going to take a break from studying.	1	"[""I'm going to temporarily stop studying to rest or do something else before returning to study."", ""I'm going to permanently stop studying.""]"	1
+A break from studying is going to be taken by me.	1	['The speaker is going to take a break from studying.', 'A break is going to be taken by the speaker.']	1
+From a is studying going break me by taken be taken to.	0	[]	0
+I'm going to take a bake from studying.	1	"[""I'm going to take a break from studying."", ""I'm going to bake something from my studying notes.""]"	0
+I'm going to take a cake from pudding.	1	"[""I'm going to take a cake and use pudding as an ingredient to make the cake."", ""I'm going to take a cake and dip it into pudding.""]"	0
+I'm going to take a shake from looking.	1	['Taking a shake after looking at something or someone.', 'Taking a shake (a type of drink) by looking for one.']	0
+I'm going to take a break from doodling.	1	['I will stop creating drawings or sketches while doing something else.', 'I will temporarily stop my activity of doodling to rest or relax.']	1
+I'm going to take a rest from studying.	1	['I will stop studying for a period of time to rest.', 'I will stop studying permanently or for an indefinite period of time, as in taking a break from the subject or field of study.']	0
+I'm going to take a pause from studying.	1	['I will stop studying for a short period of time to rest or do something else, ', 'My studying session is temporarily halted but I will resume later.']	0
+I'm going to take a discontinuation from studying.	1	"[""I'm going to stop studying for a while or permanently."", ""I'm going to take a break from studying or I'm dropping out of school.""]"	0
+I'm going to take a break from working.	1	"[""Taking a break from one's job or work tasks."", 'Taking a break from a specific working activity or project.']"	1
+I'm going to take a telescope from studying.	1	"[""I'm going to use a telescope for studying."", ""I'm going to remove a telescope from being used for studying.""]"	0
+I'm going to take an elephant from studying.	1	"[""I'm going to study an elephant."", ""I'm going to remove an elephant from a study setting.""]"	0
+I'm going to take a captain from studying.	1	"[""I'm going to study to become a captain."", ""I'm going to take a captain and stop their studying.""]"	0
+I'm going to take a rat food from studying.	1	"[""I'm going to take food intended for rats from the supplies I'm studying."", ""I'm going to take a literal rat as a pet from studying.""]"	0
+Alice and Jon disagreed.	1	['Alice and Jon had different opinions on a particular topic.', 'Alice and Jon had a conflict or argument with each other.']	1
+Jon and Alice disagreed.	1	['Jon and Alice had a disagreement about a particular topic or issue.', 'Jon and Alice had a disagreement in their relationship or opinion on a matter, but no specific topic is mentioned.']	1
+Disagreed and Jon Alice.	0	[]	0
+Malice and Don concede.	1	['Malice and Don are acknowledging a point or agreement in a discussion or argument.', 'Malice and Don are surrendering or giving up in a game or competition.']	0
+Palace and Ron succeed.	1	['Palace and Ron succeed in their respective endeavors or roles.', 'Palace and Ron as a team or in partnership succeed.']	0
+Alice and Jon decreed.	1	['Alice and Jon made a decision or rule, ', 'Alice and Jon were married, and the act of decreeing is a metaphor for them getting married.']	0
+Alyce and Ron disagreed.	1	['Alyce and Ron had a disagreement about a specific topic.', 'Alyce and Ron have a general disagreement in their relationship.']	1
+Alice and Jon argued.	1	['Alice and Jon had a verbal conflict.', 'Alice and Jon argued about a specific issue or topic.']	0
+Alice and Jon debated.	1	['Alice and Jon had a discussion or argument about a topic or issue.', 'Alice and Jon are two debaters in a competition or academic setting.']	0
+Alice and Jon failed to agree.	1	['Alice and Jon failed to reach an agreement on a particular topic or matter', 'Alice and Jon failed to agree on their feelings or opinions towards something']	0
+The woman and the man disagreed.	1	['The woman disagreed with the man.', 'The man disagreed with the woman.']	1
+Alice and Jon saw the telescope.	1	['Alice and Jon saw a telescope.', 'Alice and Jon saw something through a telescope.']	0
+Alice and Jon ordered the men.	1	['Alice and Jon ordered the food for the men at a restaurant.', 'Alice and Jon ordered the men to do something.']	0
+The man and the woman saw the elephant.	1	['The man saw the elephant, and the woman saw the elephant.', 'The man and the woman together saw the elephant.']	0
+The man and the woman ate.	1	['The man ate and the woman ate.', 'The man and woman ate together.']	0
+Give me the bat!	1	['Give me the bat as in the object used in sports, like baseball.', 'Give me the bat as in the winged mammal, like a bat.']	1
+The bat give me!	1	['A bat is hitting or attacking the speaker with its wings or claws.', 'A bat is giving something to the speaker, possibly in a non-literal sense like a compliment or a metaphorical gift.']	1
+Me the bat to give!	1	['Me the bat to give means to give the bat to me.', 'Me the bat to give could also mean the bat is giving something to me.']	0
+Give me the cat!	1	['Give the speaker a cat, ', 'Give the speaker a command to get the cat']	0
+Give me the hat!	1	['Give the speaker a hat', 'Tell the speaker where the hat is']	0
+Give me the rat!	1	['Give me a toy rat!', 'Give me a real rat!']	0
+Give me the sat!	1	['Give me the SAT test.', 'Give me the seat.']	0
+Give me the rattle-mouse!	1	['Give me a toy mouse that makes a rattling sound, ', 'Give me a mouse that has a rattling tail or body, ']	0
+Give me the baseball bat!	1	['Give the baseball bat to me.', 'Provide me with a baseball bat.']	0
+Give me the racket!	1	['Give me a tennis racket.', 'Give me to hit something.']	0
+Give me the club!	1	['Give me the sports club that I belong to.', 'Give me the club tool or object.']	1
+Give me the telescope!	1	['Request for a telescope to be handed over, ', 'Request for instructions or permission to use a telescope']	0
+Give me the elephant!	1	['Give me a toy elephant or a figurine of an elephant, typically used as a pet or decoration.', 'Give me a live elephant, possibly for the purpose of care, transport, or a specific location.']	0
+Give me the woman!	1	"['Give me the woman as in a person, possibly in a situation where someone is demanding a specific woman.', ""Give me the woman as in a task or request to provide a woman with something, like a woman's share or portion of something.""]"	0
+Give me the pyjamas!	1	['Give me the pyjamas that I can wear to sleep.', 'Give me the instructions or information on how to make pyjamas.']	0
+What you said is insane.	1	"['The statement is considered irrational or unbelievable by the speaker.', ""The speaker is expressing that the person's mental state is not normal or stable.""]"	1
+It is insane what you said.	1	['What the person said is extremely unreasonable or absurd.', 'The speaker is in a state of insanity and is commenting on their own state rather than the content of what was said.']	1
+Said insane you is what.	1	['The speaker is calling someone insane.', 'The speaker is stating that someone is claiming the listener is insane.']	0
+What you said is arcane.	1	['The statement is difficult to understand or is filled with jargon.', 'The statement is mysterious or obscure, difficult to interpret.']	0
+What you said is mundane.	1	['Your statement is boring or unremarkable.', 'Your statement is about everyday or common things.']	1
+What you said is inane.	1	['Your statement is without any logical or meaningful content.', 'Your words are considered foolish or nonsensical.']	0
+What you said is terrain.	1	['The statement you made is a geographical location or landscape.', 'The statement you made is a matter of perspective or context, similar to terrain in terms of difficulty or complexity.']	0
+What you said is crazy.	1	"['The statement made by the person is irrational or unbelievable.', ""The person's manner or behavior is considered crazy or unstable.""]"	1
+What you said is unbelievable.	1	['What you said is not credible or true.', 'What you said is hard to believe or shocking.']	1
+What you said is outrageous.	1	['The statement made by the person is considered to be shocking or unacceptable.', 'The statement made by the person is considered to be unbelievable or absurd.']	1
+What you said is irrational.	1	['The statement made by the person is not logical or reasonable.', 'The way you are speaking or behaving is not rational or sensible.']	0
+What you said is green.	1	['The statement is a literal description of the color of what was said.', 'The statement is a metaphorical way of expressing agreement or approval.']	0
+What you said is wooden.	1	"[""The statement is lacking in emotion or warmth, it's bland or lifeless."", 'The statement is made of wood.']"	0
+What you said is round.	1	['What you said is circular or curved in shape.', 'What you said is roundabout or indirect in meaning.']	0
+What you said is silent.	1	['The sound you made was not audible because it was silent.', 'Your statement or words were not heard or understood because they were silent.']	0
+Yesterday I went to the bank.	1	['I went to a financial institution to perform a financial transaction.', 'I went to the riverside or lakeside area known as the bank.']	1
+To the bank I went yesterday.	1	"['The person went to a physical bank to perform a financial transaction or related activity.', ""The person went to a figurative bank, meaning they went to a place or situation that reminded them of a bank, possibly due to the location's layout or the number of people present.""]"	1
+To the went yesterday bank I.	0	[]	0
+Yesterday I went to the tank.	1	['I went to a fish tank.', 'I went to a tank used for military vehicles.']	1
+Yesterday I went to the prank.	1	['I went to a prank that happened yesterday.', 'I attended a prank event or gathering yesterday.']	0
+Yesterday I went to the blank.	1	['Yesterday I went to the store.', 'Yesterday I went to the blank (as in a blank space or unoccupied position).']	0
+Yesterday I went to the clank.	1	"[""I went to a place called 'clank'"", ""I went to a noisy place, possibly referring to the sound 'clank'""]"	0
+Yesterday I went to the financial institution.	1	['I went to a bank.', 'I went to a financial advisor or firm.']	0
+Yesterday I went to the treasury.	1	['I went to the government building where money and financial matters are managed.', 'I went to a place where treasures or valuable items are kept, like a treasure chest or a safe.']	0
+Yesterday I went to the riverside.	1	['I went to a riverside park or riverside area for recreational purposes.', 'I went to a riverside location for a necessary action or destination.']	0
+Yesterday I went to the lakeshore.	1	['I went to the lakeside of a lake.', 'I visited a lakeshore as a place name, possibly a town or beach.']	0
+Yesterday I went to the supermarket.	1	['I went to the supermarket to buy groceries.', 'I went to the supermarket for a different reason, such as returning an item or seeking information.']	0
+Yesterday I went to the museum.	1	['I visited a physical building that houses a collection of artifacts or artworks, intended for public viewing and education.', 'I went to an online virtual museum or an exhibit available to view on the internet.']	0
+Yesterday I went to the rainbow.	1	['I went to a place named Rainbow.', 'I observed a meteorological phenomenon known as a rainbow.']	0
+Yesterday I went to the telescope.	1	['I went to use the telescope to observe something.', 'The telescope I visited was a place, like an observatory.']	0
+I can't find the glasses.	1	['The person is unable to locate their eyeglasses.', 'The person is unable to locate their glasses, which might be a type of tableware or a drinking glass.']	1
+The glasses I can't find.	1	['The speaker is searching for a pair of eyeglasses.', 'The speaker is searching for a glass or glasses as in a drink or cocktail glass.']	1
+The I can't glasses find.	0	[]	0
+I can't find the passes.	1	['I am unable to locate the tickets or passes for an event or service.', 'I am unable to find the passwords or passcodes for something.']	0
+I can't find the basses.	1	"['I am unable to locate the musical instruments called basses.', ""I am unable to locate the people with the surname 'basses'.""]"	0
+I can't find the wrasses.	1	"[""I can't find the fish species called wrasses."", ""I can't find the screws or nails labeled as wrasses.""]"	0
+I can't find the chasses.	1	"[""I can't find the chassis of a vehicle."", ""I can't find the chasses (shells) used in brewing or food preparation.""]"	0
+I can't find the eyeglasses.	1	['The person is unable to locate their eyeglasses.', 'The person is unable to see clearly without their eyeglasses.']	0
+I can't find the drinking glasses.	1	"['The speaker is looking for actual drinking glasses, like those used for beverages.', ""The speaker is unable to find a figurative 'drinking glass' of knowledge or understanding on a particular subject.""]"	0
+I can't find the goggles.	1	['The speaker is looking for physical goggles.', 'The speaker is unable to find the ability to see or comprehend something.']	0
+I can't find the glassware.	1	['The speaker is unable to locate glass objects such as glasses, cups, or other glass containers.', 'The speaker is unable to find a specific piece of glassware, like a glass for a scientific experiment.']	0
+I can't find the telescope.	1	['The speaker is searching for a telescope in a physical location.', 'The speaker is unable to use a telescope to observe something, perhaps due to a malfunction.']	0
+I can't find the rainbow.	1	['The speaker is literally unable to locate a rainbow in the sky.', 'The speaker is unable to find something that resembles a rainbow in a metaphorical or non-literal context.']	0
+I can't find the dough.	1	['I cannot locate the dough used in baking.', 'I am unable to discover the dough that I am supposed to find.']	0
+I can't find the sofa.	1	['The person is searching for a sofa in a physical location.', 'The person is unable to locate the ability to sit on a sofa, possibly due to it being broken or removed.']	0
+He didn't see the picture of the disaster.	1	['He did not physically see the picture of the disaster.', 'He did not recognize the picture as showing a disaster.']	1
+The picture of the disaster he didn't see.	1	['The picture was of a disaster that he did not see.', 'He did not see the picture of the disaster.']	1
+Disaster He the see of didn't picture the.	1	['He did not see the picture of the disaster.', 'The disaster did not picture him.']	0
+He didn't see the stricture of the disaster.	1	['He did not see the severity or impact of the disaster.', 'He did not see the physical structure or outline of the disaster.']	0
+He didn't see the depicture of the disaster.	1	"[""He didn't see the depiction of the disaster.,"", ""He didn't see the people who were affected by the disaster.""]"	0
+He didn't see the mixture of the disaster.	1	"[""He didn't see the mixture caused by the disaster."", ""He didn't see the combination of disaster elements.""]"	0
+He didn't see the fixture of the disaster.	1	"[""He didn't see the physical object representing the disaster."", ""He didn't foresee or recognize the situation as a disaster.""]"	0
+He didn't see the image of the disaster.	1	['He did not see an image that depicted a disaster.', 'He did not see the physical site of a disaster, only an image of it.']	1
+He didn't see the vision of the disaster.	1	['He did not physically witness the disaster but might have heard about it or had a premonition., ']	0
+He didn't see the idea of the disaster.	1	['He was unaware of the concept of the disaster.', 'He did not observe or foresee the occurrence of the disaster.']	0
+He didn't see the painting of the disaster.	1	"[""He didn't see the painting that depicted the disaster, but he was aware of the disaster."", ""He didn't see the painting that was a disaster, implying it was damaged or destroyed.""]"	0
+He didn't see the rain of the disaster.	1	"[""He didn't see the rain that caused the disaster."", ""He didn't see the people affected by the disaster, which was caused by rain.""]"	0
+He didn't see the movie of the disaster.	1	"[""He didn't see the movie adaptation of the disaster story."", ""He didn't see the movie that documented a disaster event.""]"	0
+He didn't see the warnings of the disaster.	1	['He was not aware of the disaster warnings issued by authorities.', 'The disaster did not make any visible warnings that he failed to notice.']	0
+He didn't see the telescope of the disaster.	1	"[""He didn't see the telescope that was used to observe the disaster."", ""He didn't see the telescope that was damaged in the disaster.""]"	0

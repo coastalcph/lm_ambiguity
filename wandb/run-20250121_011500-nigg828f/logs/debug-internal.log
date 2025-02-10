@@ -1,0 +1,16 @@
+{"time":"2025-01-21T01:15:00.719942278+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250121_011500-nigg828f/logs/debug-core.log"}
+{"time":"2025-01-21T01:15:00.846065239+01:00","level":"INFO","msg":"created new stream","id":"nigg828f"}
+{"time":"2025-01-21T01:15:00.846109+01:00","level":"INFO","msg":"stream: started","id":"nigg828f"}
+{"time":"2025-01-21T01:15:00.846154315+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nigg828f"}
+{"time":"2025-01-21T01:15:00.84616244+01:00","level":"INFO","msg":"handler: started","stream_id":"nigg828f"}
+{"time":"2025-01-21T01:15:00.846196894+01:00","level":"INFO","msg":"sender: started","stream_id":"nigg828f"}
+{"time":"2025-01-21T01:15:01.137414072+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-21T01:15:12.426897797+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-21T01:15:12.427600408+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-21T01:15:13.342705408+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-21T01:15:13.427345757+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-2, summary, console lines 0-34","runtime_seconds":0.084450815}],"total_operations":1}}
+{"time":"2025-01-21T01:15:14.589871877+01:00","level":"INFO","msg":"stream: closing","id":"nigg828f"}
+{"time":"2025-01-21T01:15:14.589897455+01:00","level":"INFO","msg":"handler: closed","stream_id":"nigg828f"}
+{"time":"2025-01-21T01:15:14.589906612+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nigg828f"}
+{"time":"2025-01-21T01:15:14.589938361+01:00","level":"INFO","msg":"sender: closed","stream_id":"nigg828f"}
+{"time":"2025-01-21T01:15:14.591850969+01:00","level":"INFO","msg":"stream: closed","id":"nigg828f"}

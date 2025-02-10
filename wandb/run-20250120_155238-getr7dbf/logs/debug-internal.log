@@ -1,0 +1,16 @@
+{"time":"2025-01-20T15:52:38.541918797+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250120_155238-getr7dbf/logs/debug-core.log"}
+{"time":"2025-01-20T15:52:38.664277076+01:00","level":"INFO","msg":"created new stream","id":"getr7dbf"}
+{"time":"2025-01-20T15:52:38.664303364+01:00","level":"INFO","msg":"stream: started","id":"getr7dbf"}
+{"time":"2025-01-20T15:52:38.664324564+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"getr7dbf"}
+{"time":"2025-01-20T15:52:38.664332058+01:00","level":"INFO","msg":"handler: started","stream_id":"getr7dbf"}
+{"time":"2025-01-20T15:52:38.664361172+01:00","level":"INFO","msg":"sender: started","stream_id":"getr7dbf"}
+{"time":"2025-01-20T15:52:39.2222517+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-20T16:06:11.059260228+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-20T16:06:11.059794641+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-20T16:06:12.059931272+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.454066398,"progress":"1.6KB/1.6KB"}],"total_operations":1}}
+{"time":"2025-01-20T16:06:12.198912566+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-20T16:06:13.41443746+01:00","level":"INFO","msg":"stream: closing","id":"getr7dbf"}
+{"time":"2025-01-20T16:06:13.41445359+01:00","level":"INFO","msg":"handler: closed","stream_id":"getr7dbf"}
+{"time":"2025-01-20T16:06:13.414465833+01:00","level":"INFO","msg":"sender: closed","stream_id":"getr7dbf"}
+{"time":"2025-01-20T16:06:13.414463218+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"getr7dbf"}
+{"time":"2025-01-20T16:06:13.417166602+01:00","level":"INFO","msg":"stream: closed","id":"getr7dbf"}

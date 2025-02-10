@@ -1,0 +1,241 @@
+text	is_ambiguous	disambiguations	ambig_status
+Your boss is a funny man.	True	['Your boss is a funny man who makes you laugh.', 'Your boss is a funny man who is always making jokes.']	1
+A funny man is your boss.	True	['A funny man is your boss, meaning he is a boss who is also funny, or a boss who makes you laugh.']	1
+Boss funny is man your.	True	['Boss funny is man your, and you are probably laughing.', 'Boss funny is man your, and he is probably the boss of the company.']	0
+Your boss is a funny can.	True	['Your boss is a funny person who can make you laugh, or your boss is a funny person who is capable of making things humorous.']	0
+Your boss is a funky man.	True	['Your boss is a funky man who is always pulling pranks, or your boss is a funky man who is always making funny faces.']	1
+Your floss is a funny man.	True	['Your floss is a funny man, because he is always making you smile.', 'Your floss is a funny man, because he is easy to use.']	0
+Your floss is a sunny can.	True	['Your floss is a sunny can of happiness, or your floss is a sunny can of fruit.']	0
+Your principal is a funny man.	True	['Your principal is a funny man who makes you laugh, or your principal is a funny man who is always cracking jokes.']	1
+Your boss is a humorous man.	True	['Your boss is a humorous man who often cracks jokes. Your boss is a humorous man who has a good sense of humor.']	0
+Your boss is a funny person.	True	['Your boss is a funny person who makes you laugh, or your boss is a funny person who is always making jokes.']	1
+Your chief is a humorous person.	True	['Your chief is a humorous person who makes you laugh, or your chief is a funny person who is always making jokes.']	0
+Your boss is a happy man.	True	['Your boss is happy because he is successful, or your boss is happy because he is enjoying his work.']	0
+Your rainbow is a funny man.	True	['Your rainbow is a funny man who is making you smile', 'Your rainbow is a funny man who is a symbol of happiness']	0
+Your boss is a five man.	True	['Your boss is a five-man team leader, or your boss is a five-person team.']	0
+Your boss is a bunny van.	True	['Your boss is a bunny van that is always running, or your boss is a bunny van that is parked.']	0
+The speaker is at the front of the room.	True	['The speaker is at the front of the room, facing the audience.', 'The speaker is at the front of the room, facing the wall.']	1
+At the front of the room is the speaker.	True	['The speaker is at the front of the room, facing the audience.', 'The speaker is at the front of the room, facing the wall.']	1
+Of the room is the speaker at the front.	True	['The speaker is in the room at the front.', 'The speaker is talking about the room at the front.']	0
+The speaker is in front of the broom.	True	['The speaker is in front of the broom handle, and the broom is standing upright.', 'The speaker is in front of the broom handle, and the broom is being held by the speaker.']	1
+The reader is at the front of the room.	True	['The reader is at the front of the room, facing the audience.', 'The reader is at the front of the room, facing the speaker.']	0
+The speaker is at the front of the coomb.	True	['The speaker is at the front of the coomb, facing the audience.', 'The speaker is at the front of the coomb, facing the wall.']	1
+The reader is at the front of the bloom.	True	['The reader is at the front of the bloom, facing the direction of the text.', 'The reader is at the front of the bloom, facing the direction of the flower.']	1
+The speaker is at the front of the chamber.	True	['The speaker is at the front of the chamber, facing the audience.', 'The speaker is at the front of the chamber, facing the wall.']	1
+The loudspeaker is at the front of the room.	True	['The loudspeaker is at the front of the room, facing the audience.', 'The loudspeaker is at the front of the room, facing the wall.']	0
+The lector is at the front of the room.	True	['The lector is at the front of the room, facing the students.', 'The lector is at the front of the room, giving a lecture.']	0
+The lecturer is at the front of the chamber.	True	['The lecturer is at the front of the chamber, facing the students.', 'The lecturer is at the front of the chamber, preparing to give a lecture.']	0
+The key is at the front of the room.	True	['The key is at the front of the room, referring to a specific location in the room', 'The key is at the front of the room, referring to the first item in a list']	0
+The soda is at the front of the room.	True	['The soda is at the front of the room, in the center of the room.', 'The soda is at the front of the room, on the table.']	0
+The telescope is at the front of the room.	True	['The telescope is at the front of the room, facing the sky.', 'The telescope is at the front of the room, facing the wall of the room.']	0
+The speaker is at the front of the scene.	True	['The speaker is at the front of the scene, facing the audience.', 'The speaker is at the front of the scene, facing the camera.']	1
+He's not very well off.	True	"[""He's not very well off financially, or he's not very well off in terms of his well-being.""]"	1
+Not very well off he is.	True	['The man is not very well off financially, or he is not well-off in general.', 'The man is not very well-off in terms of his financial standing, or he is not well-off in terms of his overall well-being.']	1
+Very not he well off is.	True	['The man is not well off, and he is unhappy.', 'The man is not well off, and he is sick.']	0
+He's not very cell off.	True	"[""He's not very cell off, meaning he's not very intelligent, or he's not very far from the center of the cell.""]"	0
+He is not verry tell off.	True	['He is not very telling off, but he might be trying to be funny.', 'He is not very telling off, but he might be serious.']	0
+He is not verry bell off.	True	['He is not very well off, but he is still alive.', 'He is not very well off, but he is still healthy.']	0
+He is not verry fell off.	True	['He is not very fell off the wagon, or he is not very fell off the bed.']	0
+The man is not very well off.	True	['The man is not very well off financially, or he is not very well off in terms of his health.']	1
+He is not verry wealthy.	True	['He is not very wealthy, but he is still wealthy.', 'He is not very wealthy, but he is wealthy in a different sense.']	0
+He is not verry rich.	True	['He is not very rich, but he has a lot of money.', 'He is not very rich, but he is wealthy.']	0
+She's not very well off.	True	"[""She's not very well off financially, or she's not very well off in terms of her health.""]"	1
+He's not very telescope off.	True	"[""He's not very telescope off, meaning he's not very accurate or he's not very far from the truth."", ""He's not very telescope off, meaning he's not very keen or he's not very bright.""]"	0
+He's not very elephant off.	True	"[""He's not very elephant-headed, or he's not very intelligent.""]"	0
+He's not very pyjamas off.	True	"[""He's not very picky off, or he's not very tired.""]"	0
+He's not very cat food.	True	"[""He's not very cat-friendly, or he's not very fond of cats.""]"	0
+John and Anna are married.	True	['John and Anna are married as a couple, or John and Anna are married separately as two individuals.']	1
+Anna and John are married.	True	['Anna and John are married as a couple, or Anna and John are married in a legal sense.']	1
+Married John are Anna.	True	"[""Married John is Anna, and John is Anna's husband."", ""Married John is Anna, and Anna is John's wife.""]"	0
+Bonn and Hannah are married.	True	['Bonn and Hannah are married as a couple, or they are married in the city of Bonn.']	1
+Ron and Anna are married.	True	['Ron and Anna are married as a couple, or Ron and Anna are married in a legal sense.']	1
+John and Anna are carried.	True	['John and Anna are carried as passengers in a car.', 'John and Anna are carried away by force.']	0
+John and Anna are varied.	True	['John and Anna are varied in their personalities, or John and Anna are varied in their roles in the relationship.']	0
+The man and the woman are married.	True	['The man and the woman are married to each other, or they are in a committed relationship.']	1
+Stephan and Daniel are married.	True	['Stephan and Daniel are married as a couple, or Stephan and Daniel are married in a religious ceremony']	1
+John and Anna are engaged.	True	['John and Anna are engaged to be married, or they are in a committed relationship.']	1
+Ron and Myrthe are engaged.	True	['Ron and Myrthe are engaged to be married, or they are engaged in a relationship.']	1
+John and Anna are happy.	True	['John and Anna are happy because they are in a good mood, or John and Anna are happy because they are celebrating their happiness.']	0
+John and Anna are babies.	True	['John and Anna are babies, they are small.', 'John and Anna are babies, they are infants.']	0
+Telescope and Anna are married.	True	['Telescope and Anna are married with a telescope, and Anna is also married to someone else.', 'Telescope and Anna are married as a couple, and they have a telescope.']	0
+John and telescope are married.	True	['John and the telescope are married as a couple, or the telescope is named John and is married to something else.']	0
+It is my belief that the earth is round.	True	['It is my belief that the earth is round as a sphere, or it is my belief that the earth is round like the surface of a planet.']	1
+That the earth is round is my belief.	True	['That the earth is round is my belief, therefore, the earth is physically round.', 'That the earth is round is my belief, therefore, the earth is a celestial object.']	1
+Is earth my belief that round the.	True	['Is earth my belief that round the, is a question about the shape of the earth, or is it a question about my personal beliefs?']	0
+It is my belief that the birth is sound.	True	['It is my belief that the birth is sound and healthy., It is my belief that the birth is sound and auspicious.']	1
+It is my leaf that the earth is sound.	True	['It is my leaf that the earth is sound, physically, meaning the leaf is firmly attached to the earth.', 'It is my leaf that the earth is sound, metaphorically, meaning the earth is stable and prosperous.']	0
+It is my grief that the earth is round.	True	['It is my grief that the earth is round, and I am saddened by this knowledge.', 'It is my grief that the earth is round, and I am grateful for this knowledge.']	0
+It is my thief that the earth is bound.	True	['It is my thief that the earth is bound to, or it is my thief that the earth is bound for.']	0
+I have the opinion that the earth is round.	True	['I have the opinion that the earth is round, and the earth is actually round.', 'I have the opinion that the earth is round, but I could be wrong.']	1
+I think that the earth is round.	True	['The earth is round like a ball, or the earth is round in the sense of its curvature.']	0
+I am certain that the earth is round.	True	"[""The earth is round as a sphere, and the earth's surface is smooth and continuous."", ""The earth is round in the sense that it has a curvature, and this curvature is caused by the force of gravity pulling the earth's surface towards the center of the earth.""]"	0
+It is my belief that the planet is round.	True	['The planet is round, as seen from space, or the planet is round in a mathematical sense.']	1
+It is my happiness that the earth is round.	True	['It is my happiness that the earth is round, therefore I am happy that I live on a planet that is round.', '']	0
+It is my rainbow that the earth is round.	True	['It is my rainbow that the earth is round, meaning that the earth is covered in a rainbow.', 'It is my rainbow that the earth is round, meaning that I have a rainbow that is unique to me.']	0
+It is my telescope that the earth is round.	True	['It is my telescope that the earth is round, and the telescope is pointing to the sky.', 'It is my telescope that the earth is round, and the telescope is pointing to the center of the earth.']	0
+It is my pyjamas that the earth is round.	True	['It is my pyjamas that the earth is round, and the earth is round.', 'It is my pyjamas that the earth is round, and I am wearing my pyjamas.']	0
+She is looking for a match.	True	['She is looking for a romantic partner, or she is searching for a perfect item to match her needs.']	1
+A match she is looking for.	True	['A match she is looking for could be interpreted as her searching for a match, or it could be interpreted as her wanting to ignite a match.']	1
+Is match looking a she for.	True	['Is match looking for her, or is match looking for a she?', 'Is match looking for a she, or is match looking for a match?']	0
+She is looking for a catch.	True	['She is looking for a catch in a competition, or she is trying to get attention.']	0
+She is looking for a patch.	True	['She is looking for a physical patch to apply to her skin, or she is looking for a solution to a problem.']	0
+He is rocking for a batch.	True	['He is rocking for a batch of people', 'He is rocking a batch of items']	0
+She is looking for a dispatch.	True	['She is looking for a dispatcher to send a delivery', 'She is looking for a way to dispatch a message']	1
+She is seeking for a match.	True	['She is seeking a match with a potential partner, or she is seeking a match in a competitive game.']	1
+She is looking for a game.	True	['She is looking for a game to play, or she is looking for a game to watch.']	0
+She is looking for a partner.	True	['She is looking for a romantic partner, or a business partner.']	0
+She is looking for a tinder date.	True	['She is looking for a casual date, potentially with romantic intentions.', 'She is looking for a date with a potential for romantic involvement.']	0
+She is looking for a telescope.	True	['She is looking for a telescope to stargaze, or she is looking for a telescope to use in her science project.']	0
+She is looking for an elephant.	True	['She is looking for an elephant in the room, or she is looking for an elephant in the jungle.']	0
+She is looking for a rainbow.	True	['She is looking for the arc of the rainbow, or a rainbow in the sky.', 'She is looking for a rainbow as a symbol of hope and happiness.']	0
+She is looking for a pillow.	True	['She is looking for a pillow to rest her head, or she is looking for a pillow to use as a support for her neck.']	0
+Give me a ring.	True	['You could interpret the sentence as a request for a physical ring, or as a request to be notified of something']	1
+A ring give me.	True	['A ring is given to me.', 'A ring is being offered to me.']	1
+Me ring a give.	True	['Me ring a give, could be interpreted as a request for someone to ring a bell, or as a phrase meaning I am able to give.']	0
+Give me a thing.	True	['Give me a thing. You could interpret this as giving me a physical object, or as asking me to provide a list of things.']	0
+Bring me a ring.	True	['Bring me a ring that is on your finger, or bring me a ring that is in your pocket.']	0
+Give me a sing.	True	['Give me a sing. You could interpret this as a request for someone to sing a song, or as a command to sing loudly.']	0
+Give me a swing.	True	['Give me a swing on the playground, or give me a swing at the gym.', 'Give me a swing in a hammock, or give me a swing on a rope swing.']	0
+Give me a call.	True	['You could interpret the sentence as someone calling you to have a conversation, or as a request for you to make a call']	0
+Give me a jewellery.	True	['Give me a jewellery as a gift, or give me a piece of jewellery to wear.']	0
+Give me a phone call.	True	['Give me a phone call. You could call me on your landline, or you could call me on your cell phone.']	0
+Give me a bracelet.	True	['Give me a bracelet. You could be asking for a literal bracelet, or you could be asking for a symbol of friendship.']	0
+Give me a rainbow.	True	['Give me a rainbow of colors, or give me a rainbow in the sky']	0
+Give me a telescope.	True	['Give me a telescope to see the stars, or give me a telescope to point at the moon.']	0
+Give me an elephant.	True	['Give me an elephant, as a gift, or an elephant to ride on.', 'Give me an elephant, as a command, to do something with.']	0
+Give me an ax.	True	['Give me an ax to cut down a tree, or give me an ax to break down a wall.']	0
+Show me the light feathers.	True	['Please show me the light feathers that are on the table, or show me the light feathers that are in the sky']	1
+The light feathers show me.	True	['The light feathers are showing me the way to the sun, or the light feathers are illuminating me.']	1
+Me the show feathers light.	True	['Me the show feathers light, could be interpreted as a request to turn on the light for the show, or as a statement about the feathers of the show.']	0
+Show me the delight heathers.	True	['He is showing me the delight of the heathers, or he is inviting me to experience the delight that the heathers have to offer.']	0
+Show me the bright heathers.	True	['Show me the bright heathers, as a group of people, or as a shade of color']	0
+Show me the bright leathers.	True	['Show me the bright leather jackets, or the bright leather pants.', 'Show me the bright leather on the furniture, or the bright leather in the sky.']	0
+Snow in the light leathers.	True	['Snow in the light leathers is a metaphor for a cold and delicate person, or it is a literal description of snow falling on leather goods.']	0
+Show me the bright feathers.	True	['Show me the bright feathers on the bird, or show me the bright feathers on the flower.']	0
+Show me the not heavy feathers.	True	['Show me the feathers that are not heavy, or show me the feathers that are not too heavy.']	0
+Show me the lightweight feathers.	True	['Show me the lightweight feathers on the bird, or show me the lightweight feathers that you are wearing.']	0
+Show me the delicate feathers.	True	['The delicate feathers of a bird are being shown', 'The delicate feathers of a flower are being shown']	0
+Show me the telescope feathers.	True	['Point to the feathers of the telescope, or ask to see the feathers of the telescope.']	0
+Show me the big feathers.	True	['Display me the large feathers', 'Show me the feathers on the largest bird']	0
+Show me the wisdom feathers.	True	['Give me the wisdom feathers, as a symbol of intelligence, or reveal the wisdom feathers to me, in order to teach me.']	0
+Show me the random feathers.	True	['Show me the random feathers from the box, or show me the feathers that are on the ground.']	0
+We saw her duck.	True	['We saw her duck, and she was happy.', 'We saw her duck, and it was a rubber duck.']	1
+Her duck was seen by us.	True	['Her duck was seen by us, and it was a very happy duck.', 'Her duck was seen by us, and we were surprised to see it.']	1
+Duch saw we her.	True	['Duch saw we her, and he was surprised.', 'Duch saw we her, and he was watching us.']	0
+We saw her luck.	True	['We saw her luck, and she was fortunate.', 'We saw her luck, and she was surprised.']	0
+We saw her truck.	True	['We saw her truck parked in the parking lot, or we saw her truck driving away.']	0
+We saw her puck.	True	['We saw her puck on the table, or we saw her puck in the goal.']	0
+We saw her guck.	True	['We saw her mucus, or we saw her acting strangely.']	0
+We saw her dodge.	True	['We saw her dodge the ball, or we saw her dodge a person.']	0
+We saw her swan.	True	['We saw her swan as a symbol of grace and beauty, or we saw her swan as a reflection of her personality.']	0
+We saw her mallard.	True	['We saw the mallard that was on the pond, or we saw the mallard that was in the shopping mall.']	0
+We saw her bow down.	True	['We saw her bow down in respect, or we saw her bend down to pick something up.']	0
+We saw her telescope.	True	['We saw her telescope pointed at the stars, or we saw her telescope being used to view the stars.']	0
+We saw her elephant.	True	['We saw her elephant in the park, or we saw her elephant in the zoo.']	0
+We saw her rat.	True	['We saw her rat in the park, or we saw her rat at the market.']	0
+We saw her ship.	True	['We saw her ship sailing on the waves, or we saw her ship anchored in port.']	0
+I'm going to take a break from studying.	True	"[""I'm going to take a break from studying my textbooks, or I'm going to take a break from studying altogether.""]"	1
+A break from studying is going to be taken by me.	True	['A break from studying is going to be taken by me, to rest or to pursue other activities.', 'A break from studying is going to be taken by me, to give me a chance to catch up on sleep.']	1
+From a is studying going break me by taken be taken to.	True	['From a is studying going to break me, by taken be taken to, I could interpret this sentence as the speaker being injured or the speaker planning to injure someone.']	0
+I'm going to take a bake from studying.	True	"[""I'm going to take a break from studying"", ""I'm going to take a bake from studying""]"	0
+I'm going to take a cake from pudding.	True	"[""I'm going to take a cake from pudding with the cake being the object of the action, and pudding being the subject of the action"", ""I'm going to take a cake from pudding with the cake being the object of the preposition 'from' and pudding being the object of the verb 'take'""]"	0
+I'm going to take a shake from looking.	True	"[""I'm going to take a shake from looking at something, or I'm going to take a shake from feeling the sensation of looking.""]"	0
+I'm going to take a break from doodling.	True	"[""I'm going to take a break from doodling and rest, or I'm going to take a break from doodling to rest.""]"	1
+I'm going to take a rest from studying.	True	"[""I'm going to take a rest from studying my textbooks, or I'm going to take a break from studying altogether.""]"	0
+I'm going to take a pause from studying.	True	"[""I'm going to take a pause from studying my materials, or I'm going to take a break from studying altogether.""]"	0
+I'm going to take a discontinuation from studying.	True	"[""I'm going to take a break from studying"", ""I'm going to stop studying""]"	0
+I'm going to take a break from working.	True	"[""I'm going to take a break from working on a project."", ""I'm going to take a break from working altogether.""]"	1
+I'm going to take a telescope from studying.	True	"[""I'm going to take a telescope from studying to observe the stars."", ""I'm going to take a telescope away from studying to store it.""]"	0
+I'm going to take an elephant from studying.	True	"[""I'm going to take an elephant away from studying"", ""I'm going to take an elephant out of studying""]"	0
+I'm going to take a captain from studying.	True	"[""I'm going to take a captain away from studying"", ""I'm going to take a captain to study""]"	0
+I'm going to take a rat food from studying.	True	"[""I'm going to take a rat food from studying to eat, or I'm going to take a break from studying to eat a rat food.""]"	0
+Alice and Jon disagreed.	True	['Alice and Jon disagreed about something.', 'Alice and Jon disagreed with each other.']	1
+Jon and Alice disagreed.	True	['Jon and Alice disagreed on a topic, or they disagreed about their plans for the weekend.']	1
+Disagreed and Jon Alice.	True	['Disagreed with Jon, Alice is not involved.', 'Disagreed with Jon and Alice is also involved.']	0
+Malice and Don concede.	True	['Malice and Don concede to each other, or Malice and Don concede to a third party.']	0
+Palace and Ron succeed.	True	['Palace and Ron successfully complete their task, and their success is evident.', 'Palace and Ron achieve a victory, and their accomplishment is celebrated.']	0
+Alice and Jon decreed.	True	['Alice and Jon issued a decree', 'Alice and Jon declared their decision']	0
+Alyce and Ron disagreed.	True	['Alyce and Ron disagreed on a topic, or they disagreed about their respective positions on a topic.']	1
+Alice and Jon argued.	True	['Alice and Jon argued about something, and their argument became heated.', 'Alice and Jon argued with each other, and their argument was about a disagreement.']	0
+Alice and Jon debated.	True	['Alice and Jon debated about a topic, and their debate was fierce.', 'Alice and Jon debated each other, and their debate was about their relationship.']	0
+Alice and Jon failed to agree.	True	['Alice and Jon failed to agree on a topic, or they failed to reach an agreement altogether.']	0
+The woman and the man disagreed.	True	['The woman and the man disagreed about the issue, or they disagreed about each other.']	1
+Alice and Jon saw the telescope.	True	['Alice and Jon saw the telescope together.', 'Alice and Jon saw the telescope pointed at the stars.']	0
+Alice and Jon ordered the men.	True	['Alice and Jon ordered the men to do something.', 'Alice and Jon ordered the men to be served.']	0
+The man and the woman saw the elephant.	True	['The man and the woman saw the elephant as a single entity, or the man and the woman separately saw the elephant.']	0
+The man and the woman ate.	True	['The man ate and the woman ate separately', 'The man and woman ate together']	0
+Give me the bat!	True	['Give me the bat that I have, or give me the bat that you have.']	1
+The bat give me!	True	['The bat is giving me!', 'The bat is hitting me!']	1
+Me the bat to give!	True	['Me the bat to give, is a playful gesture.', 'Me the bat to give, is a request for a bat to be given to me.']	0
+Give me the cat!	True	['Give me the cat! Could mean you want me to give you the cat, or you could want me to bring the cat to you.']	0
+Give me the hat!	True	['Give me the hat! I am requesting you to give me the hat.', 'Give me the hat as a symbol of authority. You are giving me authority']	0
+Give me the rat!	True	['Give me the rat that I have, or give me the rat that you have.']	0
+Give me the sat!	True	['Give me the seat!', 'Give me the SAT!']	0
+Give me the rattle-mouse!	True	['Give me the rattle-mouse as a toy', 'Give me the rattle-mouse as a warning']	0
+Give me the baseball bat!	True	['Give me the baseball bat that is in your hand, or give me the baseball bat that is in the bag.']	0
+Give me the racket!	True	['Give me the racket as a request for a weapon, or give me the racket as a sound made by hitting something']	0
+Give me the club!	True	['Give me the club in the sense of requesting a specific object, or give me the club in the sense of joining a group']	1
+Give me the telescope!	True	['Give me the telescope! You want me to use it to look at the stars, or you want me to give you the telescope so you can use it to build a tower?']	0
+Give me the elephant!	True	['Give me the elephant in the room, or give me the elephant that I am talking about.', 'Give me the elephant as a gift, or give me the elephant that is being offered to me.']	0
+Give me the woman!	True	['Give me the woman! As a command to give the woman to someone, or as a statement of ownership of the woman']	0
+Give me the pyjamas!	True	['Give me the pyjamas that are on the bed, or give me the pyjamas that I am wearing.']	0
+What you said is insane.	True	['What you said is insane, therefore it is not worth listening to, or What you said is insane, therefore you should not take it seriously']	1
+It is insane what you said.	True	['It is insane what you said about...', 'It is insane what you said about... (perhaps you meant to say something else)']	1
+Said insane you is what.	True	['You are said to be insane, or you are saying that someone else is insane.']	0
+What you said is arcane.	True	"['The meaning of what you said is obscure, or the content you delivered is highly complex and difficult to understand.', ""The phrase 'what you said' is interpreted in a way that suggests the speaker is quoting or referencing something you said previously.""]"	0
+What you said is mundane.	True	['The sentence is mundane as it is not surprising or noteworthy, or the sentence is mundane because it is common and expected.']	1
+What you said is inane.	True	"['The meaning of the sentence is not intelligent, or your statement is meaningless.', ""The speaker is making a judgment on the intelligence of the listener's statement, which is not appropriate.""]"	0
+What you said is terrain.	True	['What you said is the terrain of the conversation.', 'What you said is the terrain of the physical landscape.']	0
+What you said is crazy.	True	['What you said is crazy, and it might be interpreted as a statement of disbelief or a statement of humor, depending on the context.']	1
+What you said is unbelievable.	True	"[""The speaker is expressing disbelief at the listener's statement."", ""The speaker is expressing disbelief at the listener's ability to speak.""]"	1
+What you said is outrageous.	True	['You said is outrageous, meaning your statement is very wrong or unacceptable, or you said is outrageous, meaning your statement is very funny or shocking']	1
+What you said is irrational.	True	['What you said is irrational because it is not based on logic, or what you said is irrational because it is not supported by evidence']	0
+What you said is green.	True	['What you said is the color green, or you have spoken in a manner that is clear and easy to understand.']	0
+What you said is wooden.	True	['What you said is wooden, meaning it is not well-said or is not clear.', 'What you said is wooden, meaning it is made of wood.']	0
+What you said is round.	True	['The meaning of the sentence is that what you said is round, as in physically circular, or it could be interpreted as meaning that what you said is agreeable, pleasant, or easy to listen to']	0
+What you said is silent.	True	['The silence of your words is deafening, yet your thoughts remain audible.', 'Your words may be silent, but their impact is profound.']	0
+Yesterday I went to the bank.	True	['Yesterday I went to the bank to deposit money, or I went to the bank to withdraw money.']	1
+To the bank I went yesterday.	True	['To the bank I went yesterday to deposit money, or to the bank I went yesterday to withdraw money.']	1
+To the went yesterday bank I.	True	['I went yesterday to the bank with a friend, or I went yesterday to the bank to deposit money.']	0
+Yesterday I went to the tank.	True	['Yesterday I went to the tank to see the soldiers fighting.', 'Yesterday I went to the tank museum.']	1
+Yesterday I went to the prank.	True	['Yesterday I went to the prank as a participant', 'Yesterday I went to the prank as a spectator']	0
+Yesterday I went to the blank.	True	['Yesterday I went to the store, to purchase groceries.', 'Yesterday I went to the park, to relax and enjoy the weather.']	0
+Yesterday I went to the clank.	True	['Yesterday I went to the clanking sound, or I went to a place called the Clank.']	0
+Yesterday I went to the financial institution.	True	['Yesterday I went to the financial institution to deposit money, or I went to the financial institution to withdraw money.']	0
+Yesterday I went to the treasury.	True	['Yesterday I went to the treasury to pay taxes.', 'Yesterday I went to the treasury to collect money.']	0
+Yesterday I went to the riverside.	True	['Yesterday I went to the riverside to relax, or I went to the riverside to socialize.']	0
+Yesterday I went to the lakeshore.	True	['Yesterday I went to the lakeshore to relax and enjoy the scenery.', 'Yesterday I went to the lakeshore to socialize and have a picnic.']	0
+Yesterday I went to the supermarket.	True	['Yesterday I went to the supermarket to buy groceries, or I went to the supermarket to socialize with friends.']	0
+Yesterday I went to the museum.	True	['Yesterday I went to the museum to see the exhibits, or I went to the museum to relax and socialize.']	0
+Yesterday I went to the rainbow.	True	['Yesterday I went to the literal rainbow that exists in the sky, or I went to a place that is associated with the concept of rainbows.']	0
+Yesterday I went to the telescope.	True	['Yesterday I went to the telescope to observe the stars, or I went to the telescope to learn about astronomy.']	0
+I can't find the glasses.	True	"[""I can't find the glasses on my face, or I can't find the glasses that I misplaced.""]"	1
+The glasses I can't find.	True	"[""The glasses I can't find are on the table, or I have misplaced them.""]"	1
+The I can't glasses find.	True	"[""The glasses I can't find are the glasses I'm wearing, or I can't find my glasses.""]"	0
+I can't find the passes.	True	"[""I can't find the passes to the gate, or I can't find the passes in the bag.""]"	0
+I can't find the basses.	True	"[""I can't find the basses in the music, or I can't find the bass players.""]"	0
+I can't find the wrasses.	True	"[""I can't find the wrappers, or I can't find the wrasses.""]"	0
+I can't find the chasses.	True	"[""I can't find the chase, or I can't find the chess pieces.""]"	0
+I can't find the eyeglasses.	True	"[""I can't find the eyeglasses on my face, or I can't find the eyeglasses that I misplaced.""]"	0
+I can't find the drinking glasses.	True	"[""I can't find the drinking glasses in the kitchen, or I can't find the drinking glasses on the table.""]"	0
+I can't find the goggles.	True	"[""I can't find the goggles on my head, or I can't find the goggles that I misplaced.""]"	0
+I can't find the glassware.	True	"[""I can't find the glassware in the kitchen drawer, or I can't find the glassware that was broken.""]"	0
+I can't find the telescope.	True	"[""I can't find the telescope in the house, or I can't find the telescope on the roof.""]"	0
+I can't find the rainbow.	True	"[""I can't find the rainbow in the sky, or I can't find the rainbow on a map.""]"	0
+I can't find the dough.	True	"[""I can't find the dough in the kitchen, or I can't find the dough that was used to make the bread.""]"	0
+I can't find the sofa.	True	"[""I can't find the sofa in the living room, or I can't find the sofa in the bedroom.""]"	0
+He didn't see the picture of the disaster.	True	"[""He didn't see the picture of the disaster in the present, or he didn't see the picture of the disaster in the past""]"	1
+The picture of the disaster he didn't see.	True	"[""The picture of the disaster he didn't see was absent, or the disaster he didn't see was pictured.""]"	1
+Disaster He the see of didn't picture the.	True	"[""He saw the disaster and didn't picture it."", ""He saw the disaster but didn't picture it.""]"	0
+He didn't see the stricture of the disaster.	True	"[""He didn't see the stricture of the disaster in the context of the disaster's severity, or he didn't see the stricture of the disaster in the context of the surrounding environment""]"	0
+He didn't see the depicture of the disaster.	True	"[""He didn't see the picture of the disaster."", ""He didn't see the depiction of the disaster.""]"	0
+He didn't see the mixture of the disaster.	True	"[""He didn't see the mixture of the disaster that occurred, or he didn't see the mixture of the disaster that was being prepared.""]"	0
+He didn't see the fixture of the disaster.	True	"[""He didn't see the fixture of the disaster as a physical object, or he didn't see the fixture of the disaster as a symbol of the disaster.""]"	0
+He didn't see the image of the disaster.	True	"[""He didn't see the image of the disaster in his mind, or he didn't see the image of the disaster on his phone.""]"	1
+He didn't see the vision of the disaster.	True	"[""He didn't see the vision of the disaster as a literal event, or he didn't see the vision of the disaster as a metaphor for something else.""]"	0
+He didn't see the idea of the disaster.	True	"[""He didn't see the idea of the disaster as a potential threat, or he didn't see the idea of the disaster as a possibility.""]"	0
+He didn't see the painting of the disaster.	True	"[""He didn't see the painting of the disaster in the gallery, or he didn't see the painting of the disaster on display.""]"	0
+He didn't see the rain of the disaster.	True	"[""He didn't see the rain that fell during the disaster."", ""He didn't see the rain that was falling during the disaster.""]"	0
+He didn't see the movie of the disaster.	True	"[""He didn't see the movie of the disaster that occurred in the past."", ""He didn't see the movie of the disaster that was released in theaters.""]"	0
+He didn't see the warnings of the disaster.	True	['He did not see the warnings of the disaster, therefore he was unprepared for it.', 'He did not see the warnings of the disaster, therefore he was not aware of it.']	0
+He didn't see the telescope of the disaster.	True	"[""He didn't see the telescope of the disaster that was damaged in the disaster, or he didn't see the telescope that was used to observe the disaster.""]"	0

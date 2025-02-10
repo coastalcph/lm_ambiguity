@@ -1,0 +1,5 @@
+- output_path=results/no/big_qwen_lexical.tsv
+- model.model=Qwen/Qwen2.5-7B-Instruct
+- data.tsv_path=data/lexical_ambig.tsv
+- data.template_name=lebig_qwen2_no
+- data.batch_size=8

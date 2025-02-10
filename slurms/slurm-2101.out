@@ -1,0 +1,156 @@
+[2025-01-21 14:37:38]  
+--------------------------------------------------
+output_path: results/yes/llama_lexical.tsv
+model:
+  _target_: vllm.LLM
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.6
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/lexical_ambig.tsv
+  template_name: llama3_yes
+  text_column: sentence
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+INFO 01-21 14:37:38 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='meta-llama/Meta-Llama-3-8B-Instruct', speculative_config=None, tokenizer='meta-llama/Meta-Llama-3-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=meta-llama/Meta-Llama-3-8B-Instruct)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO 01-21 14:37:40 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-21 14:37:52 model_runner.py:146] Loading model weights took 14.9595 GB
+INFO 01-21 14:37:53 gpu_executor.py:83] # GPU blocks: 3748, # CPU blocks: 2048
+wandb: Currently logged in as: antoniakrm. Use `wandb login --relogin` to force relogin
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.4
+wandb: Run data is saved locally in /home/tzh649/projects/ambiguity_new/wandb/run-20250121_143756-gona3om4
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run llama3_yes
+wandb: ⭐️ View project at https://wandb.ai/antoniakrm/lexical_ambig_Meta-Llama-3-8B-Instruct
+wandb: 🚀 View run at https://wandb.ai/antoniakrm/lexical_ambig_Meta-Llama-3-8B-Instruct/runs/gona3om4
+Processing batches: 0it [00:00, ?it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  1.89it/s, Generation Speed: 15.14 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 15.11it/s, Generation Speed: 120.94 toks/s]
+Processing batches: 1it [00:00,  1.85it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  2.28it/s, Generation Speed: 18.25 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 18.21it/s, Generation Speed: 145.76 toks/s]
+Processing batches: 2it [00:00,  2.06it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  2.15it/s, Generation Speed: 17.22 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 17.19it/s, Generation Speed: 137.54 toks/s]
+Processing batches: 3it [00:01,  2.08it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  2.24it/s, Generation Speed: 17.96 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 17.93it/s, Generation Speed: 143.49 toks/s]
+Processing batches: 4it [00:01,  2.13it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.37it/s, Generation Speed: 18.98 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 18.96it/s, Generation Speed: 151.68 toks/s]
+Processing batches: 5it [00:02,  2.20it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.85it/s, Generation Speed: 22.81 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 22.78it/s, Generation Speed: 182.28 toks/s]
+Processing batches: 6it [00:02,  2.37it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  1.92it/s, Generation Speed: 15.36 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 15.34it/s, Generation Speed: 122.73 toks/s]
+Processing batches: 7it [00:03,  2.19it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.07it/s, Generation Speed: 24.59 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.56it/s, Generation Speed: 196.50 toks/s]
+Processing batches: 8it [00:03,  2.40it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.01it/s, Generation Speed: 24.11 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.08it/s, Generation Speed: 192.69 toks/s]
+Processing batches: 9it [00:03,  2.55it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.07it/s, Generation Speed: 24.59 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.56it/s, Generation Speed: 196.50 toks/s]
+Processing batches: 10it [00:04,  2.68it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.13it/s, Generation Speed: 25.02 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.98it/s, Generation Speed: 199.91 toks/s]
+Processing batches: 11it [00:04,  2.79it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.21it/s, Generation Speed: 25.72 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.68it/s, Generation Speed: 205.52 toks/s]
+Processing batches: 12it [00:04,  2.90it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.22it/s, Generation Speed: 25.76 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.72it/s, Generation Speed: 205.80 toks/s]
+Processing batches: 13it [00:05,  2.97it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.16it/s, Generation Speed: 25.29 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.26it/s, Generation Speed: 202.13 toks/s]
+Processing batches: 14it [00:05,  3.01it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.19it/s, Generation Speed: 25.55 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.52it/s, Generation Speed: 204.18 toks/s]
+Processing batches: 15it [00:05,  3.05it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.22it/s, Generation Speed: 25.76 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.73it/s, Generation Speed: 205.88 toks/s]
+Processing batches: 16it [00:06,  3.09it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  1.98it/s, Generation Speed: 15.86 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 15.84it/s, Generation Speed: 126.74 toks/s]
+Processing batches: 17it [00:06,  2.63it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.87it/s, Generation Speed: 22.94 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 22.92it/s, Generation Speed: 183.37 toks/s]
+Processing batches: 18it [00:07,  2.68it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.04it/s, Generation Speed: 24.35 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.32it/s, Generation Speed: 194.60 toks/s]
+Processing batches: 19it [00:07,  2.77it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.18it/s, Generation Speed: 25.47 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.44it/s, Generation Speed: 203.55 toks/s]
+Processing batches: 20it [00:07,  2.87it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.15it/s, Generation Speed: 25.24 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.20it/s, Generation Speed: 201.68 toks/s]
+Processing batches: 21it [00:07,  2.94it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.21it/s, Generation Speed: 25.68 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.65it/s, Generation Speed: 205.21 toks/s]
+Processing batches: 22it [00:08,  3.00it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.17it/s, Generation Speed: 25.33 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.30it/s, Generation Speed: 202.45 toks/s]
+Processing batches: 23it [00:08,  3.03it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.20it/s, Generation Speed: 25.57 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.54it/s, Generation Speed: 204.38 toks/s]
+Processing batches: 24it [00:08,  3.07it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.17it/s, Generation Speed: 25.40 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.36it/s, Generation Speed: 202.95 toks/s]
+Processing batches: 25it [00:09,  3.08it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.13it/s, Generation Speed: 25.04 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 25.01it/s, Generation Speed: 200.13 toks/s]
+Processing batches: 26it [00:09,  3.08it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:03,  2.11it/s, Generation Speed: 16.85 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 16.83it/s, Generation Speed: 134.68 toks/s]
+Processing batches: 27it [00:10,  2.69it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  3.06it/s, Generation Speed: 24.48 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 24.45it/s, Generation Speed: 195.62 toks/s]
+Processing batches: 28it [00:10,  2.78it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.99it/s, Generation Speed: 23.91 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.89it/s, Generation Speed: 191.13 toks/s]
+Processing batches: 29it [00:10,  2.83it/s]
+Processed prompts:   0%|          | 0/8 [00:00<?, ?it/s, Generation Speed: 0.00 toks/s][A
+Processed prompts:  12%|█▎        | 1/8 [00:00<00:02,  2.99it/s, Generation Speed: 23.91 toks/s][AProcessed prompts: 100%|██████████| 8/8 [00:00<00:00, 23.88it/s, Generation Speed: 191.10 toks/s]
+Processing batches: 30it [00:11,  2.86it/s]Processing batches: 30it [00:11,  2.71it/s]
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:    accuracy ▁
+wandb: false_count ▁
+wandb:  true_count ▁
+wandb: 
+wandb: Run summary:
+wandb:    accuracy 0.33333
+wandb: false_count 62
+wandb:  true_count 178
+wandb: 
+wandb: 🚀 View run llama3_yes at: https://wandb.ai/antoniakrm/lexical_ambig_Meta-Llama-3-8B-Instruct/runs/gona3om4
+wandb: ⭐️ View project at: https://wandb.ai/antoniakrm/lexical_ambig_Meta-Llama-3-8B-Instruct
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250121_143756-gona3om4/logs
+Accuracy: 33.33%
+True Count: 178
+False Count: 62
+0.3333333333333333 178 62

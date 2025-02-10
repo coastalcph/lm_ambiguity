@@ -1,0 +1,6 @@
+- output_path=llama-ambig/20241213_005853/output.tsv
+- model.model=meta-llama/Meta-Llama-3-8B-Instruct
+- data.tsv_path=data/synt_ambig.tsv
+- data.template_name=llama3_1
+- data.batch_size=8
+- model.max_logprobs=50

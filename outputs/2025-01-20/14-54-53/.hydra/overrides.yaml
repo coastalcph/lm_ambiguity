@@ -1,0 +1,5 @@
+- output_path=results/wrong/qwen_output_dis.tsv
+- model.model=Qwen/Qwen2.5-7B-Instruct
+- data.tsv_path=data/synt_ambig.tsv
+- data.template_name=qwen2_wrong
+- data.batch_size=8

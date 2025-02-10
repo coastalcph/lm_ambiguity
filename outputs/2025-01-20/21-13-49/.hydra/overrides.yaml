@@ -1,0 +1,5 @@
+- output_path=results/no/big_llama_output.tsv
+- model.model=meta-llama/Meta-Llama-3-8B-Instruct
+- data.tsv_path=data/synt_ambig.tsv
+- data.template_name=big_llama3_no
+- data.batch_size=8

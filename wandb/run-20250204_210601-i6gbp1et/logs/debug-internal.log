@@ -1,0 +1,16 @@
+{"time":"2025-02-04T21:06:01.737973636+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250204_210601-i6gbp1et/logs/debug-core.log"}
+{"time":"2025-02-04T21:06:01.853779385+01:00","level":"INFO","msg":"created new stream","id":"i6gbp1et"}
+{"time":"2025-02-04T21:06:01.853804962+01:00","level":"INFO","msg":"stream: started","id":"i6gbp1et"}
+{"time":"2025-02-04T21:06:01.853819609+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"i6gbp1et"}
+{"time":"2025-02-04T21:06:01.853870153+01:00","level":"INFO","msg":"handler: started","stream_id":"i6gbp1et"}
+{"time":"2025-02-04T21:06:01.853884309+01:00","level":"INFO","msg":"sender: started","stream_id":"i6gbp1et"}
+{"time":"2025-02-04T21:06:07.171676053+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-04T21:07:36.998038584+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-04T21:07:36.998646493+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-04T21:07:37.998475787+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.645193967,"progress":"160B/160B"},{"desc":"uploading config.yaml","runtime_seconds":0.497891085,"progress":"1.7KB/1.7KB"},{"desc":"uploading history steps 0-2, summary, console lines 163-198","runtime_seconds":0.155593106}],"total_operations":3}}
+{"time":"2025-02-04T21:07:38.097880071+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-04T21:07:49.272156265+01:00","level":"INFO","msg":"stream: closing","id":"i6gbp1et"}
+{"time":"2025-02-04T21:07:49.272177775+01:00","level":"INFO","msg":"handler: closed","stream_id":"i6gbp1et"}
+{"time":"2025-02-04T21:07:49.272187042+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i6gbp1et"}
+{"time":"2025-02-04T21:07:49.272204204+01:00","level":"INFO","msg":"sender: closed","stream_id":"i6gbp1et"}
+{"time":"2025-02-04T21:07:49.27439431+01:00","level":"INFO","msg":"stream: closed","id":"i6gbp1et"}

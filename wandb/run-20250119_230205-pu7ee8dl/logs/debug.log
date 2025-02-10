@@ -1,0 +1,23 @@
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_setup.py:_flush():68] Current SDK version is 0.19.4
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_setup.py:_flush():68] Configure stats pid to 3300592
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_setup.py:_flush():68] Loading settings from /home/tzh649/.config/wandb/settings
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_setup.py:_flush():68] Loading settings from /home/tzh649/projects/ambiguity_new/wandb/settings
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /home/tzh649/projects/ambiguity_new/wandb/run-20250119_230205-pu7ee8dl/logs/debug.log
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /home/tzh649/projects/ambiguity_new/wandb/run-20250119_230205-pu7ee8dl/logs/debug-internal.log
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_init.py:init():743] calling init triggers
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {'output_path': 'results/yes/llama_output.tsv', 'model': {'_target_': 'vllm.LLM', 'model': 'meta-llama/Meta-Llama-3-8B-Instruct', 'dtype': 'bfloat16', 'tensor_parallel_size': 1, 'max_model_len': 2488, 'gpu_memory_utilization': 0.9, 'quantization': None, 'max_logprobs': 20}, 'generation': {'_target_': 'vllm.SamplingParams', 'max_tokens': 200, 'temperature': 0.4, 'top_k': 20, 'top_p': 1.0, 'logprobs': 20, 'prompt_logprobs': 20}, 'data': {'_target_': 'llm_inference.dataset.TsvTextDataset', 'tsv_path': 'data/synt_ambig.tsv', 'template_name': 'llama3_yes', 'text_column': 'sentence', 'batch_size': 8}, 'schema_name': 'ambiguity_check', 'enable_logprobs': False}
+2025-01-19 23:02:05,896 INFO    MainThread:3300592 [wandb_init.py:init():776] starting backend
+2025-01-19 23:02:06,110 INFO    MainThread:3300592 [wandb_init.py:init():780] sending inform_init request
+2025-01-19 23:02:06,114 INFO    MainThread:3300592 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-19 23:02:06,114 INFO    MainThread:3300592 [wandb_init.py:init():795] backend started and connected
+2025-01-19 23:02:06,116 INFO    MainThread:3300592 [wandb_init.py:init():888] updated telemetry
+2025-01-19 23:02:06,117 INFO    MainThread:3300592 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-01-19 23:02:06,533 INFO    MainThread:3300592 [wandb_init.py:init():967] starting run threads in backend
+2025-01-19 23:02:08,310 INFO    MainThread:3300592 [wandb_run.py:_console_start():2409] atexit reg
+2025-01-19 23:02:08,310 INFO    MainThread:3300592 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-01-19 23:02:08,310 INFO    MainThread:3300592 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-01-19 23:02:08,310 INFO    MainThread:3300592 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-01-19 23:02:08,318 INFO    MainThread:3300592 [wandb_init.py:init():1009] run started, returning control to user process
+2025-01-19 23:05:40,631 WARNING MsgRouterThr:3300592 [router.py:message_loop():75] message_loop has been closed

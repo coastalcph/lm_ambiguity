@@ -1,0 +1,1546 @@
+text	is_ambiguous	ambig_status
+Education is expensive, and most students cannot pay for it without loans.	0	1
+In order to solve this problem, the engineers needed to create a computer model that could take into account the flow of water, wind, and other factors.	0	1
+They agreed that the company should pull out of the country.	0	0
+It is raining.	0	0
+According to the study, the average American worker spends nearly two hours a day reading and answering e-mail.	0	0
+The teacher asked the students to name the countries in North America.	0	0
+A little over a third of the world's population is illiterate.	0	0
+It is not clear that a one-size-fits-all approach is the best way to deal with the problem.	0	1
+The school's graduation rate has increased by five percent since last year.	0	0
+Even people who agree with the goals of the protesters often find their methods to be disruptive and sometimes even violent.	1	0
+A lot of people seem to think that vegans are automatically healthy.	0	0
+It's hard to see how the company could make a profit.	0	0
+In order to improve your math skills, one of the best things you can do is practice math every day.	0	0
+The evidence is clear that the defendant is guilty of the crime.	0	0
+He is not very tall.	0	0
+The report says that there is a problem.	0	0
+I was not sure what to expect, but I was hoping for the best.	0	0
+I was hoping to see you at the party.	0	0
+All of the students are expected to complete the assignment.	0	0
+All of the students who are new to this school are required to attend a meeting.	0	0
+We believe that the best way to reduce crime is to increase the number of police officers on the streets.	0	0
+She always carries a picture of her family in her wallet.	0	0
+Although the novel has been banned in several countries, it is still one of the most popular books of all time.	0	0
+The mean of the sample is 14.2 and the standard deviation is 3.1.	0	0
+The evidence does not support the conclusion that the intervention was effective.	0	1
+It's not just because she's the boss's daughter that she gets whatever she wants.	1	1
+It is hard to believe that a show that was once so popular is now struggling to find viewers.	0	1
+The more you practice, the better you'll get.	0	1
+The vast majority of people in the world are fluent in more than one language.	0	0
+The teacher's assistant was grading papers in her office.	0	0
+Even though he was in his mid-fifties, my grandfather was still in excellent health.	0	0
+I don't think that we can assume that the market will continue to grow at the same rate.	0	0
+It is not clear whether the recent increase in the number of shark attacks is due to an increase in the number of sharks or the number of people swimming in the ocean.	1	0
+I’ve always wanted to be a writer.	0	0
+In spite of its reputation for violence, the city is actually quite safe.	0	0
+A group of boys were playing tag on the school grounds.	1	0
+I'm going to have to miss your party.	0	0
+We are going to have to come up with a new plan.	0	0
+The fact that there are many different types of glass is evidence that it is a popular material.	0	1
+Even though he was failing, he refused to give up.	0	0
+A number of my friends have been affected by the recent lay-offs.	0	1
+The issue of healthcare in the United States is complex and multi-faceted.	0	0
+This makes it easier for us to track our spending and ensure that we are getting the most for our money.	0	0
+The novel's protagonist is a young woman who is trying to find her place in the world.	0	0
+The council will deliberate on the matter and make a decision next week.	0	0
+Although it is controversial, most scholars believe that the benefits of the Internet outweigh the drawbacks.	0	0
+All of the students are required to wear uniforms.	0	0
+All of the lights were out.	0	0
+If a treatment is effective, then it should result in a change in the outcome variable.	0	0
+I'm going to have to miss your party.	0	0
+The new hospital is close to the interstate, making it easy for patients to get there.	0	1
+A group of employees filed a class action lawsuit against their employer, alleging that the employer had failed to pay them for overtime work.	0	0
+In some cases, the company's treasurer may be authorized to borrow funds on behalf of the company.	0	1
+The Board of Directors voted to approve the merger.	0	0
+In some cases, a man and a woman can be married to each other.	0	0
+I am confident that he will be able to do it.	0	0
+The research shows that happy people are more likely to be successful.	1	1
+The study found that people who are more conscientious are more likely to be successful.	0	1
+Some people, when they think about retirement, imagine a life of leisure, free from the constraints of a 9-to-5 job.	0	0
+I've only lived in the northern part of Seattle.	0	1
+We're going to have to start making some changes around here.	0	0
+"In this new world, the only way to survive is to become a \""hunter.\"""	0	0
+In order to get into the country, all visitors must have a valid passport.	0	0
+It is not that I don't want to see the movie, it is that I don't have time.	0	1
+We need to be able to adapt to the changing world around us.	0	1
+She wants to work with the professor with the largest citation count in the department.	0	1
+He's going to be a doctor when he grows up.	0	0
+I can't believe that you did that.	0	0
+The coach told the team that they needed to work harder if they wanted to win the game.	0	0
+I can't remember when I last saw her.	0	1
+I am not sure what the teacher is trying to say.	0	0
+We will be landing in Paris in approximately 30 minutes.	0	0
+In this paper, we present a model for understanding the effects of global warming.	0	0
+I'm not saying that she's a bad person, but she is kind of selfish.	1	0
+You're telling me a lie.	1	0
+He is such a talented musician that he could have been a professional.	1	1
+The storm knocked out power to the entire city.	0	0
+The theory is that if we do not have a good understanding of the past, we will not be able to make good decisions in the present.	0	0
+The prosecution has the burden of proof to show that the defendant is guilty beyond a reasonable doubt.	0	0
+Just because I don't agree with you doesn't mean I hate you.	0	1
+It is essential to have a clear understanding of the client's needs.	0	0
+I have to leave for my doctor's appointment in five minutes.	0	0
+The fact that the company is making a profit means that it will be able to expand.	0	0
+For our purposes, a model is simply a set of assumptions and relationships that we use to describe and analyze a system.	0	0
+The easiest way to solve the problem is to call a meeting.	0	1
+He finally concedes that, despite its faults, the new system is an improvement over the old one.	0	0
+The challenge for the organization is to make the transition from a traditional hierarchical structure to a more flattened organization.	0	0
+The coffee was so hot that it burned his tongue.	0	0
+It's a quarter to eight.	0	0
+The union and the company have not been able to agree on a new contract.	0	1
+Mary is taller than her sister.	0	0
+I didn't see the movie.	1	0
+He was not expecting the math test to be so difficult.	0	0
+The sound of the waves crashing against the shore is soothing.	0	0
+I wanted to see the ocean because it always looked so peaceful in the movies.	1	0
+The government is starting to invest more money in renewable energy.	0	0
+The company's expansion plans are to open new stores in the US.	0	1
+I was about to go to bed when I heard a noise outside.	0	0
+Some people believe that extraterrestrial life exists on another planet.	0	0
+It is a good idea to take a break from work every few hours.	0	0
+A woman in this neighborhood gives birth every year.	1	1
+It was not the case that the man was bald, and it was not the case that the man had curly hair.	1	0
+I know that someone here is lying.	1	1
+The Board rejected the union's argument that the employees were entitled to overtime compensation because they were required to attend mandatory training sessions outside of their regular work hours.	0	0
+She said that she will pick me up at 4pm and I can leave at 6pm.	0	1
+In order to get a refund, you will need to send the item back within 30 days.	0	0
+He is a very talented musician.	0	0
+The findings suggest that a major problem for the development of B2B EC is the lack of understanding of the mechanisms that underpin the development of trust.	0	0
+John opened the door again.	0	1
+The park is closed on Tuesdays.	0	0
+The class will discuss how to write a research paper.	0	1
+The article is about the use of social media in the classroom.	0	0
+It is impossible to please everyone.	0	0
+The small dog was trembling and shaking all over.	0	0
+The man was charged with first degree murder.	0	0
+I don't taste anything fishy.	0	1
+There is a lot of evidence that suggests that extraterrestrial life exists.	0	0
+After years of war, the country is finally beginning to rebuild its infrastructure.	0	0
+I will not be the only one at the party.	0	0
+You have to be very careful if you want to pass your driving test.	0	0
+We cannot be sure that the meeting will be productive.	0	0
+The tornado destroyed the farmhouse.	0	0
+It is interesting to note that the vast majority of experts agree on this issue.	0	0
+I think that the new software is not very user-friendly.	0	1
+A large number of people were not willing to take the risk.	0	1
+The tone of her voice was so that I could not help being a little amused.	1	0
+The rich are getting richer and the poor are getting poorer.	1	0
+The poet laureate is an honorary position given to a poet by a government or institution.	0	0
+It is important to remember that not all of the people who emigrated to the United States in the late 1800s were poor.	0	1
+All of the students turned in their homework on time.	0	0
+He's the kind of guy who's always wanted to be a police officer.	0	0
+All I'm asking is for you to try.	0	0
+If the rock is too big, we can't move it.	0	1
+The new software program has been working well since it was installed.	0	0
+I am taller than he is.	1	0
+The average human lifespan is about 79 years.	0	0
+I don't think I've ever seen that movie.	0	0
+The high school students who were most likely to report drinking had more friends who drank.	1	1
+In this way, the data is protected from unauthorized access and is available only to those authorized to use it.	1	0
+I find it hard to believe that the dinosaurs could have all died out because of a meteor.	0	0
+He is one of the most successful young entrepreneurs in the country.	0	0
+It was raining so hard, I couldn't see the road in front of me.	0	0
+He's taller than his brother.	0	0
+I was uninterested in the book, and didn't finish it.	1	1
+She would like to be there.	0	0
+In spite of the difficulties, they managed to get the job done.	0	0
+Even though the company is losing money, there is no reason to think that it will go bankrupt.	0	0
+That's why we tried to kill you.	1	1
+A good way to learn about other cultures is to travel.	0	0
+He is upset at his friend for revealing private information about his relationship to his teacher.	0	1
+The athlete had to forfeit the game after failing the drug test.	0	0
+I am certain that the novel will be a great success.	0	0
+Even with the windows open, the smell was overwhelming.	0	0
+The majority of Georgians incarcerated in local jails have never been convicted of crime. They are simply too poor to pay their bail.	0	1
+The new method of data collection will help scientists develop a better understanding of the climate system.	0	0
+I always take my coffee with cream and sugar.	0	0
+In order to pass the driving test, the applicant must score 80% or higher.	0	0
+The restaurant is serving a special menu for the holiday.	0	0
+It was not until the 17th century that the city began to grow rapidly.	0	1
+The editor did not find many mistakes in the paper.	0	1
+The jury returned a verdict of guilty for first degree murder.	0	1
+The poet often uses vivid imagery to create strong feelings in the reader.	0	0
+The professor admitted that no students wrote course evaluations, which is surprising.	0	1
+I am surprised that he would say something like that.	1	0
+It is important to note that the study did not find a cause and effect relationship between playing video games and academic performance.	0	0
+Lilian and Tanaka have two balloons.	0	1
+I'm going to go out on a limb and say that she's not going to win the election.	1	0
+In a democracy, the will of the people is supposed to be reflected in the government.	0	1
+I don't think it's fair to say that the theory has been completely disproven.	0	0
+We all know that exercise is good for us, but few of us actually make the time to do it.	0	1
+I have a meeting with my boss in three hours.	0	0
+In general relativity, a black hole is a region of spacetime from which nothing, not even light, can escape.	0	0
+I have a headache.	0	0
+The corners of her mouth turned up in a smile.	0	0
+The survey found that more than a third of Americans have a negative view of the news media.	0	1
+Even though the company was doing well, the employees were not happy.	1	0
+The number of job openings in the United States has increased for the fourth consecutive month.	0	0
+These snakes get their name from the beautifully changing pattern on their bodies.	0	1
+The theory goes that the less money people have, the less they will spend.	0	0
+The company's sales have been steadily declining for the past year.	0	0
+In many ways, the American Revolution was a direct result of the Seven Years' War.	0	1
+The president will be speaking at noon.	0	0
+We will be able to provide a more efficient service if we have the new software.	0	0
+The animal was not injured in the accident.	0	1
+I was hoping to get a new car for my birthday.	0	0
+All of the company's employees must adhere to the code of conduct.	0	0
+I am not going to tell you what to do.	0	0
+A possible explanation for his anger is that he was passed over for the promotion.	0	1
+If an employee is fired for cause, the employer is not required to give the employee a severance package.	0	1
+I always feel more comfortable when I am at home.	0	1
+We need to do more research in this area to fully understand the problem.	0	0
+It was raining, so I stayed home.	0	1
+It is unclear whether the company will be able to recover from this setback.	0	0
+The professor’s thesis was very well-received by the academic community.	0	0
+I was going to study abroad in France next semester, but I changed my mind.	0	0
+A company's primary responsibility is to its shareholders.	0	0
+The novel is worth reading.	0	0
+The data provides evidence that the treatment is effective.	0	1
+The benefits of a project should be clear.	0	0
+They were driving too fast, and they got pulled over.	0	1
+I'm not convinced that this is the best way to solve the problem.	0	0
+I have a meeting with my boss at 3:00, and then I have to pick up my kids from school.	0	0
+All living things are made up of cells.	0	0
+The new CFO is very analytical.	0	0
+I have a lot of friends.	0	0
+The acceleration is not as great as it was during the first second, but it is greater than it was during the second second.	0	0
+He was elected to the position.	0	0
+He's a great basketball player.	0	0
+In order to make a cake, you need flour, sugar, eggs, butter, baking powder, and milk.	0	0
+Then he sobered.	1	1
+Her novel is gaining in popularity.	0	0
+We decided to plant trees on the north side of the house.	0	0
+In this way, the company will be able to improve its financial position and become more profitable.	0	0
+It is a little-known fact, but the moon is not actually made of green cheese.	0	0
+The market was empty of pork, grains, and all foods that were banned.	0	1
+This year has been a trying one for the country, with a devastating hurricane and an ongoing drought.	0	1
+They have a lot of friends in common.	0	1
+I'm not going to give up.	0	0
+I think that it is a good idea.	0	1
+The company's bylaws require that the board of directors approve all major decisions.	0	0
+The study found that participants who were given the drug improved their working memory.	0	0
+In order to make a cake, you need flour, sugar, eggs, and butter.	0	0
+It is not the case that I do not want to help.	0	0
+I have been playing the violin for five years.	0	0
+I am taller than you.	0	0
+They won't come.	0	0
+I heard that the cat was stuck in the tree.	0	1
+He is the only one who knows the whole story.	0	0
+It is time to wake up.	0	0
+The vast majority of people who contract the virus will experience only mild or moderate symptoms.	0	1
+It was as if she had been possessed by a demon.	1	1
+The main goal is to find a cure for cancer.	0	1
+I'll be impressed if you understand his T shirt.	1	0
+My teacher is grading my paper, and I'm anxious about what she'll say.	0	0
+The coffee spilled all over the pristine white tablecloth.	0	0
+They must be stopped.	0	0
+We should anticipate future needs and developments.	0	0
+It was a very close race.	0	0
+He was a cruel ruler and was greatly feared by his people.	0	0
+We have to act now if we want to avoid a future where we are all struggling to survive.	0	0
+"These results suggest that there is a great deal of variation in how people use and understand the term \""family.\"""	0	0
+It is clear that the company is in financial trouble.	0	0
+It's not always easy to stay positive.	0	0
+She needed to know only what he told her.	0	1
+The tax imposed by this chapter shall not be less than $50 for each violation.	0	0
+Although he was offered the position, he turned it down because it didn't pay enough.	0	0
+The best thing about the job is the people I work with.	0	0
+I think that we can all agree that this is a problem.	0	0
+If an athlete uses a banned substance, they will be disqualified from the competition.	0	0
+I have a meeting with my boss at 3:00.	0	0
+I am not suggesting that we should all become fluent in every language.	0	0
+The flu virus is causing an epidemic.	0	0
+It is possible that the new drug will be an effective treatment for cancer.	0	0
+It is clear that our current education system is not preparing students for the real world.	0	1
+It is hard to work together when you don't speak the same language.	0	1
+She wants to work with Dr. Smith, the professor with the best reputation in the department.	0	0
+In a way, she was like a sister to me.	1	0
+I'm sure you'll be able to figure it out.	0	0
+We can work together to improve the world we live in.	0	0
+The recommended dosage for this medication is two pills per day.	0	0
+We cannot simply sit by and watch as the world around us crumbles.	0	1
+At that time, there were no other options.	0	0
+In this class, we will be discussing how to write a research paper.	0	0
+The findings suggest that there is a link between poverty and poor health.	0	0
+In spite of all her work, she was still behind.	1	0
+If you want to lose weight, you should exercise more.	0	0
+The company's new CEO is planning to implement major changes in the company's organizational structure.	0	0
+In order to get a job, you need to have experience.	0	0
+The flowers were so beautiful that she wept.	0	0
+They were close enough that she could see the anger in his eyes.	0	0
+Mykonos has had a head start as far as diving is concerned because it was never banned here (after all, there are no ancient sites to protect).	0	1
+We can work hard to make the world a better place, or we can give up and accept things the way they are.	0	0
+The company's success is due in large part to the efforts of the sales team.	0	0
+Even though the soldier had been through a lot of tough times, he was still surprised by how much he cried when he was finally reunited with his family.	0	0
+They claimed that the property had been zoned for commercial use.	0	0
+The turkey is ready to eat.	0	1
+The school district has made a commitment to reducing its carbon footprint.	0	0
+I will never again drink alcohol.	0	0
+The company's profits have tripled since it began its expansion into new markets.	0	1
+The President is not above the law.	1	0
+I would like to finish the book sometime this year.	0	1
+It's one thing to say you're sorry, but it's another thing to actually be sorry.	0	0
+The box is unlockable.	1	1
+They both wanted to be like their father.	1	0
+She told me her mom was in town two weeks ago.	0	1
+The purpose of this paper is to explore the feasibility of a new approach to the problem of development.	0	0
+The cashier counted out my change and put it in my hand.	0	0
+The study found that children who were read to more frequently had better reading comprehension skills.	0	1
+Most students who go to college do not finish within four years.	0	0
+Inflation is often caused by an increase in the money supply.	0	1
+The professor's lecture was very enlightening.	0	0
+The company's sales increased by 4 percent last quarter.	0	0
+In the early days of the internet, web pages were simple and focused on delivering information.	0	1
+She was very close to her grandmother.	1	1
+It is not at all certain that the new theory is correct.	0	0
+The athlete trained hard so that he could win the gold medal.	0	0
+It is not known if the economy will rebound or if it will continue to decline.	0	0
+What we need is a change in attitude.	0	1
+He's drawing all over the bus with graffiti.	0	0
+All of the students in my class are required to wear uniforms.	0	0
+The two groups have many similarities.	0	0
+The athlete stretched her arms.	0	0
+She argues that the company's new policy is unfair to employees.	0	0
+Many people in the town are unemployed.	0	1
+The government has been accused of mishandling the pandemic.	0	0
+He is the strongest basketball player in the NBA.	0	1
+It is not unheard of for a business to make a profit in its first year.	0	1
+I'm not sure. Let me think about it.	0	0
+I was looking for my contact lenses.	0	0
+The judge was not disposed to be lenient.	0	0
+"It is important to remember that a theory is never \""proven.\"""	0	0
+The painting is a copy of the original.	1	1
+The mere fact that the accused was not at the scene of the crime is not enough to prove innocence.	0	0
+The economy is in a recession, and the stock market is crashing.	0	0
+In a large company, a vice president may be the only person who knows the exact location of every piece of equipment.	1	1
+The board of directors is meeting to discuss the company's financial situation.	0	0
+Although he was very tired, he decided to keep walking.	0	0
+No teenager likes the way they dress, but Maya is an exception.	0	0
+I try to avoid talking to people when I'm in a bad mood.	0	1
+A key function of the media is to hold the powerful accountable.	0	0
+I've been told that there's a lot of excitement for the new movie.	0	0
+It was as if the darkness was a physical thing, like a thick fog.	0	0
+The proposal is to build a new factory on the outskirts of the city.	0	0
+I saw a crane on my walk.	0	1
+The plant's owner says that the layoffs are a direct result of the new tariffs.	0	0
+He was like a brother to me.	1	0
+Jenny and Zoe solved the puzzle.	0	1
+I'm going to go out on a limb and say that the new boss is going to be great.	0	0
+After the battle, the knight found the body of the princess.	0	1
+The United States spends more money on health care than any other country in the world.	0	0
+It is important to remember that you are not alone.	0	1
+After the fire, the family was homeless and had to live in a hotel.	0	1
+The athlete will receive a gold medal.	0	0
+I am afraid that we will have to cancel tomorrow's picnic.	0	1
+The crowd turned to the man on the stage.	1	1
+It can be inferred from this that he is not interested in the meeting.	0	1
+I don't like to drink coffee.	0	1
+She understood that her decision would have an impact on the company.	0	0
+The new method is based on the principle that each person has their own principle of growth.	1	0
+The state's top performing students will be unable to continue their education at the university without a change in the system.	1	0
+It is not clear whether the device will be able to process data as quickly as the human brain.	0	0
+We should try a different strategy.	0	0
+The increase in tourism is good for the economy.	0	0
+I am not interested in buying a new car.	0	0
+It is a popular belief that extraterrestrial life exists in our universe.	0	0
+The novel tells the story of a family of aristocrats who are struggling to maintain their wealth and status.	0	0
+The poet's words were like music, and they flowed together effortlessly.	0	0
+I don't think that our team can win the championship.	0	0
+The ballerina gracefully leapt across the stage.	0	0
+The company has been in business for over fifty years.	0	0
+I don't think that the glass is half empty.	0	1
+He was the only one who didn't know about it.	0	0
+It is still unclear what caused the explosion.	0	0
+The destruction of the rainforest is a major environmental problem.	0	0
+I have to complete this report by 5 p.m.	0	1
+The company's primary source of revenue is advertising.	0	0
+The reason that the lamp did not turn on is because the bulb was not screwed in all the way.	0	0
+I asked if he knew what time it was, but he didn't answer.	0	0
+The poet was unable to find inspiration in the bleak, industrial city.	0	0
+They found that the more TV people watched, the more likely they were to be obese.	1	1
+The company is introducing a new product line in order to increase profits.	0	0
+I was looking for my glasses.	0	0
+He didn't realize that his sweater was on inside out until he got to work.	0	0
+Critics argue that the law would have a chilling effect on free speech, while supporters maintain that the law is necessary to protect people from hate speech.	0	0
+The study found that there was no difference in the health outcomes of the two groups.	0	0
+The fact that he was able to do it without any training is a testament to his natural ability.	0	1
+Her work has been praised for its lyrical beauty and its elegant prose.	0	0
+A lot of people go to the movies on weekends.	0	0
+We haven't finished eating the cake yet.	0	1
+They discovered that the plant had, for the first time, produced a new type of flower.	0	1
+He was driving so fast that it seemed like the car would take off.	0	0
+We should be looking for a new place to live.	0	0
+They wanted to make a statement about the way that the world is.	0	1
+It's impossible to know how many galaxies there are in the universe.	0	0
+The company's assets will be liquidated and the proceeds will be distributed to the creditors.	0	0
+The new regulations would make it easier for the state to regulate large food companies.	0	0
+The fire started in the east wing of the building and spread quickly.	0	1
+My little sister is five years old.	0	0
+The novel has been translated into more than twenty languages.	0	1
+The burglar threatened the student with a knife.	1	1
+All signs point to the fact that the company is in financial trouble.	0	0
+The cashier counted the money and then handed it back to me.	0	0
+All of these buildings are at least a hundred years old.	0	0
+The library is a great place to find resources for your research paper.	0	0
+Even if we do not agree with her methods, we must admire her for her tenacity.	0	1
+I would like to try a little bit of every country's food on this trip.	0	0
+Many birds are attracted to the island because of the abundance of food.	0	1
+I'm so tired.	0	0
+Some people are under the impression that exercising in the morning is the best time to do so.	0	1
+The poet wrote that she had been trying to forget about her first love.	0	0
+Social media has been shown to have a negative effect on self-esteem.	0	1
+A person's place of birth should not determine their future opportunities.	0	0
+A large number of people are employed in the tourism industry.	0	1
+I'm not entirely sure that's true.	0	0
+The board needs to provide clear and concise instructions.	0	0
+I try to be tolerant of other people's beliefs.	0	0
+One of the most important factors in the development of the American economy was the rise of the industry.	0	1
+If you have the correct tools, it's not difficult to fix the leaky faucet.	0	1
+No one can stand to eat their own cooking seven days a week, but Arya is an exception.	1	0
+This is not to say that the world is not a dangerous place.	0	1
+I can't believe she would do something like that.	0	0
+I can't believe it happened.	0	0
+I have been trying a new strategy in my chess games, and it has been working well.	0	0
+It is important to keep in mind that not all change is good.	0	0
+No one in the class is satisfied with their painting, except for Susan.	0	0
+I am failing English.	0	1
+The report provides detailed evidence of the progress made in the last year.	0	1
+An enranged cow injured a farmer with an ax.	1	1
+A new shopping mall is being built on the site of the old one.	0	0
+I am very worried about the economy.	0	0
+I don't think that's a very good idea.	0	1
+It is important to have a vision of the future, but it is also important to have a vision of the present.	0	0
+The conference will be held in Detroit on October 12.	0	1
+Today it is possible to buy cheap papyrus printed with gaudy Egyptian scenes in almost every souvenir shop in the country, but some of the most authentic are sold at The Pharaonic Village in Cairo where the papyrus is grown, processed, and hand-painted on site.	0	1
+They were looking for a way to get rid of the rats.	0	0
+I think that it is possible for people to change.	0	0
+They will be moving to a new house next month.	0	0
+I don't know how big the music school is.	0	1
+Sam and Frank gave a talk.	0	1
+George didn’t see a car coming around the bend.	0	1
+The cashier counted the money and handed it back to me.	1	0
+I cannot put up with this noise any longer.	0	0
+The goals of the organization should be reviewed periodically to ensure that they are still relevant.	0	0
+The athlete's goal is to get a gold medal.	0	1
+I've always been a night person.	0	0
+By the end of the 20th century, the company had become the largest employer in the United States.	0	0
+I'm not sure if I understand.	0	1
+The teacher wrote a quote from Martin Luther King Jr in every student's yearbook.	0	1
+In this village, there is a belief that if you leave a baby alone in the forest, the fairies will take it.	0	0
+I can't believe I won the lottery!	0	0
+The actor's stage name is a pseudonym.	0	0
+We hold these truths to be self-evident, that all men are created equal.	0	0
+I'm not convinced that she is telling the truth.	0	0
+The museum is open from 9am to 5pm.	0	1
+The police are still investigating the string of robberies.	0	0
+The president’s primary goal is to improve the economy.	0	0
+She took medication until she was 21, then took a seven-year break, which included therapy.	1	1
+LaBeouf had tried to bum a smoke from two strangers, unaware that one of them was a police officer.	0	0
+I didn't know whether to believe her or not.	0	0
+My roommate and I met the lawyer for coffee, but she became ill and had to leave.	0	1
+We use our hands to write.	0	0
+I am getting a new car.	0	0
+The author was a very private person who didn't like to give interviews.	0	0
+I'm not saying that it's going to be easy, but it's going to be worth it.	0	1
+I wonder how he got the job.	0	1
+He had been walking for hours, and his feet were sore.	0	0
+In spite of these findings, many people still believe that extraterrestrial life exists.	0	1
+The company's decision to move its operations to India is a good example of the globalization of the economy.	0	0
+In the early years of the war, the French and British had many successes.	0	0
+I was not able to find my contact lens case.	0	0
+I was one of the best students in my class.	0	1
+He always flouts his mother's advice to follow his own dreams.	0	1
+The museum is one of the best places to see if you want to learn about the history of the area.	0	0
+I'm not very concerned about it.	0	1
+I am not available.	0	0
+The students were expected to arrive at the school by 8:00 a.m.	0	0
+It is our responsibility to ensure that all students have the opportunity to succeed.	0	1
+In the United States, the government is responsible for the safety of its citizens.	0	0
+It's raining.	0	0
+The research shows that the current system is not effective.	0	0
+I don't know how much money she has.	0	0
+The first step is to come up with a topic.	0	0
+The amendment made by this section shall take effect on the date of enactment of this Act.	0	0
+The president will not be able to sign the bill into law.	0	0
+In the absence of the relevant facts, it is impossible to say whether or not the man is dead.	0	1
+He was the only one who could help me.	0	0
+He always ignores his mother's advice to follow his own dreams.	0	1
+I'm not going to tell you that I'm sorry.	0	0
+He didn't do it on purpose.	0	0
+The good news is that we have a new, cheap and very effective vaccine to prevent this terrible disease.	0	0
+The data from the study showed that the new treatment was effective.	0	0
+He didn't see the big picture.	1	1
+The small child looked at the large dog.	0	0
+It was as if the room were spinning around me.	1	0
+A person who has attained success in life has done so by setting and achieving goals.	0	1
+The first step to take if you want to improve your writing is to read more.	0	1
+The aim of the study was to improve the understanding of the factors that influence students' decisions to study abroad.	0	1
+He had to stop taking the medication because of the side effects.	0	1
+The government has launched a new campaign to promote healthy eating habits.	0	0
+They are not the kind of people who would take advantage of a situation like this.	0	1
+The data collected in this study will be used to assess the impact of the program on the participants.	0	0
+A study by the American Academy of Pediatrics found that many parents are reluctant to have their children vaccinated.	0	1
+I'm looking for a charger.	0	1
+The Board has determined that it is necessary to increase the rental rates.	0	0
+I hope there are more interactive exhibits in the museum.	0	1
+I'm not saying that she's not beautiful.	1	1
+A report by the National Academy of Sciences found that people who eat a lot of high-fat foods are more likely to develop cancer.	0	0
+The main function of the police is to serve and protect the community.	0	0
+I can't believe it's already over.	0	0
+All of the students in the class are required to take the final exam.	0	0
+"The study found that the use of the word \""sucks\"" in daily conversation had doubled since 1990."	0	1
+The teacher told the students that they would have to work hard if they wanted to pass the class.	0	0
+The girl had a fear of dogs, so she decided to get a cat instead.	0	0
+The animal was not fed.	0	0
+The new software has a lot of features that the old one didn't have.	0	0
+They will have to leave early in order to make it on time.	0	0
+I have no intention of moving to a different city.	0	0
+After the population was listed as extinct, the Taiwanese leopard was finally spotted in an isolated part of Taiwan for the first time in a half century.	0	0
+It is not possible to determine the precise moment when night falls.	0	0
+He is one of the most popular presidents in history.	0	0
+The hospital is being sued by six foot doctors.	1	1
+A great deal of the population is living in poverty.	0	0
+If I had a lot of money, I would go on a vacation.	0	0
+John gave all his students a book on Derrida.	1	1
+The company's stock prices rose by 3% today.	0	0
+It is important for us to be able to work together in order to make progress.	0	1
+He says that he wants to be able to take care of himself and his family.	0	0
+In many cases, people who are colorblind can see colors, but they are not as vibrant.	1	1
+A significant number of people who live in poverty are children.	0	1
+The poet laureate is an honorary position.	0	0
+The rate of increase in the cost of living has been rising more rapidly in recent months.	0	0
+In spite of the cold weather, the flowers are blooming.	0	0
+Even if you're not doing anything wrong, you're being watched and monitored.	0	0
+It is important to realize that not all change is good.	1	0
+We examine the effect of family structure on child outcomes.	0	1
+It was very cold last night.	0	0
+James was so engrossed in his book that he didn't hear his mother come in.	0	0
+My kids might go to the same school as Bill Gates' kids.	1	1
+The students in the lower-level classes are not being challenged enough.	0	0
+I didn't realize how much I missed home until I moved away for college.	0	0
+Since prehistoric times, people have been using geometry to study the world around them.	0	1
+I really don't like that idea.	1	0
+He must have been angry.	0	1
+No worries, I am just having the usual advisor problems.	1	1
+I didn't realize that I had left my phone at home.	0	0
+The novel was criticized for its violence and lack of redeeming social value.	0	0
+I will go to the store, and then I will come home.	0	0
+We should always be careful with what we say.	0	0
+The fact that the law has not been enforced does not mean that it does not exist.	0	0
+I'm not sure I can do this.	0	1
+They were the only ones who could get the job done.	0	0
+In a business setting, communication is essential for ensuring that tasks are completed efficiently.	0	0
+The proposal was met with opposition.	0	0
+I have to study for my math test.	0	0
+We are not suggesting that this is the only way to improve the situation.	0	0
+It's hard to tell what the consequences will be.	1	0
+The sentence is grammatically correct.	0	0
+The results of the study indicate that a majority of the participants had a positive reaction to the new treatment.	0	1
+I am taller than my brother.	0	0
+They were traveling by horse and wagon, and they had been on the road for days.	0	0
+Even though he was rich, he was not happy.	0	0
+The maid of the princess who scratched herself in public was terribly humiliated.	1	1
+The quick brown fox jumps over the lazy dog.	0	0
+I will study hard so that I can get into the college of my choice.	0	0
+Sometimes people need a helping hand to get them back on their feet.	0	0
+He told me he ate the leftovers yesterday.	1	1
+Since I took office, Wisconsin now has the 2nd highest health care quality ranking in the country.	0	1
+Her theory was based on the observation that people tend to help those who are similar to them.	0	0
+I will not be moving with my partner to the new job.	0	1
+If a cell does not have a nucleus, it is not considered to be alive.	0	0
+They may not be able to see the forest for the trees.	1	0
+We will be leaving at noon.	0	0
+We must act to save the company.	0	0
+We need to take immediate action to deal with the problem of global warming.	0	0
+Angie broke the news to her grandma that she has cancer.	0	1
+As the cost of living continues to rise, it is likely that more and more people will be finding it difficult to make ends meet.	0	0
+The rock band became famous for their unique sound.	0	0
+Even though she was only five years old, she was very precocious.	0	0
+This seminar is full now, but interesting seminars are being offered next quarter too.	1	0
+I'm not saying that I don't like her work, but I don't think it's very good.	1	0
+They would have failed.	1	1
+All students must complete a writing assignment by the end of the semester.	0	0
+A study conducted by researchers at the University of Michigan found that people who consume a lot of fast food are more likely to be depressed.	0	1
+This isn't just a simple task.	0	1
+The study found that people who slept for less than 7 hours a night were more likely to suffer from depression.	0	1
+The new shopping center is set to open in September, and it will bring in over 500 new jobs.	0	0
+The analysis makes the assumption that there is no change in government policy.	0	0
+It is imperative that the city should have a fire department.	0	1
+It's not fair.	1	0
+The number of people who are aware of the problem will increase.	0	0
+In spite of the evidence, the lawyer argued that his client was not guilty.	1	0
+He chose the right side of the fork.	0	1
+The theory that our universe is but one of an infinite number of parallel universes is gaining credence with scientists.	0	0
+The temperature may not be high enough to trigger a reaction.	0	0
+We can't wait to see what will happen.	0	1
+The instructions were as clear as mud.	0	0
+Maria wanted to try out for the soccer team, but her parents wouldn't let her.	0	0
+The purpose of this paper is to explore the link between reading ability and employment outcomes.	0	1
+The data collected in the study showed that there was a correlation between sleep deprivation and poor grades.	0	0
+I have a fear of heights, so I avoid looking down from tall buildings.	0	0
+She wants to work with Dr. Smith, the professor with the largest lab in the department.	0	0
+The tennis player won the match when her opponent was forced to retire due to an injury.	0	0
+The school will be closed tomorrow due to the storm.	0	1
+I have a lot of friends who are artists.	0	1
+The author's purpose in writing this book is to persuade the reader to adopt a new way of thinking.	0	0
+She is an excellent role model for her sisters.	0	0
+A new study has found that the majority of Americans think that the government is doing a poor job of handling the nation's finances.	0	0
+Giacomo believes several people in the room are counting cards.	0	1
+She's beautiful.	0	0
+There is no way to know for sure what caused the explosion.	0	0
+I'm not in the mood for Chinese food.	0	0
+The cost of living has increased by 2.3 percent since last year.	0	0
+It is still not clear what the motivations for the crime were.	0	0
+In the 1990s, many American cities experienced a decrease in the number of crimes committed.	0	0
+It was raining, so they went inside.	0	0
+We must work together to ensure that all children have the opportunity to reach their full potential.	0	1
+The company is looking for a new CEO.	0	0
+Unfortunately, the magnet schools began the undoing of desegregation in Charlotte.	0	0
+In order to achieve our objectives, we will need to increase our investment in research and development.	0	0
+He has a meeting with his boss at 3:00 p.m.	0	0
+My sister became an ordained minister so that she could marry her friend to his fianceé.	1	0
+If you want to improve your English, you should practice speaking it.	0	0
+The teacher asked the students to list the countries in Africa.	0	0
+All evidence points to the fact that the butler did it.	0	0
+I started my job in May.	0	0
+The Department of Education's Office for Civil Rights is responsible for enforcing Title IX.	0	0
+If you take the time to proofread your work, you will catch most of your errors.	0	1
+The novel has been banned in many schools.	0	0
+A significant amount of research has been conducted on the impact of the family on the development of human capital.	0	0
+I'm sorry, but I don't think I can help you.	0	1
+The athlete will train for the Olympics for four years.	0	0
+I don't think it's fair to say that the company is going bankrupt.	0	0
+They were close to finding a cure for the disease.	0	1
+I wanted to believe him, but I just couldn't.	1	1
+The data suggest that the use of commercial and private aircraft by government officials is a serious problem.	0	0
+The new procedure will save time and money.	0	0
+We will be able to see things more clearly then.	1	1
+The study found that the average person reads 25% slower from a screen than from paper.	0	1
+The storm surge from the hurricane was so destructive that it was hard to believe that any structures could have survived.	0	0
+It is disheartening to think that our government would rather build walls than bridges.	0	1
+The study found that the best way to prevent bullying is to have a zero-tolerance policy.	0	1
+Even if a program is voluntary, the government may still be held liable if it is found to have violated the constitutional rights of the participants.	1	0
+Noah took several pictures of Carlos, and he wonders which one Carlos likes best.	1	0
+I can't see why I should have to apologize for the way I've treated you.	0	0
+He ate the cookies on the couch.	0	1
+They wanted to build a new house, but they couldn't afford it.	0	0
+The flowers were blooming in the garden.	0	0
+I don't think we should spend more money on advertising, but we should spend more money on research and development.	0	0
+I can't stand living with him.	0	0
+I am happy to report that the company's financial situation has improved greatly.	0	0
+The novel has been banned in many schools because of its graphic language and violence.	0	0
+The company is planning to release the new product in the spring.	0	0
+A great deal of the evidence has been gathered.	0	0
+It's been a long time since I've seen her.	0	0
+The city is home to a number of important historical landmarks.	0	0
+A small number of countries have not yet ratified the treaty.	0	1
+Tanaka and Lilian built a cabin.	0	1
+I am writing to apply for the job of web developer.	0	0
+I was so exhausted from my work that I didn't have the energy to go to the gym.	0	0
+I can't believe that they would make such a big deal out of something so small.	0	0
+After the war, he became a successful businessman.	0	0
+Twice a car passed while he was fidgeting with the lock of the house.	1	1
+The recent increase in violence is a result of the economic recession.	1	0
+I could see the sunlight shining on the water, and the waves were breaking against the rocks.	0	0
+We need to invest in renewable energy sources.	0	0
+I was raised in a very strict household.	0	0
+The company's decision to move to a new country was motivated by the desire to find a larger market.	0	0
+I have been living in this house for six months.	0	0
+I'm pretty sure that the answer is no.	0	1
+The sun was setting behind the mountains.	0	0
+A large number of people have died from the disease.	0	0
+I'm going to the grocery store.	0	0
+The dog was so dirty, it's no wonder the Fleas decided to move in.	0	0
+I can't quite put my finger on what it is about this novel that I don't like.	0	0
+I am not happy with the way that you treated me.	0	0
+The boy had trouble hearing out of his left ear.	1	1
+I wonder if the store is open.	0	1
+In some cases, people will use a different language at home than they will at work.	0	0
+I didn't know what to do.	0	0
+All the evidence suggests that what he's saying is true.	0	0
+In this study, the authors used a variety of methods to collect data.	0	0
+There is no reason to suppose that the meeting will be cancelled.	0	0
+I'll be in the city.	0	0
+The artist was once a member of the royal court of the last king of the Joseon Dynasty.	0	0
+These findings suggest that climate change is a more complex problem than we thought.	0	0
+The child didn't want to go to school.	0	0
+It is hard to fathom why anyone would make such a decision.	0	0
+The cat slept through the storm.	0	0
+The storm is expected to cause heavy damage to crops.	0	0
+They were, as a matter of fact, quite content to be ordinary citizens.	0	0
+Even if dinner is with Alisa, it’s still worth it.	0	1
+I am confident that we will be able to achieve our goal.	0	1
+I don't think that online learning can replace traditional learning.	0	0
+It is possible that the conference will be postponed if the situation does not improve.	0	1
+I think it's going to rain.	0	0
+The athlete was suspended from the team.	0	0
+A politician's primary concern is often getting reelected.	0	0
+We accept all major credit cards.	0	0
+I'm not going to the party because I don't know anyone there.	0	1
+He's not very well off.	0	1
+The cashier counted the money and then handed it back to the customer.	0	0
+He was cowering in the corner.	0	0
+I'm not comfortable with heights.	0	0
+We were both a little taken aback when we saw the size of the bill.	0	0
+I was not so much angry with her as I was disappointed.	0	1
+The company's sales increased by 20% last year.	0	0
+The speaker is at the front of the room.	0	1
+The best way to learn about a culture is to immerse yourself in it.	0	0
+It was, in fact, a beautiful day.	0	0
+John was not at home, and so I couldn't give him the message.	1	1
+When the clock struck New Year's, John kissed his wife, and so did Sam.	1	1
+The importance of data integrity is stressed.	0	0
+The athlete was very dehydrated after the race.	0	1
+All I want for Christmas is a new pair of shoes.	0	0
+A novel is a fiction book that is longer than a short story.	0	0
+You should visit Norway in the summer.	0	1
+Many people are unaware of the dangers of not properly securing their load.	0	0
+He is one of the most popular students in school.	0	0
+I think that education is the key to success.	0	0
+A new study suggests that the decline in the number of family farms has led to a decline in the quality of life in rural communities.	0	0
+Her behavior was totally unacceptable.	0	0
+The exhibit features a number of interactive displays, as well as a short film about the history of the area.	0	0
+She has a voice that is both powerful and angelic.	0	0
+It is estimated that as many as 20% of the population may suffer from some form of color blindness.	0	0
+A study has shown that a diet rich in vegetables can help to reduce the risk of heart disease.	0	0
+He was very tall, for a child.	1	0
+In spite of the fact that John was wearing a jacket, he caught a cold.	0	0
+He washes the dishes and she dries them.	1	0
+The theory behind buying a new car is that it will save you money in the long run.	0	0
+Even if you study hard, you can't expect to get an A on the test.	0	1
+There is no evidence that better schools lead to higher test scores.	0	0
+It generally takes about two weeks for the flu to run its course.	0	0
+Some people believe that extraterrestrial life exists on other planets.	0	1
+In general, people are more likely to see the value in something that they have paid a lot for.	0	0
+He had been waiting for a while.	0	0
+Even though he is wealthy, he is not happy.	0	0
+The new product launch is expected to generate a lot of interest.	0	0
+It is possible that the differences in the results may be due to chance.	0	0
+I think that, overall, the experience was a positive one.	0	0
+Because of the drought, the city's water supply will run out in two months.	0	1
+It is no coincidence that the three countries with the highest rates of gun ownership are also the three countries with the highest rates of gun violence.	0	0
+We can only hope that the situation will improve.	0	0
+The doctor told me that I had a rare disease.	0	1
+I am getting more and more tired.	0	1
+The study found that the average worker spends about eight hours a day working.	0	0
+It is not clear whether the city will be able to attract enough businesses to fill all the available space.	0	1
+The finding supports the idea that a calorie-restricted diet can extend lifespan.	0	0
+After the long winter, the trees are finally starting to bud.	0	0
+I'm getting a little sick of your complaints.	0	1
+The effects of the disease are not yet fully understood.	0	1
+I didn't know that you were interested in art.	0	0
+If you work hard, you will succeed.	0	0
+It is a good idea to save money.	0	0
+The city was built on the remains of a previous city.	0	0
+In a recent study, it was shown that people who eat breakfast are less likely to be obese.	0	0
+No bathroom bill made it to Abbott’s desk by the end of the legislative session in May.	0	1
+Some experts believe that extraterrestrial life exists on Europa.	0	0
+The students were asked to complete the assignment by the end of the week.	0	1
+The soldier threw his spear at the charging beast, but missed.	0	0
+I'm telling you, this guy is not to be messed with.	0	0
+Social media has had a profound effect on the way we communicate.	0	1
+The trial was a long and difficult process for the family.	0	0
+"According to the study, the Internet \""may have important implications for the future of society.\"""	0	0
+In order to improve my Spanish, I need to practice speaking it every day.	0	0
+The cashier counted the money and put it in the drawer.	0	0
+The teacher's lectures are always interesting.	0	0
+Even with a college degree, many recent graduates are finding it difficult to find employment.	0	0
+In spite of the fact that I am failing, I have enjoyed the class.	0	0
+They are planning to build a new highway that will connect the two cities.	0	0
+In order to reduce the number of car accidents, the government is considering a law that would make it illegal to text while driving.	0	0
+I want to go to a school in Chicago.	0	1
+I don't think that you should have to pay taxes.	0	0
+Despite their best efforts, the company was not able to make a profit last year.	0	0
+The combination of these two factors has led to a situation where many people are now in favor of some form of gun control.	0	0
+All of the students in the class must turn in their homework.	0	0
+The thing I like most about my job is the people I work with.	0	0
+I am not trying to say that we should all go out and buy a new car.	0	1
+In order to get the best results, you need to use the best possible ingredients.	1	0
+The man was running towards the finish line.	0	1
+The most likely explanation for the decline in support for the war is that the American public has lost faith in the government's ability to win the war.	0	1
+In spite of the recession, many people are still going out to eat at restaurants.	0	1
+The company's decision to move to a new location was made in order to be closer to its target market.	0	0
+I am so sick of peanut butter and jelly sandwiches.	0	0
+It is the only possibility of making the law the servant of the people, not the other way around.	0	1
+I am going to pick up my brother from school.	0	1
+The mission of the organization is to promote the advancement of education.	0	0
+It is still unclear whether the allegations are true.	0	0
+It is rumored that the president will resign.	1	0
+The detective asked the informant for a description of the suspect.	0	0
+This is going to take some time.	0	0
+If you're not failing sometimes, you're not working hard enough.	0	0
+The little girl wanted to go outside and play in the snow, but her mother made her stay inside.	0	0
+The cat slept through the storm.	0	1
+It's going to be hot today.	0	1
+The novel has been described as a modern classic.	0	0
+Even the best-laid plans can go awry.	0	1
+The new baby has her father's eyes.	1	0
+I really enjoyed the book.	0	0
+If the artist had used a different color for the background, the painting would have been more effective.	0	0
+I hope there is more contemporary music on the rest of the program.	0	1
+They never suspected that their new babysitter was a murderer.	0	1
+He was relieved.	0	1
+They will be working hard all day long.	0	0
+A study by the National Academy of Sciences concluded that human activity is a major contributor to climate change.	0	0
+The poet's use of language is both beautiful and effective.	0	0
+I can't remember when I last had a good laugh.	0	1
+He is the best basketball player in the world.	0	0
+The disease is passed on by the bite of an infected mosquito.	0	1
+I don't think it's right to judge people.	0	0
+It is difficult to be a good role model for your children when you are not a good role model for yourself.	0	1
+The school was founded in order to provide an education for the children of the working class.	1	1
+If you want to improve your health, you need to eat more vegetables.	0	1
+It was as if she had been living in a dream.	1	0
+The company's decision to lay off workers was due to the downturn in the economy.	0	1
+The goals of the organization should be to improve communication and increase collaboration.	0	0
+If you want to see the sights of the city, you can take a bus tour.	0	1
+I can't reach the top shelf.	0	0
+I have a lot of work to do today.	0	0
+The jury deliberated for hours but was unable to reach a verdict.	0	0
+In spite of the fact that he had been caught, he still denied stealing the money.	0	0
+At first glance, it may appear that the two paintings are similar.	0	1
+I think that we should all try to be a little more tolerant.	0	0
+I claim that this is the best book ever written.	0	0
+The new software is also available in a Spanish-language version.	0	1
+The most important characteristic of a good teacher is the ability to motivate students.	0	0
+I'm certain that the noise outside is just the wind.	1	0
+The athlete has made it clear that he will not be participating in the race.	0	0
+In most cases, the disease is not deadly.	0	1
+All the workers were given a raise.	0	0
+The cashier denied that she had been stealing money from the till.	0	0
+Most of the graduates of my program have moved on to other things because the jobs suck.	0	0
+They're going to build a new shopping mall.	0	0
+The company's financial problems are not the only reason for the layoffs.	0	0
+The workers went on strike because they were not being paid enough.	0	1
+The vote was close because many people were undecided.	0	1
+I'm not saying that it's a good thing.	0	1
+It is difficult to find a job in the city.	0	0
+I have read all of the books in the Harry Potter series.	0	0
+The council decided to approve the measure.	0	0
+He was a great man and will be missed.	0	1
+They are the same age and share the same birthday.	0	0
+They insist that they saw a UFO.	0	0
+The class was divided into two groups.	0	0
+We need to have a serious discussion about this issue.	0	0
+It is difficult to overstate the importance of this book.	0	0
+I don't think that they will be able to catch the thief.	0	0
+After years of decline, the company is finally starting to make a profit again.	0	0
+The company president made a speech to the shareholders.	0	0
+I've been waiting for this day for years.	0	1
+It is a good thing that I didn't listen to her.	1	0
+Your boss is a funny man.	1	1
+I am not smart because I did a PhD.	1	1
+The best way to improve your writing is to practice writing.	0	0
+We should always be grateful for what we have.	0	0
+He had a difficult time understanding her because of her strong accent.	0	1
+It is difficult to believe that the author of such a masterpiece could have been only twenty-three years old when he wrote it.	0	1
+After years of being displaced, the family was finally able to return to their home.	0	0
+The majority of the patients in the study were female.	0	0
+I wonder if she is telling the truth.	0	0
+All of the plants in the garden are annuals.	0	0
+I didn't realize that I had left my phone at home until I was already at the movies.	0	0
+I looked down at my feet, then up at the sky.	0	0
+I'm not saying that the government is responsible for the current state of affairs.	0	1
+In many ways, the novel is a celebration of the human spirit and the power of love.	0	0
+I was about to leave when she arrived.	1	0
+The little girl put on her mother's shoes.	1	0
+We can use this as an opportunity to change our perspective.	0	0
+I can't believe that he would do something like that.	0	0
+They wanted to know what happened to the man who disappeared.	0	0
+In general, the child will want to imitate the parent of the same sex.	0	0
+We will be landing in New York at 3:00 p.m.	0	0
+Inaction is not an option.	0	0
+It is possible that he will get the job.	0	1
+Some believe that all people are born with certain talents and abilities.	0	0
+They were not able to find a single person who saw the accident.	0	0
+It was a hot day, and the sun was beating down mercilessly.	0	0
+He has been very critical of the way the company is run.	0	0
+We put the books on the shelves in alphabetical order.	0	1
+I am confident that the new software will solve the problem.	0	0
+The first step is to come up with a tentative thesis.	0	0
+The opposition party has been critical of the government's handling of the economy.	0	0
+If you want to be happy, you should pursue what you love.	0	0
+I was quite pleased with the results.	0	0
+The conference is meant to bring together experts to discuss how to make the transition to a low-carbon economy.	0	0
+I am convinced that the Internet is the most significant invention of the last decade.	0	0
+The tax cut would help to spur economic growth.	0	0
+I have been going to the same barber for the past year.	0	1
+He only eats out on Fridays.	0	0
+Paola drinks oat milk.	0	0
+We use water for drinking, cooking, and cleaning.	0	0
+They both want to be president.	1	0
+They're not close to a solution.	0	1
+I am happy to be here.	0	0
+The cashier counted out the woman's change.	0	0
+If you are studying for a test, you should try to get a good night's sleep.	0	0
+It is the world's largest metropolitan area by landmass.	0	0
+The council has not provided any evidence that the building is unsafe.	0	0
+Although it has been several years since the accident, Mary still has nightmares about the car crash.	0	0
+The government has been criticized for its handling of the economy.	0	0
+The poet was taken aback by the editor's harsh criticism of her work.	0	0
+The teacher is speaking to the class about the Revolutionary War.	0	0
+It is difficult to impossible to change the fundamental nature of a person.	1	0
+Even though he was the one who broke her heart, she still loved him.	1	0
+The second question is whether the government may condition the receipt of LSC funds on compliance with the Act's restrictions.	0	0
+They were not able to come to an agreement, so they parted ways.	0	0
+The company's stock price has been volatile in recent months.	0	0
+The data show that the average American worker is better off than he was 40 years ago.	1	0
+The company is expected to do very well this year, with analysts predicting a significant increase in profits.	0	0
+I am going to have to increase the amount of money I spend on groceries.	0	1
+After years of being a housewife, she decided to go back to school.	0	0
+He had no money, no job, and no prospects.	0	0
+I am convinced that we can win this war.	0	0
+I was looking for my glasses and couldn't find them anywhere.	0	1
+I will be there at eight o'clock.	0	0
+They arrived at the hotel at 3 PM.	0	0
+In the 1970s, the upper floors of the building were converted into apartments.	0	0
+The author's latest book is a departure from her previous work.	0	0
+Even though the area was bombed during World War II, many of the buildings in the old city center were spared.	0	0
+Even though I had proof that I wasn't speeding, I still got the ticket.	0	0
+If you're not failing every now and then, it's a sign you're not doing anything very innovative.	1	0
+A recent study has shown that people who consume a lot of sugar are more likely to develop obesity.	0	0
+Calvin will honor his father and Otto will too.	1	1
+The mean is the most common measure of central tendency.	0	0
+The painting is not very good.	0	1
+He didn't know what to do.	0	0
+I think there are more affordable food options down the street.	0	1
+They want to know how to make a living, not how to make a killing.	1	0
+The system is projected to remove up to 99 percent of the total suspended solids (TSS) from the water.	0	0
+It is important to have a clear understanding of the problem before trying to find a solution.	0	0
+The class was really uncomfortable from beginning to end.	0	0
+I am not very happy with my current situation.	0	0
+I don't think we should have to pay for their mistakes.	0	1
+Some economists argue that the country is already in a recession.	0	0
+She is the best looking woman I have ever seen.	0	0
+The little girl was the only one in the class who could answer the question.	0	0
+He was looking at me with a face that showed no emotion.	0	0
+I don't think that we can blame them for their decision.	0	1
+According to the latest reports, the number of people who are unemployed in the United States has reached a record high.	0	1
+It is imperative that we take action now to save the environment.	0	0
+I will call you later.	0	0
+I'm trying to get a handle on this new software.	0	0
+I don't always agree with my friends.	0	0
+Mary is very intelligent and did very well on her test.	0	0
+The study found that the most effective way to reduce crime is to increase the number of police officers.	0	1
+Even though he was rich, he still drove an old car.	0	0
+Her explanation of the situation was long and convoluted.	0	0
+It is a generally accepted principle that the government should not spend more money than it takes in.	0	0
+If the company wants to be successful, it must invest in research and development.	0	1
+Carolyn had talked to two senators.	0	1
+The new software is predicted to make a significant impact on the way we work.	0	0
+The students were all required to read the play for homework.	0	1
+The new CEO is not the first woman to lead the company.	0	0
+Many people are angry about the new law.	0	0
+He's a charmer.	1	1
+I don't know why she's always late.	0	0
+We will be able to see the results of the study in a few weeks.	0	0
+He was not able to offer any explanation.	0	0
+I'm doing a study on the relationship between stress and heart disease.	0	0
+I don't think that I would be able to survive in a world without music.	0	0
+In many cases, an actor's career is likely to be determined by the role that he or she is best known for.	0	0
+In spite of the fact that she was very tired, she decided to go for a run.	0	0
+He gave me a start.	1	1
+Under the new law, all employers must provide health insurance for their employees.	0	0
+We can only hope to find a solution to the problem if we work together.	0	0
+I'm going to take a walk in the park.	0	0
+It is not uncommon for a person to change their mind after hearing both sides of an argument.	0	0
+I'm not interested in making money.	0	0
+It was as if he had never seen the sun before.	0	1
+It's not too late to change your mind.	0	1
+The number of obese people in the world has tripled since 1975.	0	0
+It's raining.	0	0
+I have to stay up all night to finish this project.	0	0
+The committee has not yet released its findings, but it is expected that they will be critical of the program.	1	0
+Even though I am failing, I have enjoyed the class.	1	0
+I don't have any siblings.	0	0
+He had a sharp wit and was always quick with a comeback.	0	0
+They will have to leave the country.	0	1
+We cannot deny that some progress has been made in the fight against poverty.	0	0
+The novel was turned into a movie that was a huge success.	0	0
+It was very cold last night.	0	0
+We can therefore predict that there will be an increase in the demand for goods and services.	0	0
+The price of gasoline has been rising steadily for the past few months.	0	0
+A study done in 2006 found that people who read for pleasure on a daily basis had a significantly higher IQ than those who read less frequently.	0	1
+They need to be more careful with their money.	0	0
+It was a difficult thing to do.	0	0
+The evidence clearly shows that the defendant is guilty.	0	0
+The experts are still debating the most effective way to deal with the problem.	0	0
+The United Nations has been accused of a failure to investigate the charges of human rights abuses.	0	1
+He was always rather too fond of the sound of his own voice.	0	0
+It is not surprising that many people find fault with the government.	0	1
+I didn't realize that the park was so close to the city.	0	0
+The instructions were to take the cake out of the oven in ten minutes.	0	0
+She was very tired.	0	0
+A downside to living in the city is that there is a lot of pollution.	0	0
+By understanding how these groups are organized, we can develop strategies for more effectively communicating with them.	0	0
+The novel has been praised for its insights into the human condition.	0	0
+I need to buy a new car.	0	0
+The novel was well-received by critics.	0	0
+They need to wake up and realize that what they're doing is wrong.	0	0
+He is the strongest player on the team.	0	1
+He wants to coach the Titans, the lowest-ranked team in the league.	0	0
+I don't think I should have to do that.	0	0
+He is one of the most brilliant minds of our time.	0	0
+His argument is that the novel is not only a great work of literature, but also a political statement.	0	0
+Even if the company is not doing well, the CEO still receives a large salary.	0	0
+I'm not sure that I'm ready to make a decision.	0	1
+I still can't believe it.	0	0
+According to the forecast, the high temperature for today will be ninety degrees.	0	0
+I can't believe that he's telling the truth.	0	1
+Mary is the most beautiful girl in the world.	0	0
+Even if you work hard, you will not be able to succeed if you do not have the right connections.	0	0
+Even if you don't want to go, I think you should go.	0	0
+I am happy to be alive.	0	0
+A teacher's job is to instruct students.	0	0
+The novel has been criticized for its graphic violence.	0	0
+The new laptop is very similar to the old one.	0	0
+He had a lot of fun at the party.	0	0
+It is now generally accepted that the danger of a nuclear war between the US and the USSR has passed.	0	0
+We will be introducing a new product line next quarter.	0	0
+I'm so bored.	0	0
+Every day, he walks to work.	0	0
+It's hard to say.	0	1
+I have to go to the grocery store.	0	0
+There is no one answer to the question of what is art.	1	0
+It is not necessarily the case that the more you know, the more you will be able to learn.	0	0
+The majority of the participants in the study reported that they had not been the victim of discrimination.	0	0
+I have to leave for my doctor's appointment in ten minutes.	0	0
+John and Anna are married.	0	1
+The mother was pleased with her daughter's report card.	0	0
+A new study has shown that people who sleep for less than seven hours a night are more likely to die early.	0	0
+In order to succeed, it is important to have a good work ethic.	0	0
+It is no exaggeration to say that the lives of millions of people have been saved by the work of the WHO.	0	0
+Visiting relatives can be boring.	0	1
+I didn't see the movie because I heard it was bad.	1	0
+The median home price in the area has increased by 10 percent.	0	0
+In the early hours of Sunday morning, a fire broke out in the south wing of the palace.	0	0
+The poem is about a person's love for nature.	0	0
+The poet often wrote about love and loss.	0	0
+We have to find a way to get along with each other.	0	0
+If the current rate of deforestation in the Amazon rainforest continues, the rainforest will be completely gone in 100 years.	0	0
+She looked in the mirror, then at the clothes on the bed.	1	0
+We will have to leave early if we want to get there before dark.	0	0
+Every night, the baby is fed milk.	0	0
+"The article \""How to be a Millionaire\"" claims that \""most people will never become millionaires.\"""	0	0
+The purpose of this study was to examine the effects of different methods of data collection on the accuracy of results.	0	0
+The students in Ms. Smith's third grade class are working on a project about the solar system.	0	0
+I'm afraid I can't help you with that.	0	0
+In some respects, this novel is a failure.	0	0
+I find it difficult to believe that he was able to get the job done by himself.	1	1
+I didn't have enough money to buy a new car.	0	1
+One of the main purposes of education is to prepare students for the workforce.	0	0
+In spite of the heavy rain, they decided to go for a walk.	0	0
+My parents are my biggest supporters.	0	0
+The flowers were so beautiful.	0	0
+The baker added flour to the bowl.	0	0
+They decided that the company should relocate to a cheaper office.	0	0
+The peasants are staging a revolt.	0	0
+The novel is about a young girl's coming of age.	0	0
+The only way to get a reservation is to call the restaurant.	0	0
+The rock was heated to a temperature of 1,000 degrees Celsius.	0	0
+I have a meeting with my boss at 3:00 and then I have to pick up my kids from school.	0	0
+We should all be careful not to judge people by their appearances.	0	1
+This is not to say that there is no hope for the future.	0	1
+I am afraid that the patient is not progressing as quickly as we had hoped.	0	1
+In general, people tend to like those who are similar to them.	0	0
+He will not be eligible for parole for at least another five years.	0	0
+The purpose of this paper is to explore the relationship between economic growth and income inequality.	0	0
+It is possible that he did not see the other car coming.	1	0
+The company has not yet determined how many jobs will be cut.	0	0
+A possible explanation is that the results of the study are due to chance.	0	1
+I'm going to make a cake.	0	0
+It is incumbent upon us, therefore, to take whatever steps are necessary to correct the situation.	0	0
+I don't think that he likes me very much.	0	0
+It is important to know how to swim.	0	0
+The cake was so dry, it was like eating sand.	0	0
+If a graph is not complete, it is possible that it is missing some edges.	0	1
+The two were inseperable, and spent every waking hour together.	0	0
+I'm not going to be the one to tell her.	1	0
+I am afraid that the meeting tomorrow will be canceled.	0	1
+The school board decided that they would not allow the PTA to fundraise during the school year.	0	0
+The river was swollen from the heavy rains and the current was very swift.	0	1
+Even though we can't see it, the wind is there.	0	0
+A recent study found that the use of social media is associated with a decrease in empathy.	0	1
+The company should produce a quarterly report.	0	1
+The Board of Education is committed to providing the best education possible for our students.	0	0
+In the past year, our company has made great strides in improving customer satisfaction.	0	0
+To get in, you will need an entrance fee of $10 or your voucher and your driver's license.	0	1
+As the use of fossil fuels decreases, the need for renewable energy sources will increase.	0	1
+The House of Representatives has not yet voted on the bill.	0	1
+The company is struggling to pay its bills.	0	0
+I'm looking for a book on world religions.	0	0
+I don't think that the restaurant is very clean.	0	1
+She has a lot of experience in this field.	0	0
+In this case, the best thing to do is to wait and see.	0	0
+I can't stand people who are always late.	0	0
+The seller may terminate the contract if the buyer fails to make a payment.	0	0
+Even if you have all the information, it's impossible to predict the future.	0	0
+Some people are happy living in small towns.	0	1
+All of the furniture in the room was covered in a thin layer of dust.	0	0
+I am not going to stand for this kind of treatment.	1	0
+The teacher asked if anyone knew the answer to the question.	0	0
+In the first half of the movie, the protagonist is trying to figure out what is going on.	0	1
+The study found that people who had a positive outlook on life were more likely to be physically active.	0	1
+I was looking for my phone and then I realized it was in my hand.	0	0
+The new law will come into effect on January 1st.	0	1
+The teacher is responsible for the students in the classroom.	0	0
+The theory of plate tectonics holds that the Earth's outer shell is divided into several large, thick plates.	0	0
+It's raining.	0	0
+It's not my problem.	0	1
+He was the sort of person who was always looking for an opportunity to make a quick profit.	0	0
+The United States spends more money on defense than any other country in the world.	0	0
+I have one of the best jobs in the world.	0	1
+I will take you to the airport.	0	0
+Allowing employees to telework from home may help to reduce employee stress and improve work-life balance.	0	0
+I don't like going to the dentist.	0	0
+I think that we should go on a vacation.	0	0
+She's very methodical in her work.	0	0
+In this study, we sought to determine the extent to which people use social media.	0	1
+A commonly accepted belief is that people who are ambitious are more likely to be successful.	0	0
+I was so tired, I could barely keep my eyes open.	0	0
+After the game, the coach was so angry that he threw his clipboard on the ground.	0	0
+I was informed that the patient is doing well.	0	1
+There is no single answer to the question.	0	0
+The conference will provide an overview of the latest research on the impact of climate change on the world's oceans.	0	0
+It is important to be on time for your appointment.	0	0
+I was not consulted about this change.	0	1
+He was giggling.	0	0
+It is unlikely that the patient will experience a full recovery.	0	0
+The new procedures will require all employees to submit a request for leave in writing.	0	0
+This can lead to a number of problems.	0	1
+We saw her duck.	1	1
+A watched pot never boils.	0	1
+Someone had scribbled on every wall in the kitchen.	0	1
+I doubt that he will ever be able to play the piano again.	0	0
+They had to cross the street to get to the other side of the block.	0	0
+The library's mission is to provide access to information.	0	0
+We can see from the data that the average worker is not getting paid enough.	0	0
+You never told me what you wanted.	1	1
+The company's profits have been declining for the past three years.	0	0
+The novel is not very good.	0	0
+I'm afraid the cat was hit by a car.	0	1
+I will be out of the office tomorrow.	0	0
+We should give more money to charity.	0	1
+In 2012, it was the only state in the country to have a budget surplus.	0	0
+The court's interpretation of the First Amendment as a barrier to any regulation of expressive conduct was a fatal error.	0	0
+The company is hoping to increase its market share.	0	0
+A recent study found that people who regularly eat fish are less likely to develop Alzheimer's disease.	0	1
+The woman with the axe swung it down, but the man with the mace raised his shield.	0	0
+You can't fool all of the people all of the time.	1	0
+The most important thing for our company is to increase sales.	0	1
+Although many people think that the ancient city was destroyed by a volcano, recent archaeological evidence suggests that it was actually abandoned by its inhabitants.	0	0
+In the 1990s, the company began to focus on the development of online services, and it soon became a leading provider of such services.	0	0
+The athlete was covered in a layer of sweat.	0	0
+It is important to always be respectful to your elders.	0	0
+I'm not quite sure what he meant by that, it was like he was speaking another language.	0	0
+It has been argued that the media has a responsibility to provide accurate and unbiased information.	0	0
+All of the students have to wear uniforms to school.	0	0
+He was born in a small town.	0	0
+A little over a third of the members of Congress are women.	0	0
+I'm going to take a break from studying.	0	0
+It was a big mistake.	0	0
+Alice didn't need to lie.	1	1
+A review of the literature is necessary to ensure that the research question has not been previously answered.	0	0
+I have never been to New York.	0	0
+Many people believe that the Earth is round.	0	0
+It is possible that thetrue nature of the universe has been misinterpreted by scientists.	0	1
+The company has been accused of negligence in the past.	0	0
+He was looking for his keys.	0	0
+This is not to say that she is not a good person.	0	1
+I don't want to make a big deal out of this, but I'm not comfortable with what you're doing.	1	0
+The board has come to the conclusion that the company is not doing well.	0	0
+I have to clean my room.	0	0
+He is the only person who can help you with this.	0	0
+The man was fined for jaywalking.	0	0
+This is not to say that she did not love her children.	0	1
+It is clear that the author of this text does not believe in the existence of ghosts.	0	0
+We can only hope that the current unrest in the country will lead to positive change.	0	1
+I think we need to leave now, whispered John to his wife.	0	0
+It was a very hot day, and the sun was beating down mercilessly.	0	0
+All of the passengers were evacuated from the plane.	0	0
+In light of the current economic situation, I think it is prudent for the government to take steps to stimulate the economy.	0	0
+I have a conflict with the seminar this quarter; I hope interesting seminars are being offered next quarter too.	0	0
+The little girl had never seen a snowman before.	0	0
+The assertion that the theory is flawed is based on a misunderstanding of the evidence.	0	1
+I don't want to see the new Superman movie.	0	1
+One purpose of the article is to discuss the pros and cons of the death penalty.	0	1
+In order to properly understand the text, one must first be familiar with the author's style.	0	0
+The company is moving to a new office building because the current one is too small.	0	1
+We were at the game.	0	0
+The new system will require that each state have a single state agency responsible for administering the program.	0	0
+If it is not raining, then the ground is not wet.	0	0
+I'm not going to give up until I find what I'm looking for.	0	0
+I will be out of the office for the next two weeks on vacation.	0	1
+An increase in productivity can lead to a higher standard of living.	0	0
+I'm afraid that we're going to have to find a new manager.	0	1
+If the firm decides to produce the good, it will do so at the minimum point of the average total cost curve.	0	0
+All of the students in the class got an A on the test.	0	0
+The event will take place in the morning.	0	0
+It is essential that every vote be counted.	0	0
+The kitchen was small and cramped, and there was barely enough room to move.	0	0
+I am not trying to downplay the seriousness of the situation.	0	1
+They have to increase the money supply and decrease interest rates.	0	0
+The shareholders approved the acquisition of the company by the multinational conglomerate.	0	0
+He would be a great president if he was more level-headed.	1	1
+I find it rather amusing that he would think that he could get away with it.	0	0
+A goal for the future is to be able to work together in order to make a difference.	0	1
+The private sector is not providing enough jobs.	0	0
+It is better to be thought a fool than to open one's mouth and remove all doubt.	0	0
+The teacher told the students that they needed to be quiet, in order to hear the guest speaker.	0	1
+I don't know why I'm doing this, but I'm going to do it anyway.	0	0
+We will see an increase in the number of refugees.	0	0
+It is impossible to know whether she will succeed or not.	0	0
+He was known for his great work ethic and his love of the game.	0	0
+I can't believe that the same people who were against the war are now in favor of it.	1	0
+I will not rest until I have vengeance upon those who have wronged me.	1	0
+In many ways, the Internet has made it easier for people to connect with each other.	0	0
+There is a popular perception that global warming is a hoax.	1	0
+We have not been able to find any scientific evidence that extraterrestrial life exists.	0	0
+The now-dry riverbed was the site of the worst flood in the city's history.	0	0
+I didn't realize how hungry I was until I smelled the food.	0	0
+I can't believe that he actually did it.	0	1
+"The U.S. Department of Justice is now moving to shut down the \""welfare to work\"" program in six states, including California, Florida, and Michigan."	0	1
+People who are funny naturally use humor to build connections.	0	1
+We had to drive all night, and we had to drive in the dark.	1	0
+The President will be attending the conference.	0	0
+I don't think so.	0	0
+In order to qualify for the job, applicants must have a bachelor's degree.	0	0
+In a recent study, a team of economists from the University of Chicago and the University of Pennsylvania estimated that a change in interest rates of 0.5 percent would have a large effect on consumer spending.	0	0
+I'm going to miss my train if I don't hurry.	0	0
+I'm afraid that if we don't take action soon, it will be too late.	0	1
+The teacher asked if anyone could answer the question.	0	0
+The character of Nancy Drew is often seen as a role model for young girls.	0	0
+I'm not convinced that this product is worth the price.	0	0
+I think he's at Google.	1	1
+It is looking more and more like the situation in Syria will turn into a civil war.	0	0
+It seems that the closer we get to a solution, the more difficult the problem becomes.	1	0
+The theory that the decrease in demand for goods and services is the primary cause of the decrease in the employment rate has not been supported by the evidence.	0	1
+The restaurant was very noisy, and the service was terrible.	0	0
+He wants to attend a school in New York.	0	1
+A large dog was lying in the shade of a tree.	0	0
+In spite of the fact that the company was doing well, the shareholders decided to sell it.	0	0
+Alice said that Bob studied Spanish, and Charlie did too.	1	1
+I am looking for a way to improve my memory.	0	0
+I want to hear the AI talk.	0	1
+I am sure that he will be late.	0	0
+I'm pretty sure that I saw a UFO.	1	0
+He is a very talented musician.	0	0
+In spite of their best efforts, the doctors were unable to save the patient.	0	0
+The sun will rise at 6:32 am	0	0
+There will be a lot of baby talk over brunch today.	0	1
+Since the car wash is having a sale, Jon and Mary both plan to wash their cars today.	0	0
+She didn't want to give up her dream of becoming a doctor.	0	1
+In general, the more specific the question, the more specific the answer will be.	0	0
+I'm not at all sure that I want to go.	0	1
+The school district has to adopt a balanced budget.	0	1
+The manager was happy with the way that the team had performed.	0	1
+The novel has a reputation for being a good source of pro bono representation.	1	0
+It is important for the team to have a leader who is able to make decisions.	0	0
+The correlation between happiness and income is complex and difficult to establish.	0	0
+I will meet you in front of the conference center.	1	0
+He didn't study for the test, and he failed.	1	1
+We could see the river from our campsite.	0	0
+A lot of people believe that ghosts are real.	0	0
+The museum is a great place to visit.	0	0
+She didn't mean to hurt him.	0	1
+The government needs to be more transparent in order to gain the public's trust.	0	1
+In spite of the recession, luxury car sales have remained strong.	0	0
+The conflict in the novel is between the protagonist and the antagonist.	0	0
+The poet's love for his homeland is evident in all of his work.	0	0
+I'm going to have to ask you to leave.	0	1
+We all want what we can't have.	1	0
+If that happens, it would be as if he had never left.	1	0
+The situation was getting out of hand.	0	0
+The novel has been banned in many schools because of its explicit language.	0	0
+I just made up the names in the math problem.	0	1
+In the story, the protagonist tries to save the world from destruction.	0	1
+It is not always easy to predict the future.	0	0
+The jury is still out on whether or not this new diet actually helps people lose weight.	0	0
+She didn't so much mind the noise as the fact that it was coming from his room.	0	1
+I have a meeting with my boss at 3pm.	0	0
+It is getting more and more difficult to find a job that pays well and offers good working conditions.	0	0
+I will never forget the time when I saw a ghost.	0	0
+The little girl will be six years old next month.	0	0
+I'm going to have to ask you to leave if you don't stop making that noise.	0	1
+I'm going to have to call a tow truck to get my car out of the ditch.	0	0
+The glass was shattered by the force of the explosion.	0	0
+He's not sure he likes the new car.	0	0
+A lot of people think that video games are a waste of time.	0	1
+She is looking for a Russian teacher for her kids, because she thinks it would be beneficial for her kids.	0	1
+I don't think so.	0	0
+They were both laughing.	0	0
+The board has not been able to determine the cause of the company's financial problems.	0	0
+The novel has been described as a satire on the excesses of the rich.	0	0
+I take the bus to work every day.	0	1
+I will write a book.	0	0
+The coffee beans are roasted and then ground up before being brewed.	0	1
+In spite of the cold weather, she went out for a run.	0	0
+The teacher is speaking on a phone in his classroom between classes.	0	0
+The average person uses about 50 gallons of water per day.	0	0
+At its simplest, a country is a piece of land with people living on it.	0	0
+In spite of the fact that I am failing, I have enjoyed the class.	0	0
+I don't know how to fix this broken vase.	0	0
+The good news is that the company is doing very well.	0	0
+The schoolteacher is a very important figure in a child's life.	0	0
+If a company wants to be successful, it must have a clear understanding of its customers.	0	0
+We must take this into account when considering the results of the study.	0	0
+I'm not quite sure what I want to do with my life.	0	0
+We do not know for certain what happened to the missing treasure.	0	0
+The boy was looking for a toy.	0	0
+The tornado uprooted trees and toppled power lines.	0	0
+If a person has a right to life, then that person has a right to the basic necessities of life.	0	1
+On a cold winter day, it is often more comfortable to stay indoors.	0	0
+Jana wants to marry the tallest man in Fulsom County.	0	1
+I saw a man with binoculars.	1	1
+They all agreed that she was the best candidate for the job.	0	0
+The post states that the meeting will be held in the conference room on the second floor.	0	0
+The majority of people think that the government is not doing enough to help the economy.	0	0
+In recent years, the NFL has confronted accusations of racial discrimination by Black coaches, allegations of workplace misconduct at a flagship franchise and posthumous diagnoses in more than 300 former players of chronic traumatic encephalopathy, which is associated with repeated blows to the head.	0	1
+It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.	0	0
+This is the first time I have ever been to Europe.	0	0
+A lot of people are under the impression that the stock market is a place where you can make a lot of money quickly.	0	1
+The two companies are in competition with each other.	0	0
+I'm looking for a black wallet.	0	1
+She's about to leave for her vacation.	0	0
+The company's decision to outsource its customer service operations has been met with criticism.	0	0
+I would have to go to the library to find out what the city council is doing.	0	0
+We will continue to provide you with updates as the situation develops.	0	0
+They live in a small house on the edge of the forest.	0	0
+They decided to build a new factory in the city.	0	0
+I would have been able to do it, but I was too lazy.	0	0
+He didn't mean to hurt her feelings.	0	1
+The data show that the number of people who have contracted the virus is increasing.	0	0
+I'm like a fish out of water.	0	0
+It is better to arrive early than to arrive late.	0	0
+The Council has determined that the use of fluoride in the public water supply is safe and effective.	0	0
+The teacher asked the student to read the paragraph aloud.	0	0
+A new study has found that nearly half of all Americans are in favor of gun control.	0	0
+The city was destroyed by the earthquake.	0	0
+The athlete completed the race in record time and was congratulated by the president.	0	0
+Peter is always paranoid that someone is out to get him.	1	0
+The article argues that American foreign policy is to blame for the current unrest in the Middle East.	0	0
+The safety of our guests is our number one priority.	0	0
+She looked at herself in the mirror and sighed.	0	0
+I'm not going to sugarcoat this: you need to shape up or you're going to get fired.	0	1
+The article has many ideas that are not new.	0	0
+The horizon was filled with a bright, orange light.	0	0
+This is not to say that I do not like tennis.	0	0
+In the novel, the protagonist is a young girl who is sent to live with her father and stepmother in a small town in Maine.	0	0
+The survey found that 26 percent of respondents had been victims of credit card fraud.	0	0
+He sightread the piece with a lot of F naturals.	1	1
+A better way to think about it is that you can use a screen to do a lot of things, but not all of them well.	0	0
+She always wanted to be a doctor.	0	0
+In some cases, a plea bargain may be the best option for the defendant.	0	0
+I am very interested in art.	0	0
+The new company offers a unique product.	0	0
+The first step in creating a website is to register a domain name.	0	0
+The party is happening in two days.	0	0
+The United States should have the courage to deal with the economic problems of the world.	1	0
+We need to be careful.	0	0
+The sun was setting behind the mountains.	0	0
+The data from the study showed that the new drug was effective in treating the disease.	0	0
+In Table 3, we can see that the average math score for 9th grade students was lower than the average math score for 10th grade students.	0	0
+She didn't have time to finish her lunch.	0	0
+We can't have a healthy economy without a healthy environment.	0	0
+The rise of the middle class in developing countries is one of the most important economic stories of our time.	0	0
+Many experts have argued that the death penalty is a form of cruel and unusual punishment and should be abolished.	0	0
+I don't think it's fair to say that the restaurant is the best in town.	0	0
+The only people who can vote in this election are United States citizens.	0	0
+Even though we had all the evidence we needed, the jury was not able to convict the defendant.	0	0
+They will also be asked to decide whether the verdict should be set aside.	0	1
+In spite of all the evidence to the contrary, they still refuse to believe that global warming is real.	0	0
+I am very happy with the results of the surgery.	0	0
+He told me the story of a man who played piano quickly.	0	1
+The proposal is that we increase our investment in the company by 10%.	0	1
+We were having a barbecue on Saturday.	0	0
+It was as if he had been swallowed up by the darkness.	1	0
+I was not prepared.	0	0
+I swore to myself.	0	1
+Even though there were two feet of snow on the ground, Timmy still wanted to go outside and play.	0	0
+The department is currently investigating the matter.	0	0
+Without the study, the administration would have had to make a decision based on a single point estimate.	0	0
+We need to be careful about how we spend our money.	0	0
+The company's financial situation is not good.	0	0
+He's a good guy.	0	0
+I can't help but wonder what would have happened if I had made different choices.	0	0
+I'm not saying that you should stop eating out.	0	0
+The mountain is located in the state of Colorado.	0	0
+The best way to improve your memory is to take some time each day to relax and clear your mind.	0	0
+We can be sure that the future will be better than the present.	0	1
+I have a fear of flying.	0	0
+John and Jim are married.	1	1
+The night sky was so clear that it was as if you could reach up and touch the stars.	0	0
+The company has been accused of inflating its sales figures.	0	0
+The man was so angry that he threw the book across the room.	0	0
+We found no evidence that the defendant was involved in the robbery.	0	0
+I can't let you do that.	0	0
+We arrived at the airport two hours before our flight.	0	0
+He was very happy.	0	0
+All I ever wanted was to be loved.	1	0
+If we want to save the planet, we need to find alternative sources of energy.	0	0
+The company has not yet released a statement.	0	0
+The problem with this theory is that it does not take into account the role of the observer.	0	0
+It was the best of times, it was the worst of times.	0	0
+In spite of their reputation for being finicky eaters, cats will eat almost anything.	0	0
+It is now generally accepted that the main factors in human development are genetic and environmental.	0	0
+All of the students in the class are intelligent.	0	0
+All children must be vaccinated against the disease.	0	0
+Because of the high price of oil, many countries are looking for alternative sources of energy.	0	0
+I don't see how that's relevant.	0	0
+The store is having a sale on winter clothing.	0	1
+It is getting close to sunset.	0	0
+There is no evidence that the policy has been successful in reducing the number of accidents.	0	1
+The data collected suggest that the problem is not as bad as previously thought.	0	0
+Even though he was from a wealthy family, he chose to live a simple life.	0	0
+The key to a good relationship is communication.	0	0
+The teacher is responsible for teaching the students.	0	0
+The most difficult decision that I ever had to make was whether or not to move to a new city.	0	0
+I will not vote for the candidate.	0	1
+They are the happiest people I know.	0	0
+It is likely that a new era of optimism and hope will dawn with the election of the new president.	0	0
+In many cases, a change in leadership is necessary for a company to be successful.	0	0
+The athlete's objective is to win the game.	0	0
+The boat, now caught in the storm, seemed to be in danger of capsizing.	0	1
+The review will be conducted by an external organization.	0	0
+He told me the issue was resolved yesterday.	0	1
+The poet had been living in the city for two years, but it was as if he had never left his hometown.	1	0
+It is currently March, and they plan to have their wedding scheduled for next December.	1	1
+It is good to know that someone has your back.	1	1
+I am going to the grocery store.	0	0
+The restaurant is located on the corner of Main Street and Elm Street.	0	0
+It was not until the early hours of the morning that the true extent of the damage was known.	0	1
+The letter suggests that more research is needed on the topic of effective strategies for managing difficult conversations.	0	0
+The article says that the author of the book is a fraud.	0	0
+I have to leave now.	0	0
+They have a reputation for being a very reliable source of information.	0	1
+I don't seem to be able to find my keys.	0	0
+The United States has a responsibility to provide leadership in the world.	0	0
+He says that he is not interested in the money.	0	0
+The teacher is speaking to the class about ancient Greece.	0	0
+The function of the police department is to protect and serve the community.	0	0
+The novel has been praised for its accurate portrayal of life in the Soviet Union.	0	0
+The boy was very hungry.	0	0
+The patient was treated with a new drug that had just been approved by the FDA.	0	0
+The athlete's muscles rippled.	0	0
+Due to the company's success, many of its employees have become millionaires.	0	1
+The rockstar strutted onstage in a glittering sequined jumpsuit.	0	0
+After the accident, the most important thing was that she was alive.	0	0
+The president will present a plan to Congress that will reduce the budget deficit by $1.2 trillion over the next 10 years.	0	0
+I hope you had a well-deserved break.	0	1
+I'm no expert, but it seems to me that the company is in trouble.	0	0
+If a business is doing well, its stock price may increase.	0	1
+I'm so excited to go on vacation to the beach next week!	0	0
+I don't think that I could ever really be happy living in the city.	0	0
+I am sure that the universe is infinite.	0	0
+I was worried that I wouldn't be able to find my way back to the hotel.	0	0
+The first step is always the hardest.	0	0
+The school board is considering a proposal to increase the length of the school day.	0	0
+The company's IT systems must be able to integrate with the new software.	0	1
+I do not have any money.	0	0
+We need to make sure that the employees are properly trained in order to avoid any potential safety hazards.	0	0
+The decrease in availability of jobs is due to the decrease in funding.	1	0
+The school needs to be repaired.	0	0
+John wishes to marry Adrienne, a Frenchwoman.	0	0
+The best way to avoid getting sick during the winter is to get a flu shot.	0	0
+The company's success is dependent on its ability to attract and retain top talent.	0	0
+This is the first time I have ever seen such a thing.	0	0
+The man was trying to improve his health by exercising and eating better.	0	1
+In the past, people thought that the Earth was the center of the universe.	0	1
+All the students in the class were given a detention.	0	0
+I really enjoyed that book.	0	0
+In the novel, the protagonist is often mistaken for a member of the lower class.	0	0
+I am the only one who can save them.	0	0
+"Some argue that the death penalty is a violation of the Eighth Amendment to the United States Constitution, which prohibits the use of \""cruel and unusual punishment.\"""	0	0
+I'm not convinced that we should accept this theory.	0	0
+We will be able to increase our production by 10 percent if we can get the additional machinery.	0	1
+This is a problem because it can lead to a decrease in the quality of the product.	0	0
+In the early hours of the morning, the streets are empty.	0	0
+After the accident, she was unable to remember what had happened.	0	0
+Make sure you call me when you get home.	0	0
+The company has been in trouble for some time, and its stock prices have been falling steadily.	0	1
+The measure is expected to have a positive impact on the economy.	0	0
+No one likes their own passport picture, except for Tom.	1	0
+I love learning new languages.	0	0
+The artist created a series of paintings depicting the war.	0	0
+The law is a bit like a game, in that there are rules that must be followed in order to win.	0	1
+I was cleaning my room when I found an old box of letters.	0	0
+I can't believe that he ate an entire pizza by himself.	0	1
+I wonder how many books are in the library.	0	0
+You can either take the bus or the train to get to the city center.	0	0
+The chairman will provide a detailed report on the company's progress.	0	0
+We have to take out a loan in order to pay for the repairs.	1	0
+The company is expected to release its earnings report next week.	0	0
+I'm going to plant tomatoes in the front yard.	0	0
+Even though the novel was written in the 1800s, its themes are still relevant today.	0	0
+Even though he was only eighteen, he had the bearing of a much older man.	0	0
+Her eyes filled with tears.	0	0
+I'm not sure if I'm ready to make that commitment.	0	1
+The children seemed to be getting rowdier and rowdier.	0	0
+According to the article, the average American watches approximately four hours of television per day.	0	0
+I have a meeting with the CEO at 3pm.	0	0
+After years of research, scientists have finally discovered a new species of dolphin.	0	0
+The strategic plan should be flexible enough to accommodate changes in the company's goals.	1	0
+It's raining.	0	0
+The new software is also available in a Spanish-language version.	0	0
+I'm going to take a break from studying for finals and go for a walk.	0	0
+Even though Joe was very tired, he stayed up to watch the end of the game.	0	0
+The teacher told the students to put away their books and sit quietly at their desks.	0	0
+He didn't want to believe that his best friend had betrayed him.	0	0
+I don't know if I should tell her the truth.	0	1
+I am an individual who believes in taking care of my own health.	0	0
+The purpose of this research is to develop a better understanding of the factors that influence the decision to purchase a new car.	0	0
+The dog's owner decided to put the dog down because it was too old and sick.	0	1
+The number of visitors to the website has increased.	0	0
+We were caught in a downpour.	0	0
+I am not saying that he is a bad person, but I am saying that he is not a good person.	1	1
+I don't know how she can be so happy all the time.	0	0
+The fire consumed the house in minutes.	0	0
+The novel has been translated into more than 50 languages.	0	0
+The use of the machines is not necessarily restricted to authorized personnel.	1	0
+In general, older adults are more likely to suffer from chronic illnesses than younger adults.	0	1
+Although she had always been interested in art, it was not until she took that art history class that she realized how much she loved learning about different cultures and their art.	0	0
+This law is designed to protect the environment.	0	1
+The study found that people who eat a lot of processed meat are more likely to develop cancer.	0	0
+The school is to the south of the city.	0	0
+My grandmother always told me that her favorite flower was the tulip.	0	0
+In the darkness, I could barely make out the figures of the other students as we filed into the auditorium.	0	0
+She was very mad.	0	0
+The study found that there was a correlation between anxiety and academic performance.	0	1
+It is becoming increasingly difficult to find people who have not been affected by the change.	0	1
+The detective was waiting for the culprit to make a mistake.	0	0
+Even the most hard-working people can get fired.	0	0
+It should be right now.	0	1
+The poet wrote that he loved his country.	1	0
+Some people believe that we should go back to the moon.	0	0
+The company's new product is projected to increase sales by 20%.	0	1
+The professor said on Monday he would give an exam.	1	1
+Patrick did not manage to leave.	0	1
+In the early hours of the morning, the streets are empty and the only sound is the occasional car.	0	0
+The poet's words are like the hands of the clockmaker.	1	0
+I'm going to go out on a limb and say that I think the new movie is going to be a flop.	0	0
+The United Nations has set out to achieve global nuclear disarmament.	0	0
+In order to be considered for the job, applicants must have a bachelor's degree.	0	0
+He furrowed his brow.	0	0
+Many people believe that extraterrestrial life exists on other planets.	0	0
+I'll be there.	0	0
+I was brought up to believe that lying is wrong.	0	0
+It is my belief that the earth is round.	0	1
+We can use this definition to help us see when we are acting selfishly.	0	1
+The company has decided to outsource its customer service to a call center in another country.	0	0
+The company has not yet released a statement about the allegations.	0	0
+The cause of the accident is still unknown.	0	0
+All things being equal, she would have chosen the job in New York.	0	1
+A review of the literature indicates that there is a great deal of research on the topic of job satisfaction.	0	1
+Due to its location, the city has a mild climate.	0	0
+If a store offers a discount on an item, that means the store paid less for the item.	0	0
+In spite of the fact that the economy is still in a recession, the company's sales have increased by 10 percent.	0	0
+It is important to be aware of the different types of bias that can distort research findings.	0	0
+The cat slept in the sun, its paws tucked under its body.	0	0
+In spite of the hardships, the settlers persevered and made a home in the new land.	0	0
+I'm going to buy a Nerf gun.	0	0
+I forgot what room I'm in.	0	1
+If the person is an athlete, then the person is in good shape.	0	0
+If you want to be happy, you should live each day to the fullest.	0	0
+All of the evidence points to the fact that the defendant is guilty.	0	0
+All of the members of the team had to be replaced.	0	1

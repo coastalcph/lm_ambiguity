@@ -1,0 +1,29 @@
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_setup.py:_flush():68] Current SDK version is 0.19.4
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_setup.py:_flush():68] Configure stats pid to 2065749
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_setup.py:_flush():68] Loading settings from /home/tzh649/.config/wandb/settings
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_setup.py:_flush():68] Loading settings from /home/tzh649/projects/ambiguity_new/wandb/settings
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /home/tzh649/projects/ambiguity_new/wandb/run-20250120_150904-ologwvjm/logs/debug.log
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /home/tzh649/projects/ambiguity_new/wandb/run-20250120_150904-ologwvjm/logs/debug-internal.log
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_init.py:init():743] calling init triggers
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {'output_path': 'results/true/qwen_output.tsv', 'model': {'_target_': 'vllm.LLM', 'model': 'Qwen/Qwen2.5-7B-Instruct', 'dtype': 'bfloat16', 'tensor_parallel_size': 1, 'max_model_len': 2048, 'gpu_memory_utilization': 0.6, 'quantization': None, 'max_logprobs': 20, 'enforce_eager': True}, 'generation': {'_target_': 'vllm.SamplingParams', 'max_tokens': 200, 'temperature': 0.4, 'top_k': 20, 'top_p': 1.0, 'logprobs': 20, 'prompt_logprobs': 20}, 'data': {'_target_': 'llm_inference.dataset.TsvTextDataset', 'tsv_path': 'data/synt_ambig.tsv', 'template_name': 'qwen2_true', 'text_column': 'sentence', 'batch_size': 8}, 'schema_name': 'ambiguity_check', 'enable_logprobs': False}
+2025-01-20 15:09:04,751 INFO    MainThread:2065749 [wandb_init.py:init():776] starting backend
+2025-01-20 15:09:04,967 INFO    MainThread:2065749 [wandb_init.py:init():780] sending inform_init request
+2025-01-20 15:09:04,972 INFO    MainThread:2065749 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-20 15:09:04,972 INFO    MainThread:2065749 [wandb_init.py:init():795] backend started and connected
+2025-01-20 15:09:04,974 INFO    MainThread:2065749 [wandb_init.py:init():888] updated telemetry
+2025-01-20 15:09:04,975 INFO    MainThread:2065749 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-01-20 15:09:05,514 INFO    MainThread:2065749 [wandb_init.py:init():967] starting run threads in backend
+2025-01-20 15:09:05,698 INFO    MainThread:2065749 [wandb_run.py:_console_start():2409] atexit reg
+2025-01-20 15:09:05,699 INFO    MainThread:2065749 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-01-20 15:09:05,699 INFO    MainThread:2065749 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-01-20 15:09:05,699 INFO    MainThread:2065749 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-01-20 15:09:05,702 INFO    MainThread:2065749 [wandb_init.py:init():1009] run started, returning control to user process
+2025-01-20 15:09:53,911 INFO    MainThread:2065749 [wandb_run.py:_finish():2134] finishing run antoniakrm/result_for_Qwen2.5-7B-Instruct/ologwvjm
+2025-01-20 15:09:53,912 INFO    MainThread:2065749 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2025-01-20 15:09:53,912 INFO    MainThread:2065749 [wandb_run.py:_restore():2356] restore
+2025-01-20 15:09:53,912 INFO    MainThread:2065749 [wandb_run.py:_restore():2362] restore done
+2025-01-20 15:09:56,206 INFO    MainThread:2065749 [wandb_run.py:_footer_history_summary_info():3976] rendering history
+2025-01-20 15:09:56,206 INFO    MainThread:2065749 [wandb_run.py:_footer_history_summary_info():4008] rendering summary
+2025-01-20 15:09:56,206 INFO    MainThread:2065749 [wandb_run.py:_footer_sync_info():3937] logging synced files

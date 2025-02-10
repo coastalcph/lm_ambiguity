@@ -1,0 +1,179 @@
+sentence	ambig_status	disambiguation_1	disambiguation_2
+The teacher asked the students if they could name the countries in North America.	1	The teacher asked the students to name the countries in North America.	The teacher asked the students if they are able to name the countries in North America.
+I was hoping to see you at the meeting.	1	I was hoping to see you at the meeting of people	I was hoping to see you at the work meeting.
+The evidence does not support the conclusion that the intervention was ineffective.	1	The evidence does not support the conclusion reached, which was that the intervention was ineffective.	The evidence does not support a possible conclusion that the intervention was ineffective.
+She gets whatever she wants because she's the boss's daughter.	1	She gets whatever she wants in part because she's the boss's daughter.	She gets whatever she wants in part because she's the boss's daughter.
+He refused to give up because he was failing.	1	He refused to give up as a result of his failing.	He refused to give up, because he was failing.
+Some of the students are required to wear uniforms.	1	Some, perhaps all, of the students are required to wear uniforms.	Some of the students are required to wear uniforms, and others are not.
+Some of the lights were out.	1	Some of the lights were out, others were on.	At least some of the lights were out.
+The defense does not have to prove that the defendant is innocent.	1	The defense does not have to prove that the defendant is definitely innocent.	The defense does not have to prove that the defendant is legally innocent.
+The organization needs to flatten its structure.	1	The organization is moving to flatten its structure.	It is necessary that the organization flattens its structure.
+The employees were not entitled to overtime compensation because they were required to attend mandatory training sessions outside of their regular work hours.	1	The employees were not given overtime compensation because they were required to attend mandatory training sessions outside of their regular work hours.	The employees were not entitled, in principle, to overtime compensation because they were required to attend mandatory training sessions outside of their regular work hours.
+The class will discuss how to write a persuasive essay.	1	The class is about how to write a persuasive essay.	The class will, at some point, discuss how to write a persuasive essay.
+The man was charged with second degree murder.	1	The man was charged only with second degree murder.	The man was charged with second degree murder, possibly among other charges.
+The poet laureate is a position given to a poet by a government or institution.	1	The poet laureate is a title given to a poet by a government or institution.	The poet laureate is a job given to a poet by a government or institution.
+Some of the students turned in their homework on time.	1	Some but not all of the students turned in their homework on time.	At least some of the students turned in their homework on time.
+The high school students who were most likely to report drinking had more friends who did not drink.	1	The high school students who were most likely to report drinking had a great number of friends who did not drink.	The high school students who were most likely to report drinking had a greater proportion of friends who did not drink.
+I had to pull over to the side of the road.	1	I pulled over to the side of the road, because I had to.	I needed to pull over to the side of the road, whether or not I actually did.
+I sometimes take my coffee with cream and sugar.	1	I sometimes, but not always, take my coffee with cream and sugar.	I sometimes, and possibly always, take my coffee with cream and sugar.
+The jury returned a verdict of guilty for second degree murder.	1	The jury returned a single verdict of guilty for second degree murder.	The jury returned a verdict of guilty for second degree murder, possibly among other verdicts.
+A third of Americans have a negative view of the news media.	1	At least a third of Americans have a negative view of the news media.	No more than a third of Americans have a negative view of the news media.
+The employees were not happy because the company was doing well.	1	The company doing well did not lead to the employees being happy.	The employees were unhappy, because the company was doing well.
+He was appointed to the position.	1	He was selected for the position without the direct participation of the public.	He was chosen for the position.
+They won't come now.	1	Before they would have come, but not anymore.	They won't come right now.
+People who contract the virus will experience only mild or moderate symptoms.	1	All people who contract the virus will experience only mild or moderate symptoms.	In general, people who contract the virus will experience only mild or moderate symptoms.
+I'll be impressed if you get his T shirt.	1	I'll be impressed if you understand his T shirt.	I'll be impressed if you acquire his T shirt.
+The athlete will not be disqualified from the competition.	1	The athlete (a specific person) will not be disqualified from the competition.	The athlete (as a generic) will not be disqualified from the competition.
+The flu virus is spreading rapidly.	1	The flu virus is spreading rapidly among the population.	The flu virus is spreading rapidly in the environment.
+She wants to work with the professor with the best reputation in the department.	1	She wants to work with whichever professor in the department has the best reputation.	She wants to work with a professor who happens to have the best reputation in the department.
+You will be able to figure it out.	1	You are expected to be able to figure it out.	You will, in reality, be able to figure it out.
+The President is not required to comply with the law.	1	The office of the President is not beholden to the law.	The current President is not being held accountable to the law.
+The company's sales increased by 3 percent last quarter.	1	The company's sales increased by (at least) 3 percent last quarter.	The company's sales increased by only 3 percent last quarter.
+Her grandmother was very close to her.	1	Her grandmother was physically very close to her.	Her grandmother had a very close relationship with her.
+What we need is a change in policy.	1	All we need is a change in policy.	We need a change in policy.
+He's drawing on the bus.	1	He's on the bus, drawing.	He's drawing on the surface of the bus.
+It is not unheard of for a business to make a loss in its first year.	1	It is unexpected, but not unheard of, for a business to make a loss in its first year.	There are known cases where a business to make a loss in its first year.
+Only Maya likes the way she dresses.	1	No one likes the way Maya dresses except Maya herself.	No one likes the way they dress except Maya.
+The media holds the powerful accountable.	1	The media holds the powerful accountable in reality.	The media functions to hold the powerful accountable.
+He was my brother.	1	He was my biological brother.	He was my brother from another mother.
+Trying a different strategy would be good.	1	Trying a different strategy will necessarily be good.	Trying a different strategy would be a good idea.
+I think the glass is half full.	1	I think the glass is half full, metaphorically.	I think the glass is exactly half full.
+I couldn't find my glasses.	1	I wasn't able to find my glasses.	I had lost my glasses.
+We haven't finished the cake yet.	1	We haven't finished making the cake yet.	We haven't finished eating the cake yet.
+The fire quickly spread to the east wing of the building.	1	The fire quickly spread through the building to its east wing.	The fire quickly spread through the building to its east wing.
+A large number of people are not employed in the tourism industry.	1	A large number of people in some group are not employed in the tourism industry.	A large number of people in society are not employed in the tourism industry.
+Only Arya can stand to eat her own cooking seven days a week.	1	No one can stand to eat Arya's cooking seven days a week, except Arya herself.	No one except Arya can stand to eat their own cooking seven days a week.
+I still can't believe it happened.	1	I nevertheless can't believe it happened.	I continue not to believe it happened.
+Only Susan likes her painting.	1	No one likes Susan's painting except herself.	No one likes their painting except Susan.
+The conference will be held in Detroit on October 13.	1	The conference will be held in Detroit, starting on October 13.	The conference will be held in Detroit on October 13 and potentially other dates.
+They may be moving to a new house next month.	1	They have a non-zero chance of moving to a new house next month.	They may or may not be moving to a new house next month.
+The athlete's goal is to beat their personal best.	1	The athlete's main goal is to beat their personal best.	A goal of the athlete is to beat their personal best.
+LaBeouf had tried to bum a smoke from a police officer.	1	LaBeouf had tried to find a police officer to bum a smoke from.	LeBeouf had tried to bum a smoke from someone who happened to be a police officer.
+He was tired.	1	He was physically exhausted.	He was sleepy.
+The room was spinning around me.	1	The room was physically spinning around me.	The room seemed like it was spinning around me.
+A person who has attained success in life has done so by leading and inspiring others.	1	A person who has attained success in life has done so entirely by leading and inspiring others.	A person who has attained success in life has done so by leading and inspiring others, possibly among other necessary components.
+The teacher told the students that they could pass the class if they worked hard.	1	The teacher told the students that they would be able to pass the class if they worked hard.	The teacher told the students that they might pass the class if they worked hard.
+They have to leave early in order to make it on time.	1	They will have to leave early in order to make it on time.	Generally, they have to leave early in order to make it on time.
+The Taiwanese leopard is spotted for the first time in a half century.	1	The Taiwanese leopard is seen for the first time in a half century.	The Taiwanese leopard has spots for the first time in a half century.
+People who are colorblind can see colors, but they are not as vibrant.	1	All people who are colorblind can see colors, but they are not as vibrant.	All people who are colorblind can see colors, but they are not as vibrant.
+Change is good.	1	In general, change is good.	Change is necessarily good.
+I realized that I had left my phone at home.	1	I had the realization that I had left my phone at home.	I was aware that I had left my phone at home.
+More and more people will find it difficult to make ends meet.	1	It is expected that more and more people will find it difficult to make ends meet.	It is certain that more and more people will find it difficult to make ends meet.
+There will be more interesting seminars next quarter.	1	There will be more seminars next quarter that are interesting.	There will be seminars next quarter that are more interesting.
+Some students must complete a writing assignment by the end of the semester.	1	At least some students must complete a writing assignment by the end of the semester.	Some students, but not all of them, must complete a writing assignment by the end of the semester.
+It's not right.	1	It's not just.	It's not factually correct.
+The awareness of the problem will increase.	1	The awareness of the problem among people will increase.	The depth of awareness of the problem will increase.
+She wants to work with the professor with the largest lab in the department.	1	She wants to work with whichever professor in the department has the largest lab.	She wants to work with a professor who happens to have the largest lab in the department.
+The cost of living has increased by 1.3 percent since last year.	1	The cost of living has increased by only 1.3 percent since last year.	The cost of living has increased by at least 1.3 percent since last year.
+Desegregation was becoming disbanded in Charlotte thanks to the magnet schools.	1	Desegregation was fortunately becoming disbanded in Charlotte because of the magnet schools.	Desegregation was becoming disbanded in Charlotte at the fault of the magnet schools.
+My sister married one of her friends.	1	My sister wed one of her friends.	My sister conducted the marriage for one of her friends.
+The Department of Education is responsible for Title IX.	1	The Department of Education is responsible for enforcing Title IX.	The Department of Education is responsible for the creation of Title IX.
+The novel is always appropriate for school.	1	The novel is always considered appropriate for school.	The novel is always appropriate for school, in principle.
+The old procedure was inefficient and costly.	1	The old procedure was more inefficient and costly.	The old procedure was completely inefficient and costly.
+Noah wonders which picture of himself Carlos likes best.	1	Noah wonders which picture of Noah Carlos likes best.	Noah wonders which picture of Carlos that Carlos likes best.
+They could have afforded it if they had wanted to.	1	They could have afforded it if they had wanted to be able to.	They could have afforded it if they had wanted to buy it.
+A great deal of the evidence has not been gathered.	1	A great deal of the evidence remains to be gathered.	It is not the case that a great deal of the evidence has been gathered.
+I'm not so sure that the answer is no.	1	I'm not completely sure that the answer is no.	I don't feel sure that the answer is no.
+I knew what I was supposed to do.	1	I knew what I was obliged to do.	I knew what my only possible action was.
+I'll be in the country.	1	I'll be in the countryside.	I'll be in the nation.
+We accept some major credit cards.	1	We accept some major credit cards, if not more.	We accept some major credit cards, but not all.
+The company's sales increased by 10% last year.	1	The company's sales increased by at least 10% last year.	The company's sales increased by exactly 10% last year.
+People should be aware of the dangers of not properly securing their load.	1	People ought to be aware of the dangers of not properly securing their load.	People are probably aware of the dangers of not properly securing their load.
+The exhibit is interactive.	1	Part of the exhibit is interactive.	All of the exhibit is interactive.
+You can study hard and get an A on the test.	1	If you study hard, you will get an A on the test.	If you study hard, you will get an A on the test.
+It takes less than two weeks for the flu to run its course.	1	It takes slightly less than two weeks for the flu to run its course.	It takes substantially less than two weeks for the flu to run its course.
+The students were asked to complete the assignment by the end of the day.	1	The students were asked to complete the assignment by a certain time that is before the end of the day.	The students were asked to complete the assignment by a certain time that happens to be the end of the day.
+The highway will connect the two cities.	1	The highway is expected to connect the two cities.	The highway will certainly connect the two cities.
+Any of the students in the class can turn in their homework.	1	For any student in the class, turning in their homework is allowed.	Any of the students in the class have the option to turn in their homework, but they don't have to.
+The man was running towards the starting line.	1	The man was running in the direction of the starting line.	The man was running to reach the starting line.
+It is not certain that the president will resign.	1	It is not known for certain that the president will resign.	It is not certainly true that the president will resign.
+It's hot today.	1	It’s hot right now.	It’s going to be hot today
+I would not recommend the book.	1	I would not recommend the book, not necessarily because I didn't enjoy it, but for some other reason.	I did not like the book.
+The school was founded in order to provide an education for the children of the upper class.	1	The school was founded in order to provide an education for the children of the upper class, possibly among other reasons.	The school was founded in order to provide an education particularly for the children of the upper class.
+The company's decision to lay off workers was due to the decrease in demand for their product.	1	The company's decision to lay off workers was due solely to the decrease in demand for their product.	The company's decision to lay off workers was due, at least in part, to the decrease in demand for their product.
+Improving communication and increasing collaboration are important goals.	1	Improving communication and increasing collaboration are important goals to have.	The goals of improving communication and increasing collaboration are important ones.
+Some of the workers were given a raise.	1	Some of the workers were given a raise, and others were not.	It is the case that at least some of the workers were given a raise.
+Some of the graduates of my program have moved on to other things because the jobs suck.	1	Only some of the graduates of my program have moved on to other things because the jobs suck.	At least some of the graduates of my program have moved on to other things because the jobs suck.
+The city is not a good place to find a job.	1	The city is not an easy place to find a job.	The city is not a good place to work.
+The little girl's feet were too big for her mother's shoes.	1	The little girl's feet were too big for her mother's shoes to fit.	The little girl's feet were too big for her mother's shoes to be comfortable.
+The child will want to imitate the parent.	1	In general, the child will want to imitate the parent.	The particular child will want to imitate the parent.
+We put the books on the shelves in chronological order.	1	We put the books on the shelves with the objective of achieving chronological order.	The books we put on the shelves were in chronological order.
+The first step is to come up with a working thesis.	1	The first step is to come up with a tentative thesis.	The first step is to come up with a functional thesis.
+Paola drinks milk.	1	Paola drinks animal milk.	Paola drinks milk, as in the white juice of certain plants.
+The editor's criticism was unexpected.	1	That the editor provided criticism was unexpected.	The contents of the editor's criticism was unexpected.
+It is possible to change the fundamental nature of a person.	1	It is sometimes possible to change the fundamental nature of a person.	It is always possible to change the fundamental nature of a person.
+The company's stock price has been rising in recent months.	1	The company's stock price has been rising overall in recent months.	The company's stock price has been rising steadily in recent months.
+The entire class was really uncomfortable.	1	The entire duration of the class was really uncomfortable.	Everyone in the class was really uncomfortable.
+The problem cannot be solved if we work together.	1	If we work together, then the problem cannot be solved.	The problem cannot be solved even if we work together.
+I'm interested in money.	1	I'm interested in money as a subject.	I'm interested in making money.
+The most effective way to deal with the problem is unknown.	1	The most effective way to deal with the problem is not known for certain.	The most effective way to deal with the problem is not one of the known candidates.
+The United Nations is responsible for human rights abuses.	1	The United Nations is at fault for human rights abuses.	The United Nations is at fault for human rights abuses.
+He wants to coach the lowest-ranked team in the league.	1	He wants to coach whichever team is lowest-ranked in the league.	He wants to coach a team that happens to be lowest-ranked in the league.
+He was very happy.	1	He was a very happy person.	He was very happy at the party.
+Some days, he walks to work.	1	Some days, he walks to work, and some days he does not.	There are some days that he walks to work.
+The answer to the question of what is art is not simple.	1	There is one answer the question of what is art, but it is not simple.	It is not simple to answer the question of what is art.
+The mother was happy.	1	The mother was satisfied.	The mother was joyful.
+We will have to leave early if we don't want to get there after dark.	1	We will have to leave early if we want to get there before dark.	We will have to leave early if we want to get there before dark or not get there at all.
+Some nights, the baby is fed milk.	1	At least some nights, the baby is fed milk.	Some nights, the baby is fed milk, but not all nights.
+The study was conducted to see if different data collection methods produce different results.	1	The study was conducted to see if different data collection methods produce different results from each other.	The study was conducted to see if different data collection methods produce different results from the original study.
+One of the main purposes of education is to prepare students for the real world.	1	One of the main purposes of education is to prepare students for the real world of work.	One of the main purposes of education is to prepare students for the entire world.
+The peasants are revolting.	1	The peasants are a revolting people.	The peasants are staging a revolt.
+The rock was heated to a temperature of 1,000 degrees Fahrenheit.	1	The rock was heated, at some point, to a temperature of 1,000 degrees Fahrenheit.	The rock was heated to a final temperature of 1,000 degrees Fahrenheit.
+The cake was so dry, it was inedible.	1	The cake was so dry, it was not suitable for eating.	The cake was so dry, it was not safe to eat.
+The study found that people who were physically active were more likely to have a positive outlook on life.	1	The study found that the subset of people who were physically active were also more likely to have a positive outlook on life.	The study found that being physically active caused people to be more likely to have a positive outlook on life.
+Other countries spend less money on defense than the United States.	1	Each other country spends less money on defense than the United States.	Other countries collectively spend less money on defense than the United States.
+She likes to take a methodical approach to her work.	1	She tends to take a methodical approach to her work.	She enjoys taking a methodical approach to her work.
+The conference will provide an overview of the latest research on the world's oceans.	1	The conference will provide an overview of the latest research on some aspect of the world's oceans.	The conference will provide an overview of the latest research on the world's oceans, spanning the entire literature.
+The company has been losing money for the past three years.	1	The company has been making less and less money for the past three years.	The company has been making a loss for the past three years.
+We should give some money to charity.	1	We should give some money to charity, even if we're already giving.	We should give some money to charity, even if we're already giving.
+The students may have to wear uniforms to school.	1	The students may or may not have to wear uniforms to school.	There is a non-zero chance that the students have to wear uniforms to school.
+I'm going to take a break from work.	1	I'm going to take a break from doing work.	I'm going to take a break from my job.
+You cannot be helped by anyone with this.	1	There is no one who can help you with this.	You cannot be helped by simply anyone with this; it has to be someone particular.
+We can only hope that the current unrest in the world will lead to positive change.	1	We can't know for sure, but we can hope that the current unrest in the world will lead to positive change.	The only thing we can hope for is that the current unrest in the world will lead to positive change.
+Some of the passengers were evacuated from the plane.	1	Some of the passengers were evacuated from the plane, but others were not.	At least some of the passengers were evacuated from the plane.
+I hope there are more interesting seminars next quarter.	1	I hope there are more seminars next quarter that are interesting.	I hope there are seminars next quarter that are more interesting.
+We're finding a new manager.	1	We're currently finding a new manager.	We're currently finding a new manager.
+Some of the students in the class got an A on the test.	1	Some of the students in the class got an A on the test, and others did not.	At least some of the students in the class got an A on the test.
+It is essential that every voice be heard.	1	It is essential that every opinion be considered.	It is essential that everyone be audible.
+There is no scientific evidence that extraterrestrial life exists.	1	There is no scientific evidence to be found that extraterrestrial life exists.	There has been no scientific evidence collected that extraterrestrial life exists.
+The conference is being attended by the President.	1	The conference is currently being attended by the President.	The conference will be attended by the President.
+Nancy Drew is not a role model for young girls.	1	Nancy Drew is not a good role model for young girls.	Nancy Drew is not perceived as a role model for young girls.
+Jon will wash his car, and Mary will too.	1	Jon will wash his car, and Mary will wash hers.	Jon and Mary will both wash Jon's car.
+The more specific the question, the more specific the answer will be.	1	In general, the more specific the question, the more specific the answer will be.	In every case, a more specific question has a more specific answer.
+The leader must be able to make decisions.	1	The leader needs to be able to make decisions.	The leader is clearly able to make decisions.
+The conference center is where I will be waiting for you.	1	Inside the conference center is where I will be waiting for you.	By the conference center is where I will be waiting for you.
+The poet's work is not about his homeland.	1	The poet's work is not relevant to his homeland.	The poet's work is not explicitly about his homeland.
+The novel has not been banned in many schools.	1	There are many schools where the novel has not been banned.	It is not the case that the novel has been banned in many schools.
+It is easy to predict the future.	1	It is generally easy to predict the future.	It is always easy to predict the future.
+The cause of the company's financial problems is unknown.	1	The cause of the company's financial problems is unknown to everyone.	The cause of the company's financial problems is unknown to the board.
+I take the train to work every day.	1	I take the train at some point in my commute to work every day.	I take the train to work every day, as my main mode of transportation.
+I have never been to Europe.	1	I have never been to Europe before this trip.	I have never been to Europe, including now.
+She's leaving for her vacation.	1	She's currently leaving for her vacation.	She's going to leave for her vacation.
+I was able to do it, but I was too lazy.	1	I did it (as I was able to), but I was too lazy.	I was capable of doing it, but I was too lazy.
+The study found that half of all Americans are in favor of gun control.	1	The study found that about half of all Americans are in favor of gun control.	The study found that exactly half of all Americans are in favor of gun control.
+Peter believes someone is out to get him.	1	There is a particular person who Peter believes is out to get him.	Peter believes someone out there is out to get him.
+We have to plan the party tomorrow.	1	We have to plan the party happening tomorrow.	Tomorrow, we have to plan the party.
+We arrived on time for our flight.	1	We arrived in time for our flight.	We arrived punctually for our flight.
+Some of the students in the class are intelligent.	1	Some of the students in the class are intelligent, but not all of them.	At least some of the students in the class are intelligent.
+The sun is setting.	1	The sun is on its way to setting.	It's now sunset.
+The review is being conducted by an external organization.	1	The review is being conducted at this time by an external organization.	The review is being conducted, now or in the future, by an external organization.
+The damage was not known until the early hours of the morning.	1	The fact that there was damage was not known until the early hours of the morning.	The full extent of the damage was not known until the early hours of the morning.
+I can't find my keys.	1	I have not found my keys.	I am physically unable to find my keys.
+The boy was starving.	1	The boy was very hungry.	The boy was dying from not having enough food.
+If a business is doing well, its stock price may not increase.	1	Even if a business is doing well, its stock price may not increase.	If a business is doing well, this would increase the chances that its stock price does not increase.
+I don't think that I could ever really be happy living in the country.	1	I don't think that I could ever really be happy living in the nation.	I don't think that I could ever really be happy living in the countryside.
+John wants to marry a Frenchwoman.	1	John wants to marry a certain woman who is French.	John wants for his future wife to be French.
+I have never seen such a thing.	1	I have never seen such a thing before now.	I have never seen such a thing, including now.
+Some of the students in the class were given a detention.	1	Some but not all of the students in the class were given a detention.	At least some of the students in the class were given a detention.
+Only Tom likes his passport picture.	1	No one likes Tom's passport picture except Tom himself.	No one likes their own passport picture, except Tom.
+The repairs are expensive.	1	The repairs are a big expense.	The repairs are expensive relative to other repairs.
+The company will not release its earnings report next week.	1	The company is not expected to release its earnings report next week.	The company will not, in reality, release its earnings report next week.
+I don't have time for a meeting at 3pm.	1	I don't know how to make time for a meeting at 3pm.	I don't have time for a new meeting at 3pm.
+I don't know if I should lie to her.	1	I don't know if I should tell her a lie.	I don't know if I should be dishonest with her.
+More than 50 languages are spoken by the novel's readers.	1	More than 50 languages are spoken across the novel's readers.	More than 50 languages are spoken by each of the novel's readers.
+This law is designed to protect the people.	1	This law is designed mainly to protect the people.	This law is designed to protect the people, possibly among other goals.
+I couldn't see the other students in the darkness as we filed into the auditorium.	1	I couldn't fully see the other students in the darkness as we filed into the auditorium.	I wasn't aware of the other students in the darkness as we filed into the auditorium.
+Anxiety is associated with lower academic performance.	1	Anxiety is positively correlated with lower academic performance.	Anxiety is positively correlated with lower academic performance.
+A bachelor's degree is required for the job.	1	A bachelor's degree is required for being considered for the job.	A bachelor's degree is required for performing the job.
+The company has decided to get rid of its customer service department.	1	The company has decided to get rid of its existing customer service department.	The company has decided to no longer have a customer service department.
+The accident is still a mystery.	1	What the accident was is still a mystery.	The accident is still shrouded in mystery.

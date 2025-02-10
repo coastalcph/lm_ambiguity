@@ -1,0 +1,15 @@
+{"time":"2025-01-19T22:56:20.010719698+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/home/tzh649/projects/ambiguity_new/wandb/run-20250119_225619-g2hc7yiq/logs/debug-core.log"}
+{"time":"2025-01-19T22:56:20.133746422+01:00","level":"INFO","msg":"created new stream","id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.133771762+01:00","level":"INFO","msg":"stream: started","id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.133851581+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.133865282+01:00","level":"INFO","msg":"handler: started","stream_id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.133854905+01:00","level":"INFO","msg":"sender: started","stream_id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.136224378+01:00","level":"INFO","msg":"stream: closing","id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.136861379+01:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-01-19T22:56:20.351967411+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-19T22:56:20.351999629+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /result_for_Meta-Llama-3-8B-Instruct not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-01-19T22:56:20.353385425+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-19T22:56:20.353414654+01:00","level":"INFO","msg":"handler: closed","stream_id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.353426946+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.353511587+01:00","level":"INFO","msg":"sender: closed","stream_id":"g2hc7yiq"}
+{"time":"2025-01-19T22:56:20.35519108+01:00","level":"INFO","msg":"stream: closed","id":"g2hc7yiq"}

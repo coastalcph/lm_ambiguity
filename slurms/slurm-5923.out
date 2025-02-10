@@ -1,0 +1,336 @@
+[2025-01-28 01:39:28]  
+--------------------------------------------------
+output_path: output/true/llama_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/llama3_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:39:34 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='meta-llama/Meta-Llama-3-8B-Instruct', speculative_config=None, tokenizer='meta-llama/Meta-Llama-3-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=meta-llama/Meta-Llama-3-8B-Instruct)
+INFO 01-28 01:39:36 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:39:49 model_runner.py:146] Loading model weights took 14.9595 GB
+INFO 01-28 01:39:50 gpu_executor.py:83] # GPU blocks: 9799, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=output/true/llama_phonol.tsv', 'model.model=meta-llama/Meta-Llama-3-8B-Instruct', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/llama3_true', 'data.batch_size=8']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 72, in main
+    template_name = confid.data.template_name.split("/")[-1]
+NameError: name 'confid' is not defined. Did you mean: 'config'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:40:04]  
+--------------------------------------------------
+output_path: output/true/gemma_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: google/gemma-7b-it
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/gemma_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 4
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:40:05 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='google/gemma-7b-it', speculative_config=None, tokenizer='google/gemma-7b-it', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=google/gemma-7b-it)
+WARNING 01-28 01:40:07 gemma.py:54] Gemma's activation function was incorrectly set to exact GeLU in the config JSON file when it was initially released. Changing the activation function to approximate GeLU (`gelu_pytorch_tanh`). If you want to use the legacy `gelu`, edit the config JSON to set `hidden_activation=gelu` instead of `hidden_act`. See https://github.com/huggingface/transformers/pull/29402 for more details.
+INFO 01-28 01:40:07 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:40:20 model_runner.py:146] Loading model weights took 15.9066 GB
+INFO 01-28 01:40:21 gpu_executor.py:83] # GPU blocks: 2517, # CPU blocks: 585
+Error executing job with overrides: ['output_path=output/true/gemma_phonol.tsv', 'model.model=google/gemma-7b-it', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/gemma_true', 'data.batch_size=4']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 72, in main
+    template_name = confid.data.template_name.split("/")[-1]
+NameError: name 'confid' is not defined. Did you mean: 'config'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:40:36]  
+--------------------------------------------------
+output_path: output/true/qwen_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: Qwen/Qwen2.5-7B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/qwen2_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:40:37 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='Qwen/Qwen2.5-7B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-7B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=Qwen/Qwen2.5-7B-Instruct)
+INFO 01-28 01:40:39 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:40:50 model_runner.py:146] Loading model weights took 14.2487 GB
+INFO 01-28 01:40:51 gpu_executor.py:83] # GPU blocks: 22962, # CPU blocks: 4681
+Error executing job with overrides: ['output_path=output/true/qwen_phonol.tsv', 'model.model=Qwen/Qwen2.5-7B-Instruct', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/qwen2_true', 'data.batch_size=8']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 72, in main
+    template_name = confid.data.template_name.split("/")[-1]
+NameError: name 'confid' is not defined. Did you mean: 'config'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:41:07]  
+--------------------------------------------------
+output_path: results/wrong/mistral_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: mistralai/Mistral-7B-Instruct-v0.3
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: mixtral_wrong
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:41:07 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='mistralai/Mistral-7B-Instruct-v0.3', speculative_config=None, tokenizer='mistralai/Mistral-7B-Instruct-v0.3', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=mistralai/Mistral-7B-Instruct-v0.3)
+INFO 01-28 01:41:10 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:41:21 model_runner.py:146] Loading model weights took 13.5083 GB
+INFO 01-28 01:41:22 gpu_executor.py:83] # GPU blocks: 10915, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=results/wrong/mistral_phonol.tsv', 'model.model=mistralai/Mistral-7B-Instruct-v0.3', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=mixtral_wrong', 'data.batch_size=8']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 72, in main
+    template_name = confid.data.template_name.split("/")[-1]
+NameError: name 'confid' is not defined. Did you mean: 'config'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:41:35]  
+--------------------------------------------------
+output_path: output/true/big_llama_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/big_llama3_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:41:35 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='meta-llama/Meta-Llama-3-8B-Instruct', speculative_config=None, tokenizer='meta-llama/Meta-Llama-3-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=meta-llama/Meta-Llama-3-8B-Instruct)
+INFO 01-28 01:41:38 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:41:42 model_runner.py:146] Loading model weights took 14.9595 GB
+INFO 01-28 01:41:43 gpu_executor.py:83] # GPU blocks: 9799, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=output/true/big_llama_phonol.tsv', 'model.model=meta-llama/Meta-Llama-3-8B-Instruct', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/big_llama3_true', 'data.batch_size=8']
+Error in call to target 'llm_inference.dataset.TsvTextDataset':
+TemplateNotFound('phono/big_llama3_true.jinja2')
+full_key: data
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:41:55]  
+--------------------------------------------------
+output_path: output/true/big_gemma_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: google/gemma-7b-it
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/big_gemma_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 4
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:41:55 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='google/gemma-7b-it', speculative_config=None, tokenizer='google/gemma-7b-it', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=google/gemma-7b-it)
+WARNING 01-28 01:41:57 gemma.py:54] Gemma's activation function was incorrectly set to exact GeLU in the config JSON file when it was initially released. Changing the activation function to approximate GeLU (`gelu_pytorch_tanh`). If you want to use the legacy `gelu`, edit the config JSON to set `hidden_activation=gelu` instead of `hidden_act`. See https://github.com/huggingface/transformers/pull/29402 for more details.
+INFO 01-28 01:41:58 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:42:02 model_runner.py:146] Loading model weights took 15.9066 GB
+INFO 01-28 01:42:03 gpu_executor.py:83] # GPU blocks: 2517, # CPU blocks: 585
+Error executing job with overrides: ['output_path=output/true/big_gemma_phonol.tsv', 'model.model=google/gemma-7b-it', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/big_gemma_true', 'data.batch_size=4']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 72, in main
+    template_name = confid.data.template_name.split("/")[-1]
+NameError: name 'confid' is not defined. Did you mean: 'config'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:42:20]  
+--------------------------------------------------
+output_path: output/true/big_qwen_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: Qwen/Qwen2.5-7B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/big_qwen2_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:42:20 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='Qwen/Qwen2.5-7B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-7B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=Qwen/Qwen2.5-7B-Instruct)
+INFO 01-28 01:42:22 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:42:26 model_runner.py:146] Loading model weights took 14.2487 GB
+INFO 01-28 01:42:26 gpu_executor.py:83] # GPU blocks: 22962, # CPU blocks: 4681
+Error executing job with overrides: ['output_path=output/true/big_qwen_phonol.tsv', 'model.model=Qwen/Qwen2.5-7B-Instruct', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/big_qwen2_true', 'data.batch_size=8']
+Error in call to target 'llm_inference.dataset.TsvTextDataset':
+TemplateNotFound('phono/big_qwen2_true.jinja2')
+full_key: data
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-28 01:42:41]  
+--------------------------------------------------
+output_path: output/true/big_mistral_phonol.tsv
+model:
+  _target_: vllm.LLM
+  model: mistralai/Mistral-7B-Instruct-v0.3
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.9
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/phonetic_ambig.tsv
+  template_name: phono/big_mixtral_true
+  text_column1: sentence1
+  text_column2: sentence2
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+INFO 01-28 01:42:42 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='mistralai/Mistral-7B-Instruct-v0.3', speculative_config=None, tokenizer='mistralai/Mistral-7B-Instruct-v0.3', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=mistralai/Mistral-7B-Instruct-v0.3)
+INFO 01-28 01:42:44 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-28 01:42:48 model_runner.py:146] Loading model weights took 13.5083 GB
+INFO 01-28 01:42:48 gpu_executor.py:83] # GPU blocks: 10915, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=output/true/big_mistral_phonol.tsv', 'model.model=mistralai/Mistral-7B-Instruct-v0.3', 'data.tsv_path=data/phonetic_ambig.tsv', 'data.template_name=phono/big_mixtral_true', 'data.batch_size=8']
+Traceback (most recent call last):
+  File "/home/tzh649/projects/ambiguity_new/run.py", line 72, in main
+    template_name = confid.data.template_name.split("/")[-1]
+NameError: name 'confid' is not defined. Did you mean: 'config'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

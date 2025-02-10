@@ -1,0 +1,5 @@
+- output_path=output/true/gemma_premise.tsv
+- model.model=google/gemma-7b-it
+- data.tsv_path=data/ambient_premise.tsv
+- data.template_name=default/gemma_true
+- data.batch_size=4

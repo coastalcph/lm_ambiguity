@@ -1,0 +1,133 @@
+mismatched input '=' expecting <EOF>
+See https://hydra.cc/docs/1.2/advanced/override_grammar/basic for details
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-20 21:07:38]  
+--------------------------------------------------
+output_path: results/no/big_llama_output.tsv
+model:
+  _target_: vllm.LLM
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.6
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/synt_ambig.tsv
+  template_name: big_llama_no
+  text_column: sentence
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+INFO 01-20 21:07:38 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='meta-llama/Meta-Llama-3-8B-Instruct', speculative_config=None, tokenizer='meta-llama/Meta-Llama-3-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=meta-llama/Meta-Llama-3-8B-Instruct)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO 01-20 21:07:40 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-20 21:07:52 model_runner.py:146] Loading model weights took 14.9595 GB
+INFO 01-20 21:07:52 gpu_executor.py:83] # GPU blocks: 3748, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=results/no/big_llama_output.tsv', 'model.model=meta-llama/Meta-Llama-3-8B-Instruct', 'data.tsv_path=data/synt_ambig.tsv', 'data.template_name=big_llama_no', 'data.batch_size=8']
+Error in call to target 'llm_inference.dataset.TsvTextDataset':
+TemplateNotFound('big_llama_no.jinja2')
+full_key: data
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-20 21:08:04]  
+--------------------------------------------------
+output_path: results/true/big_llama_output.tsv
+model:
+  _target_: vllm.LLM
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.6
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/synt_ambig.tsv
+  template_name: big_llama_true
+  text_column: sentence
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+INFO 01-20 21:08:05 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='meta-llama/Meta-Llama-3-8B-Instruct', speculative_config=None, tokenizer='meta-llama/Meta-Llama-3-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=meta-llama/Meta-Llama-3-8B-Instruct)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO 01-20 21:08:07 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-20 21:08:11 model_runner.py:146] Loading model weights took 14.9595 GB
+INFO 01-20 21:08:12 gpu_executor.py:83] # GPU blocks: 3748, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=results/true/big_llama_output.tsv', 'model.model=meta-llama/Meta-Llama-3-8B-Instruct', 'data.tsv_path=data/synt_ambig.tsv', 'data.template_name=big_llama_true', 'data.batch_size=8']
+Error in call to target 'llm_inference.dataset.TsvTextDataset':
+TemplateNotFound('big_llama_true.jinja2')
+full_key: data
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+[2025-01-20 21:08:23]  
+--------------------------------------------------
+output_path: results/false/big_llama_output.tsv
+model:
+  _target_: vllm.LLM
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  max_model_len: 2048
+  gpu_memory_utilization: 0.6
+  quantization: null
+  max_logprobs: 20
+  enforce_eager: true
+generation:
+  _target_: vllm.SamplingParams
+  max_tokens: 200
+  temperature: 0.4
+  top_k: 20
+  top_p: 1.0
+  logprobs: 20
+  prompt_logprobs: 20
+data:
+  _target_: llm_inference.dataset.TsvTextDataset
+  tsv_path: data/synt_ambig.tsv
+  template_name: big_llama_false
+  text_column: sentence
+  batch_size: 8
+schema_name: ambiguity_check
+enable_logprobs: false
+--------------------------------------------------
+/home/tzh649/miniconda3/envs/llm-inference/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+INFO 01-20 21:08:23 llm_engine.py:161] Initializing an LLM engine (v0.4.3) with config: model='meta-llama/Meta-Llama-3-8B-Instruct', speculative_config=None, tokenizer='meta-llama/Meta-Llama-3-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=2048, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), seed=0, served_model_name=meta-llama/Meta-Llama-3-8B-Instruct)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO 01-20 21:08:25 weight_utils.py:207] Using model weights format ['*.safetensors']
+INFO 01-20 21:08:29 model_runner.py:146] Loading model weights took 14.9595 GB
+INFO 01-20 21:08:29 gpu_executor.py:83] # GPU blocks: 3748, # CPU blocks: 2048
+Error executing job with overrides: ['output_path=results/false/big_llama_output.tsv', 'model.model=meta-llama/Meta-Llama-3-8B-Instruct', 'data.tsv_path=data/synt_ambig.tsv', 'data.template_name=big_llama_false', 'data.batch_size=8']
+Error in call to target 'llm_inference.dataset.TsvTextDataset':
+TemplateNotFound('big_llama_false.jinja2')
+full_key: data
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

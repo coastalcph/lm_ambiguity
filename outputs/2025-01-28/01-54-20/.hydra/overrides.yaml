@@ -1,0 +1,5 @@
+- output_path=results/wrong/mistral_phonol.tsv
+- model.model=mistralai/Mistral-7B-Instruct-v0.3
+- data.tsv_path=data/phonetic_ambig.tsv
+- data.template_name=phono/mixtral_true
+- data.batch_size=8

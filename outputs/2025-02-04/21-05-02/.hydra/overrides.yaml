@@ -1,0 +1,5 @@
+- output_path=output/true/llama_premise.tsv
+- model.model=meta-llama/Meta-Llama-3-8B-Instruct
+- data.tsv_path=data/ambient_premise.tsv
+- data.template_name=default/llama3_true
+- data.batch_size=8

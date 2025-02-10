@@ -1,0 +1,5 @@
+- output_path=results/false/gemma_output.tsv
+- model.model=google/gemma-7b-it
+- data.tsv_path=data/synt_ambig.tsv
+- data.template_name=gemma_false
+- data.batch_size=4

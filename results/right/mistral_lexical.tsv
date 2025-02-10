@@ -1,0 +1,241 @@
+text	is_ambiguous	ambig_status
+Your boss is a funny man.	1	1
+A funny man is your boss.	1	1
+Boss funny is man your.	1	0
+Your boss is a funny can.	1	0
+Your boss is a funky man.	1	1
+Your floss is a funny man.	1	0
+Your floss is a sunny can.	1	0
+Your principal is a funny man.	1	1
+Your boss is a humorous man.	1	0
+Your boss is a funny person.	1	1
+Your chief is a humorous person.	1	0
+Your boss is a happy man.	1	0
+Your rainbow is a funny man.	1	0
+Your boss is a five man.	1	0
+Your boss is a bunny van.	1	0
+The speaker is at the front of the room.	0	1
+At the front of the room is the speaker.	1	1
+Of the room is the speaker at the front.	1	0
+The speaker is in front of the broom.	1	1
+The reader is at the front of the room.	1	0
+The speaker is at the front of the coomb.	1	1
+The reader is at the front of the bloom.	1	1
+The speaker is at the front of the chamber.	1	1
+The loudspeaker is at the front of the room.	1	0
+The lector is at the front of the room.	1	0
+The lecturer is at the front of the chamber.	1	0
+The key is at the front of the room.	1	0
+The soda is at the front of the room.	1	0
+The telescope is at the front of the room.	1	0
+The speaker is at the front of the scene.	1	1
+He's not very well off.	1	1
+Not very well off he is.	1	1
+Very not he well off is.	1	0
+He's not very cell off.	1	0
+He is not verry tell off.	1	0
+He is not verry bell off.	1	0
+He is not verry fell off.	1	0
+The man is not very well off.	1	1
+He is not verry wealthy.	1	0
+He is not verry rich.	1	0
+She's not very well off.	1	1
+He's not very telescope off.	1	0
+He's not very elephant off.	1	0
+He's not very pyjamas off.	1	0
+He's not very cat food.	1	0
+John and Anna are married.	0	1
+Anna and John are married.	0	1
+Married John are Anna.	1	0
+Bonn and Hannah are married.	0	1
+Ron and Anna are married.	0	1
+John and Anna are carried.	1	0
+John and Anna are varied.	1	0
+The man and the woman are married.	0	1
+Stephan and Daniel are married.	0	1
+John and Anna are engaged.	0	1
+Ron and Myrthe are engaged.	0	1
+John and Anna are happy.	0	0
+John and Anna are babies.	1	0
+Telescope and Anna are married.	0	0
+John and telescope are married.	1	0
+It is my belief that the earth is round.	0	1
+That the earth is round is my belief.	1	1
+Is earth my belief that round the.	1	0
+It is my belief that the birth is sound.	1	1
+It is my leaf that the earth is sound.	1	0
+It is my grief that the earth is round.	1	0
+It is my thief that the earth is bound.	1	0
+I have the opinion that the earth is round.	0	1
+I think that the earth is round.	0	0
+I am certain that the earth is round.	0	0
+It is my belief that the planet is round.	0	1
+It is my happiness that the earth is round.	1	0
+It is my rainbow that the earth is round.	1	0
+It is my telescope that the earth is round.	1	0
+It is my pyjamas that the earth is round.	1	0
+She is looking for a match.	1	1
+A match she is looking for.	1	1
+Is match looking a she for.	1	0
+She is looking for a catch.	1	0
+She is looking for a patch.	1	0
+He is rocking for a batch.	1	0
+She is looking for a dispatch.	1	1
+She is seeking for a match.	1	1
+She is looking for a game.	1	0
+She is looking for a partner.	1	0
+She is looking for a tinder date.	1	0
+She is looking for a telescope.	0	0
+She is looking for an elephant.	1	0
+She is looking for a rainbow.	1	0
+She is looking for a pillow.	0	0
+Give me a ring.	1	1
+A ring give me.	1	1
+Me ring a give.	1	0
+Give me a thing.	1	0
+Bring me a ring.	1	0
+Give me a sing.	1	0
+Give me a swing.	1	0
+Give me a call.	1	0
+Give me a jewellery.	1	0
+Give me a phone call.	1	0
+Give me a bracelet.	1	0
+Give me a rainbow.	1	0
+Give me a telescope.	1	0
+Give me an elephant.	1	0
+Give me an ax.	1	0
+Show me the light feathers.	1	1
+The light feathers show me.	1	1
+Me the show feathers light.	1	0
+Show me the delight heathers.	1	0
+Show me the bright heathers.	1	0
+Show me the bright leathers.	1	0
+Snow in the light leathers.	1	0
+Show me the bright feathers.	1	0
+Show me the not heavy feathers.	1	0
+Show me the lightweight feathers.	1	0
+Show me the delicate feathers.	1	0
+Show me the telescope feathers.	1	0
+Show me the big feathers.	1	0
+Show me the wisdom feathers.	1	0
+Show me the random feathers.	1	0
+We saw her duck.	1	1
+Her duck was seen by us.	1	1
+Duch saw we her.	1	0
+We saw her luck.	1	0
+We saw her truck.	1	0
+We saw her puck.	1	0
+We saw her guck.	1	0
+We saw her dodge.	1	0
+We saw her swan.	1	0
+We saw her mallard.	1	0
+We saw her bow down.	1	0
+We saw her telescope.	1	0
+We saw her elephant.	1	0
+We saw her rat.	1	0
+We saw her ship.	1	0
+I'm going to take a break from studying.	0	1
+A break from studying is going to be taken by me.	0	1
+From a is studying going break me by taken be taken to.	1	0
+I'm going to take a bake from studying.	1	0
+I'm going to take a cake from pudding.	1	0
+I'm going to take a shake from looking.	1	0
+I'm going to take a break from doodling.	1	1
+I'm going to take a rest from studying.	1	0
+I'm going to take a pause from studying.	1	0
+I'm going to take a discontinuation from studying.	1	0
+I'm going to take a break from working.	0	1
+I'm going to take a telescope from studying.	1	0
+I'm going to take an elephant from studying.	1	0
+I'm going to take a captain from studying.	1	0
+I'm going to take a rat food from studying.	1	0
+Alice and Jon disagreed.	1	1
+Jon and Alice disagreed.	1	1
+Disagreed and Jon Alice.	1	0
+Malice and Don concede.	1	0
+Palace and Ron succeed.	1	0
+Alice and Jon decreed.	1	0
+Alyce and Ron disagreed.	1	1
+Alice and Jon argued.	1	0
+Alice and Jon debated.	1	0
+Alice and Jon failed to agree.	1	0
+The woman and the man disagreed.	1	1
+Alice and Jon saw the telescope.	1	0
+Alice and Jon ordered the men.	1	0
+The man and the woman saw the elephant.	1	0
+The man and the woman ate.	1	0
+Give me the bat!	1	1
+The bat give me!	1	1
+Me the bat to give!	1	0
+Give me the cat!	1	0
+Give me the hat!	1	0
+Give me the rat!	1	0
+Give me the sat!	1	0
+Give me the rattle-mouse!	1	0
+Give me the baseball bat!	1	0
+Give me the racket!	1	0
+Give me the club!	1	1
+Give me the telescope!	1	0
+Give me the elephant!	1	0
+Give me the woman!	1	0
+Give me the pyjamas!	1	0
+What you said is insane.	1	1
+It is insane what you said.	1	1
+Said insane you is what.	1	0
+What you said is arcane.	1	0
+What you said is mundane.	1	1
+What you said is inane.	1	0
+What you said is terrain.	1	0
+What you said is crazy.	1	1
+What you said is unbelievable.	1	1
+What you said is outrageous.	1	1
+What you said is irrational.	1	0
+What you said is green.	1	0
+What you said is wooden.	1	0
+What you said is round.	1	0
+What you said is silent.	1	0
+Yesterday I went to the bank.	1	1
+To the bank I went yesterday.	1	1
+To the went yesterday bank I.	1	0
+Yesterday I went to the tank.	1	1
+Yesterday I went to the prank.	1	0
+Yesterday I went to the blank.	1	0
+Yesterday I went to the clank.	1	0
+Yesterday I went to the financial institution.	1	0
+Yesterday I went to the treasury.	1	0
+Yesterday I went to the riverside.	1	0
+Yesterday I went to the lakeshore.	0	0
+Yesterday I went to the supermarket.	0	0
+Yesterday I went to the museum.	0	0
+Yesterday I went to the rainbow.	1	0
+Yesterday I went to the telescope.	1	0
+I can't find the glasses.	1	1
+The glasses I can't find.	1	1
+The I can't glasses find.	1	0
+I can't find the passes.	1	0
+I can't find the basses.	1	0
+I can't find the wrasses.	1	0
+I can't find the chasses.	1	0
+I can't find the eyeglasses.	0	0
+I can't find the drinking glasses.	1	0
+I can't find the goggles.	1	0
+I can't find the glassware.	1	0
+I can't find the telescope.	1	0
+I can't find the rainbow.	1	0
+I can't find the dough.	1	0
+I can't find the sofa.	1	0
+He didn't see the picture of the disaster.	1	1
+The picture of the disaster he didn't see.	1	1
+Disaster He the see of didn't picture the.	1	0
+He didn't see the stricture of the disaster.	1	0
+He didn't see the depicture of the disaster.	1	0
+He didn't see the mixture of the disaster.	1	0
+He didn't see the fixture of the disaster.	1	0
+He didn't see the image of the disaster.	1	1
+He didn't see the vision of the disaster.	1	0
+He didn't see the idea of the disaster.	1	0
+He didn't see the painting of the disaster.	1	0
+He didn't see the rain of the disaster.	1	0
+He didn't see the movie of the disaster.	1	0
+He didn't see the warnings of the disaster.	1	0
+He didn't see the telescope of the disaster.	1	0

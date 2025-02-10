@@ -1,0 +1,5 @@
+- output_path=output/default/qwen_hypothesis.tsv
+- model.model=Qwen/Qwen2.5-7B-Instruct
+- data.tsv_path=data/ambient_hypothesis.tsv
+- data.template_name=default/qwen2_default
+- data.batch_size=8
