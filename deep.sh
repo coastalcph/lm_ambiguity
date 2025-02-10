@@ -1,9 +1,0 @@
-#!/bin/bash
-#SBATCH --job-name=ambig-gemma        
-#SBATCH --ntasks=1 --cpus-per-task=4 --mem=70GB
-#SBATCH -p gpu,coastal --gres=gpu:a100:1
-#SBATCH --exclude=hendrixgpu05fl,hendrixgpu06fl,hendrixgpu07fl,hendrixgpu09fl,hendrixgpu10fl,hendrixgpu11fl,hendrixgpu12fl
-#SBATCH --output=/home/tzh649/projects/ambiguity_new/slurms/slurm-%j.out
-#SBATCH --time=48:00:00
-
-python run.py output_path=output/true/deepseek_lexical.tsv model.model=deepseek-ai/DeepSeek-R1-Distill-Llama-8B data.tsv_path=data/lexical_ambig.tsv data.template_name=deepseek_true data.batch_size=8
