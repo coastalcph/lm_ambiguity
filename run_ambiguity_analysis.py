@@ -121,7 +121,7 @@ def decode(x):
     return txt
 
 
-data_all = pd.read_csv('llm_ambig_syntactic_ambiguity.csv')
+data_all = pd.read_csv('data/llm_ambig_syntactic_ambiguity.csv')
 
 
 # apptainer run --nv /home/oeberle/requirements/foundrationales/container_cogeval.sif python run_ambiguity_analysis.py
