@@ -1,4 +1,0 @@
-- output_path=llama-ambig/output_17-1.tsv
-- data.tsv_path=data/synt_ambig.tsv
-- data.template_name=llama3_1
-- data.batch_size=8

@@ -1,5 +1,0 @@
-- output_path=output/true/mistral_lexical.tsv
-- model.model=mistralai/Mistral-Nemo-Instruct-2407
-- data.tsv_path=data/lexical_ambig.tsv
-- data.template_name=mixtral_true
-- data.batch_size=8

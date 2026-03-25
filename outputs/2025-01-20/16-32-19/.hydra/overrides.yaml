@@ -1,5 +1,0 @@
-- output_path=results/wrong/qwen_lexical_dis.tsv
-- model.model=Qwen/Qwen2.5-7B-Instruct
-- data.tsv_path=data/lexical_ambig.tsv
-- data.template_name=qwen2_wrong_dis
-- data.batch_size=8

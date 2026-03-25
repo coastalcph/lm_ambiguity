@@ -1,5 +1,0 @@
-- output_path=results/true/llama_output_no_dis.tsv
-- model.model=meta-llama/Meta-Llama-3-8B-Instruct
-- data.tsv_path=data/synt_ambig.tsv
-- data.template_name=llama3_true_no_dis
-- data.batch_size=8

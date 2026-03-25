@@ -1,5 +1,0 @@
-- output_path=output/true/gemma_hypothesis.tsv
-- model.model=google/gemma-7b-it
-- data.tsv_path=data/ambient_hypothesis.tsv
-- data.template_name=default/gemma_true
-- data.batch_size=4

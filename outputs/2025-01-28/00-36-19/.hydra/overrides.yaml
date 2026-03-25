@@ -1,5 +1,0 @@
-- output_path=output/true/gemma_syntax.tsv
-- model.model=google/gemma-7b-it
-- data.tsv_path=data/synt_ambig.tsv
-- data.template_name=gemma_true
-- data.batch_size=4

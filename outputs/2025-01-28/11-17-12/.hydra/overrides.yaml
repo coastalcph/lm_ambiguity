@@ -1,5 +1,0 @@
-- output_path=output/true/deepseek_lexical.tsv
-- model.model=deepseek-ai/DeepSeek-R1-Distill-Llama-8B
-- data.tsv_path=data/lexical_ambig.tsv
-- data.template_name=deepseek_true
-- data.batch_size=8

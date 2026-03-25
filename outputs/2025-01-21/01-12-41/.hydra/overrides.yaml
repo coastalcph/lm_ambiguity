@@ -1,5 +1,0 @@
-- output_path=results/false/big_gemma_lexical.tsv
-- model.model=google/gemma-7b-it
-- data.tsv_path=data/lexical_ambig.tsv
-- data.template_name=lebig_gemma_false
-- data.batch_size=4

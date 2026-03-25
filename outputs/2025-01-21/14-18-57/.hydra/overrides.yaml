@@ -1,5 +1,0 @@
-- output_path=results/false/big_llama_syntax.tsv
-- model.model=meta-llama/Meta-Llama-3-8B-Instruct
-- data.tsv_path=data/synt_ambig.tsv
-- data.template_name=llama_false
-- data.batch_size=8

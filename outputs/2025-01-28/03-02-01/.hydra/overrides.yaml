@@ -1,5 +1,0 @@
-- output_path=output/true/big_qwen_lexical.tsv
-- model.model=Qwen/Qwen2.5-7B-Instruct
-- data.tsv_path=data/lexical_ambig.tsv
-- data.template_name=big/lebig_qwen2_true
-- data.batch_size=8

@@ -18,14 +18,14 @@ The man saw the woman with the desk.	pp_random	0
 The man saw the woman with the curtains.	pp_random	0
 The man saw the woman with the box.	pp_random	0
 The man saw the woman with the present.	pp_random	0
-The man saw the woman with the dophin.	pp_random	0
+The man saw the woman with the dolphin.	pp_random	0
 The man saw the woman with the suitcase.	pp_random	0
 The man saw the woman with the gyroscope.	pp_random_rhyme	0
 The man saw the woman with the horoscope.	pp_random_rhyme	0
 The scientist saw the woman with the telescope.	subj_synonym	1
 The guy saw the woman with the telescope.	subj_synonym	1
 John saw the woman with the telescope.	subj_synonym	1
-Alex saw the woman with the telescope	subj_synonym	1
+Alex saw the woman with the telescope.	subj_synonym	1
 Mary saw the woman with the telescope.	subj_synonym	1
 Jenny saw the woman with the telescope.	subj_synonym	1
 The nurse saw the woman with the telescope.	subj_synonym	1
@@ -501,7 +501,7 @@ The captain ordered the old you and bear of the ship	obj_random	0
 The captain ordered the old shallow and eat of the ship	obj_random	0
 The captain ordered the old hear and bend of the ship	obj_random	0
 The captain ordered the old open and glassy of the ship	obj_random	0
-The captain ordered the old sizzling and enigmatic of the ship. The captain ordered the old radiant and metallic of the ship. The captain ordered the old bustling and serpentine of the ship. The captain ordered the old elusive and cosmic of the ship. The captain ordered the old shimmering and crystalline of the ship.	obj_random	0
+The captain ordered the old sizzling and enigmatic of the ship.	obj_random	0
 The captain ordered the old eccentric and leafy of the ship.	obj_random	0
 The captain ordered the old telescope and telescope of the ship.	obj_random	0
 The captain ordered the old elusive and cosmic of the ship.	obj_random	0
@@ -536,16 +536,16 @@ The pillow ordered the old ducks and very of the space	all_random	0
 The hat ordered the old men and women of the boat.	all_random	0
 The dolphin ordered the old men and women of the boat.	all_random	0
 The cactus ordered the old happy and women of the boat.	all_random	0
-The captain ordered the old men and women of the willingly	all_random	0
-The captain ordered the old green and women of the drastically	all_random	0
-The captain ordered the old men and women of the hungry	all_random	0
-The captain ordered the old men and women of the fully	all_random	0
-The captain ordered the old looks and hers of the goofy	all_random	0
-The captain ordered the old you and bear of the purple	all_random	0
-The captain ordered the old shallow and eat of the ship	all_random	0
-The captain ordered the old hear and bend of the telescope	all_random	0
-The captain ordered the old open and glassy of the ship	all_random	0
-The captain ordered the old sizzling and enigmatic of the ship. The captain ordered the old radiant and metallic of the ship. The captain ordered the old bustling and serpentine of the ship. The captain ordered the old elusive and cosmic of the ship. The captain ordered the old shimmering and crystalline of the ship.	all_random	0
+The bicycle ordered the old men and women of the willingly	all_random	0
+The umbrella ordered the old green and women of the drastically	all_random	0
+The robot ordered the old men and women of the hungry	all_random	0
+The volcano ordered the old men and women of the fully	all_random	0
+The rainbow ordered the old looks and hers of the goofy	all_random	0
+The lighthouse ordered the old you and bear of the purple	all_random	0
+The pineapple ordered the old shallow and eat of the ship	all_random	0
+The tornado ordered the old hear and bend of the telescope	all_random	0
+The penguin ordered the old open and glassy of the ship	all_random	0
+The suitcase ordered the old sizzling and enigmatic of the ship.	all_random	0
 The listen ordered the old zen and listen of the ship.	all_random_rhyme	0
 The satin ordered the old men and women of the flip.	all_random_rhyme	0
 The captain ordered the old when and given of the rip.	all_random_rhyme	0
