@@ -1,7 +1,7 @@
 # lm_ambiguity
 
 ## Overview
-`lm_ambiguity` is a project designed to analyze lexical ambiguity using language models. It utilizes `run.py` to execute experiments with different templates and outputs the results in specified directories.
+`lm_ambiguity` is a project designed to analyze lexical ambiguity using language models. It uses `run.py` to execute experiments with different templates and outputs the results in specified directories.
 
 ## Running the Experiments
 To run the experiments, execute the following commands in your terminal:
@@ -53,3 +53,29 @@ pip install -r requirements.txt
 ## License
 This project is released under the MIT License.
 
+## How to Cite
+
+```bibtex
+@inproceedings{karamolegkou-etal-2025-trick,
+    title = "Trick or Neat: Adversarial Ambiguity and Language Model Evaluation",
+    author = "Karamolegkou, Antonia  and
+      Eberle, Oliver  and
+      Rust, Phillip  and
+      Kauf, Carina  and
+      S{\o}gaard, Anders",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.954/",
+    doi = "10.18653/v1/2025.findings-acl.954",
+    pages = "18542--18561",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Detecting ambiguity is important for language understanding, including uncertainty estimation, humour detection, and processing garden path sentences. We assess language models' sensitivity to ambiguity by introducing an adversarial ambiguity dataset that includes syntactic, lexical, and phonological ambiguities along with adversarial variations (e.g., word-order changes, synonym replacements, and random-based alterations). Our findings show that direct prompting fails to robustly identify ambiguity, while linear probes trained on model representations can decode ambiguity with high accuracy, sometimes exceeding 90{\%}. Our results offer insights into the prompting paradigm and how language models encode ambiguity at different layers."
+}
+```
