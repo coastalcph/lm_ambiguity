@@ -9,7 +9,7 @@ from omegaconf import DictConfig, OmegaConf
 from llm_inference.engine import Engine
 from llm_inference.schema import schema_registry
 from llm_inference.utils import TsvWriter, setup_config, setup_logging
-from llm_inference.dataset import TsvTextDataset  # Modify this with the actual import path
+from llm_inference.dataset import TsvTextDataset
 
 from sklearn.metrics import accuracy_score
 import pandas as pd
@@ -62,12 +62,10 @@ def main(config: DictConfig):
         template_name=config.data.template_name,
         batch_size=config.data.batch_size,
         text_column="sentence",
-        #text_column2="sentence2",# Ensure this matches the column name in your dataset
-        status_column="ambig_status" # Ensure this matches the column name in your dataset
+        status_column="ambig_status"
     )
 
     model_name = config.model.model.split("/")[-1]
-    #run_name = config.data.template_name  # Use schema name for the run name
     run_name = "type"
     template_name = config.data.template_name.split("/")[-1]
     data_name = config.data.tsv_path.split("/")[-1].split(".")[0]
@@ -88,7 +86,7 @@ def main(config: DictConfig):
                 if i == 0:
                     writer.writerow(json_completion.keys_as_list())
                 writer.writerow(json_completion.values_as_list())
-                print(f"{log_probs[:5] = }")
+                pass
             else:
                 json_completion = result
                 if i == 0:
